@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  20 JUN 2022 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  20 JUN 2022 01:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-05-04>
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -126,11 +126,6 @@ File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
 \l__pdf_internal_box=\box52
 )
-
-LaTeX Warning: Unused global option(s):
-    [A4].
-
-
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux)
 \openout1 = `main.aux'.
@@ -177,41 +172,68 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) [1
 
 {C:/Users/Calum/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[1]
-<figures/SpiritedAwayDuck3.png, id=12, 235.63031pt x 195.73125pt>
+[2] [3]
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\main.toc)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [4
+
+]
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\main.lof)
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [5
+
+]
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+ [6
+
+]
+Chapter 1.
+<figures/SpiritedAwayDuck3.png, id=26, 235.63031pt x 195.73125pt>
 File: figures/SpiritedAwayDuck3.png Graphic file (type png)
 <use figures/SpiritedAwayDuck3.png>
-Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 89.
+Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 107.
+
 (pdftex.def)             Requested size: 284.52756pt x 236.3517pt.
 
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\main.bbl [1] [2 <./figures/SpiritedAwayDuc
-k3.png>]) [3
+rtation Project\LATEX Document\auxil\main.bbl [1
+
+] [2 <./figures/SpiritedAwayDuck3.png>]) [3
 
 ]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux) ) 
 Here is how much of TeX's memory you used:
- 2412 strings out of 478614
- 38636 string characters out of 2843122
- 331282 words of memory out of 3000000
- 20577 multiletter control sequences out of 15000+600000
- 472687 words of font info for 39 fonts, out of 8000000 for 9000
+ 2450 strings out of 478614
+ 39702 string characters out of 2843122
+ 329307 words of memory out of 3000000
+ 20597 multiletter control sequences out of 15000+600000
+ 475569 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,62p,221b,238s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/Calum/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Calum/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Cal
-um/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
-:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmti10.pfb>
+ <C:\Users\Calum\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk><C:/Users/Calum/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Calum/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/U
+sers/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr17.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (5 pages, 212371
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (9 pages, 199107
  bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

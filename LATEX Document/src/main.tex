@@ -2,7 +2,7 @@
 %! Date = 06/06/2022
 
 % Preamble
-\documentclass[11pt, A4]{report}
+\documentclass[12pt,a4 paper]{report}
 \title{League of Legends Victory Prediction Analysis}
 \author{Calum Palmer}
 \date{September 2022}
@@ -20,45 +20,46 @@
 
     \begin{titlepage}
     \centering
+        {\large Submitted in part fulfilment of the requirements for the degree of}
 
-    {\large Submitted in part fulfilment of the requirements for the degree of}
     \vspace{0.25cm}
+        {\large Master of Science in Business Analytics}
 
-    {\large Master of Science in Business Analytics}
     \vspace{2cm}
+        {\huge\bfseries League of Legends Victory Prediction Analysis}
 
-    {\huge\bfseries League of Legends Victory Prediction Analysis}
     \vspace{1.5cm}
+        {By}
 
-    {By}
     \vspace{0.5cm}
+        {\Large Calum Palmer}
 
-    {\Large Calum Palmer}
     \vspace{5cm}
+        {\large Faculty of Arts and Social Sciences}
 
-
-
-    {\large Faculty of Arts and Social Sciences}
     \vspace{0.5cm}
+        {\large University of Surrey}
 
-    {\large University of Surrey}
     \vspace{1cm}
-
-    {\large September 2022}
+        {\large September 2022}
 
     \vspace{1.5cm}
-    {\large Supervised by: Dr Colin Fu}
+        {\large Word Count: 15,000}
 
     \vfill
+        {\itshape © Calum Palmer, 2022}
 
     \end{titlepage}
 
+    \pagenumbering{roman}
+    \setcounter{page}{2}
 
-    \begin{abstract}
-    This is a simple paragraph at the beginning of the document.
-    \end{abstract}
+    \section*{Executive Summary}\label{sec:executive summary}
+    Here is the executive summary.
 
-    \section{Declaration of Originality}\label{sec:declaration of originality}
+    \newpage
+
+    \section*{Declaration of Originality}\label{sec:declaration of originality}
 
     \emph{I hereby declare that this thesis has been composed by myself and has not been
     presented or accepted in any previous application for a degree. The work, of which
@@ -69,8 +70,25 @@
     \textbf{I agree that the University has the right to submit my work to the plagiarism
     detection sources for originality checks.}}
 
+    \vspace{2cm}
+        {\noindent\large Name: Calum Palmer}
 
-    \section{Introduction}\label{sec:introduction}
+    \vspace{0.5cm}
+        {\noindent\large Signature: }
+
+    \vspace{0.5cm}
+        {\noindent\large Date: 01/09/2022}
+
+    \newpage
+
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    \newpage
+
+    \pagenumbering{arabic}
+
+    \chapter{Introduction}\label{ch:introduction}
 
     Add introduction
 
@@ -81,7 +99,7 @@
 
     \section{Methodology}\label{sec:methodology}
 
-    Hello, this is our first document and I referencing this section~\ref{sec:introduction}
+    Hello, this is our first document and I referencing this section~\ref{ch:introduction}
     I am then citing this source~\cite{ani2019victory}
 
     \begin{figure}
