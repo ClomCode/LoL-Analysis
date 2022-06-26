@@ -14,6 +14,12 @@
 \usepackage{natbib}
 % Package for Figures
 \usepackage{graphicx}
+% Package for Chapter title formatting
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large}
+
+
 
 % Document
 \begin{document}
@@ -22,8 +28,8 @@
     \centering
         {\large Submitted in part fulfilment of the requirements for the degree of}
 
-    \vspace{0.25cm}
-        {\large Master of Science in Business Analytics}
+
+        {\Large Master of Science in Business Analytics}
 
     \vspace{2cm}
         {\huge\bfseries League of Legends Victory Prediction Analysis}
@@ -37,7 +43,7 @@
     \vspace{5cm}
         {\large Faculty of Arts and Social Sciences}
 
-    \vspace{0.5cm}
+    \vspace{0.25cm}
         {\large University of Surrey}
 
     \vspace{1cm}
@@ -97,6 +103,7 @@
 
     Add Literature Review
 
+
     \section{Methodology}\label{sec:methodology}
 
     Hello, this is our first document and I referencing this section~\ref{ch:introduction}
@@ -112,8 +119,8 @@
 
     This references Figure~\ref{fig:SpiritedAwayDuck}
 
-    \bibliography{main}
-    \bibliographystyle{agsm}
+    \bisbliography{main}
+    \bibliographystyle{agm}
 
 
 \end{document}

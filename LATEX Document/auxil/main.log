@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  20 JUN 2022 01:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  26 JUN 2022 19:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -120,45 +120,57 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip54
+\aftertitleunit=\skip55
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks24
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+)
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
-\l__pdf_internal_box=\box52
+\l__pdf_internal_box=\box53
 )
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
-\scratchdimen=\dimen150
-\scratchbox=\box53
+\scratchdimen=\dimen155
+\scratchbox=\box54
 \nofMPsegments=\count275
 \nofMParguments=\count276
-\everyMPshowfont=\toks24
+\everyMPshowfont=\toks25
 \MPscratchCnt=\count277
-\MPscratchDim=\dimen151
+\MPscratchDim=\dimen156
 \MPnumerator=\count278
 \makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks25
+\everyMPtoPDFconversion=\toks26
 )
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -198,26 +210,38 @@ rtation Project\LATEX Document\auxil\main.lot)
 
 ]
 Chapter 1.
+
+Package natbib Warning: Citation `ani2019victory' on page 1 undefined on input 
+line 110.
+
 <figures/SpiritedAwayDuck3.png, id=26, 235.63031pt x 195.73125pt>
 File: figures/SpiritedAwayDuck3.png Graphic file (type png)
 <use figures/SpiritedAwayDuck3.png>
-Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 107.
+Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 114.
 
 (pdftex.def)             Requested size: 284.52756pt x 236.3517pt.
+main.tex:122: Undefined control sequence.
+l.122     \bisbliography
+                        {main}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\main.bbl [1
 
-] [2 <./figures/SpiritedAwayDuck3.png>]) [3
+Package natbib Warning: There were undefined citations.
 
-]
+[1
+
+] [2 <./figures/SpiritedAwayDuck3.png>]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux) ) 
 Here is how much of TeX's memory you used:
- 2450 strings out of 478614
- 39702 string characters out of 2843122
- 329307 words of memory out of 3000000
- 20597 multiletter control sequences out of 15000+600000
+ 2742 strings out of 478614
+ 43501 string characters out of 2843122
+ 336489 words of memory out of 3000000
+ 20888 multiletter control sequences out of 15000+600000
  475569 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,62p,221b,238s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -230,10 +254,10 @@ fb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmr17.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (9 pages, 199107
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (8 pages, 198267
  bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
