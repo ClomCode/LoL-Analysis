@@ -1,6 +1,9 @@
 %! Author = Calum
 %! Date = 06/06/2022
 
+% ---------------------------------------------------------------
+% Document Setup
+% ---------------------------------------------------------------
 % Preamble
 \documentclass[12pt,a4 paper]{report}
 \title{League of Legends Victory Prediction Analysis}
@@ -19,11 +22,12 @@
 \titleformat{\chapter}[display]
   {\normalfont\bfseries}{}{0pt}{\Large}
 
-
-
 % Document
 \begin{document}
 
+% ---------------------------------------------------------------
+% Title Page
+% ---------------------------------------------------------------
     \begin{titlepage}
     \centering
         {\large Submitted in part fulfilment of the requirements for the degree of}
@@ -60,11 +64,16 @@
     \pagenumbering{roman}
     \setcounter{page}{2}
 
+% ---------------------------------------------------------------
+% Executive Summary
+% ---------------------------------------------------------------
     \section*{Executive Summary}\label{sec:executive summary}
     Here is the executive summary.
 
     \newpage
-
+% ---------------------------------------------------------------
+% Declaration of Originality
+% ---------------------------------------------------------------
     \section*{Declaration of Originality}\label{sec:declaration of originality}
 
     \emph{I hereby declare that this thesis has been composed by myself and has not been
@@ -83,44 +92,52 @@
         {\noindent\large Signature: }
 
     \vspace{0.5cm}
-        {\noindent\large Date: 01/09/2022}
+        {\noindent\large Date: 07/09/2022}
 
     \newpage
-
+% ---------------------------------------------------------------
+% Table of Contents
+% ---------------------------------------------------------------
     \tableofcontents
+% ---------------------------------------------------------------
+% List of Figures
+% ---------------------------------------------------------------
     \listoffigures
+% ---------------------------------------------------------------
+% List of Tables
+% ---------------------------------------------------------------
     \listoftables
     \newpage
 
     \pagenumbering{arabic}
+% ---------------------------------------------------------------
+% Introduction
+% ---------------------------------------------------------------
+    \include{ch-Introduction}
 
-    \chapter{Introduction}\label{ch:introduction}
+% ---------------------------------------------------------------
+% Literature Review
+% ---------------------------------------------------------------
+    \include{ch-LiteratureReview}
 
-    Add introduction
+% ---------------------------------------------------------------
+% Methodology
+% ---------------------------------------------------------------
+    \include{ch-Methodology}
 
+% ---------------------------------------------------------------
+% Results
+% ---------------------------------------------------------------
+    \include{ch-Results}
 
-    \section{Literature Review}\label{sec:literature review}
-
-    Add Literature Review
-
-
-    \section{Methodology}\label{sec:methodology}
-
-    Hello, this is our first document and I referencing this section~\ref{ch:introduction}
-    I am then citing this source~\cite{ani2019victory}
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=10cm]{figures/SpiritedAwayDuck3}
-        \caption{Spirited Away Duck}
-        \label{fig:SpiritedAwayDuck}
-    \end{figure}
+% ---------------------------------------------------------------
+% Conclusion
+% ---------------------------------------------------------------
+    \include{ch-Conclusion}
 
 
-    This references Figure~\ref{fig:SpiritedAwayDuck}
-
-    \bisbliography{main}
-    \bibliographystyle{agm}
+    \bibliography{main}
+    \bibliographystyle{agsm}
 
 
 \end{document}

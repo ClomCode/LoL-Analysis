@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  26 JUN 2022 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  20 JUL 2022 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -139,23 +139,33 @@ File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box53
 )
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\main.aux)
+rtation Project\LATEX Document\auxil\main.aux
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-Introduction.aux)
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-LiteratureReview.aux)
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-Methodology.aux)
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-Results.aux)
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -209,55 +219,98 @@ rtation Project\LATEX Document\auxil\main.lot)
  [6
 
 ]
+\openout2 = `ch-Introduction.aux'.
+
+ (ch-Introduction.tex
 Chapter 1.
+) [1
 
-Package natbib Warning: Citation `ani2019victory' on page 1 undefined on input 
-line 110.
 
-<figures/SpiritedAwayDuck3.png, id=26, 235.63031pt x 195.73125pt>
+]
+\openout2 = `ch-LiteratureReview.aux'.
+
+ (ch-LiteratureReview.tex
+Chapter 2.
+) [2
+
+
+
+
+]
+\openout2 = `ch-Methodology.aux'.
+
+ (ch-Methodology.tex
+Chapter 3.
+<figures/SpiritedAwayDuck3.png, id=33, 235.63031pt x 195.73125pt>
 File: figures/SpiritedAwayDuck3.png Graphic file (type png)
 <use figures/SpiritedAwayDuck3.png>
-Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 114.
-
+Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 10.
 (pdftex.def)             Requested size: 284.52756pt x 236.3517pt.
-main.tex:122: Undefined control sequence.
-l.122     \bisbliography
-                        {main}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+) [3
 
 
-Package natbib Warning: There were undefined citations.
 
-[1
 
-] [2 <./figures/SpiritedAwayDuck3.png>]
+] [4 <./figures/SpiritedAwayDuck3.png>]
+\openout2 = `ch-Results.aux'.
+
+ (ch-Results.tex
+Chapter 4.
+) [5
+
+
+
+
+]
+\openout2 = `ch-Conclusion.aux'.
+
+ (ch-Conclusion.tex
+Chapter 5.
+) [6
+
+
+
+
+]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\main.aux) ) 
+rtation Project\LATEX Document\auxil\main.bbl) [7
+
+
+
+]
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\main.aux
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-Introduction.aux)
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-LiteratureReview.aux)
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-Methodology.aux)
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-Results.aux)
+(C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
+rtation Project\LATEX Document\auxil\ch-Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 2742 strings out of 478614
- 43501 string characters out of 2843122
- 336489 words of memory out of 3000000
- 20888 multiletter control sequences out of 15000+600000
+ 2906 strings out of 478614
+ 51330 string characters out of 2843122
+ 343128 words of memory out of 3000000
+ 21014 multiletter control sequences out of 15000+600000
  475569 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,221b,238s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Calum\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk><C:/Users/Calum/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Calum/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/U
-sers/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr17.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmti12.pfb>
+ 55i,6n,62p,221b,240s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Calum\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk><C:/Users/Calum
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
+ers/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10
+.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (8 pages, 198267
- bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (13 pages, 20629
+3 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
