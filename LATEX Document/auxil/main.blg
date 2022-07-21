@@ -1,6 +1,10 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: ch-ExecutiveSummary.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: ch-Declaration.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: ch-Introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
@@ -17,7 +21,7 @@ The style file: agsm.bst
 Database file #1: main.bib
 You've used 1 entry,
             2909 wiz_defined-function locations,
-            649 strings with 5069 characters,
+            651 strings with 5110 characters,
 and the built_in function-call counts, 5618 in all, are:
 = -- 906
 > -- 91
