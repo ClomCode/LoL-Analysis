@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  21 JUL 2022 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  25 JUL 2022 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -152,52 +152,120 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen153
 \titlewidthfirst=\dimen154
 )
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/acro\acro.sty
+Package: acro 2022/04/01 v3.8 typeset acronyms and other abbreviations (CN)
+\l__acro_tmpa_int=\count277
+\l__acro_tmpb_int=\count278
+\l__acro_tmpc_int=\count279
+\l__acro_tmpd_int=\count280
+Loading module `base' ...
+Loading module `interface' ...
+Loading module `aux' ...
+Loading module `properties' ...
+Loading module `acronyms' ...
+Loading module `formatting' ...
+Loading module `ppfixes' ...
+Loading module `tools' ...
+\l__acro_minimal_usage_int=\count281
+\l__acro_nest_int=\count282
+\g_acro_barrier_int=\count283
+\g_acro_barrier_total_int=\count284
+Loading module `commands' ...
+\l_acro_nest_level_int=\count285
+Loading module `templates' ...
+Loading module `list' ...
+Loading module `pages' ...
+\l__acro_pages_seq_threshold_int=\count286
+Loading module `locale' ...
+
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+Loading module `pdfsupport' ...
+Loading module `patch' ...
+Loading module `definitions' ...
+Loading module `upgrade' ...
+)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 27.
+
+(abbreviations.tex
+\c@g@acro@lol@int=\count288
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 30.
+
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-ExecutiveSummary.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-ExecutiveSummary.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Declaration.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-Declaration.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Introduction.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-Introduction.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-LiteratureReview.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-LiteratureReview.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Methodology.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-Methodology.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Results.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-Results.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Conclusion.aux))
+rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
+\scratchcounter=\count289
 \scratchdimen=\dimen155
 \scratchbox=\box54
-\nofMPsegments=\count278
-\nofMParguments=\count279
+\nofMPsegments=\count290
+\nofMParguments=\count291
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count280
+\MPscratchCnt=\count292
 \MPscratchDim=\dimen156
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
 \everyMPtoPDFconversion=\toks26
 )
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -209,38 +277,48 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) [1
+))
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 30.
+ [1
 
 {C:/Users/Calum/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-\openout2 = `ch-ExecutiveSummary.aux'.
+\openout2 = `chapters/ch-ExecutiveSummary.aux'.
+
+ (chapters/ch-ExecutiveSummary.tex [2
 
 
-(ch-ExecutiveSummary.tex [2
+] [3])
+\openout2 = `chapters/ch-Declaration.aux'.
 
-])
-\openout2 = `ch-Declaration.aux'.
 
- (ch-Declaration.tex [3
+(chapters/ch-Declaration.tex [4
+
 
 
 
 ])
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\main.toc)
+rtation Project\LATEX Document\auxil\main.toc [5
+
+
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [4
-
-
-
-]
+ [6]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [5
+ [7
 
 ]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
@@ -248,20 +326,23 @@ rtation Project\LATEX Document\auxil\main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [6
+ [8
+
+] [9
 
 ]
-\openout2 = `ch-Introduction.aux'.
+\openout2 = `chapters/ch-Introduction.aux'.
 
- (ch-Introduction.tex
+
+(chapters/ch-Introduction.tex
 Chapter 1.
 [1
 
 
 ] [2]) [3] [4]
-\openout2 = `ch-LiteratureReview.aux'.
+\openout2 = `chapters/ch-LiteratureReview.aux'.
 
- (ch-LiteratureReview.tex
+ (chapters/ch-LiteratureReview.tex
 Chapter 2.
 [5
 
@@ -269,11 +350,11 @@ Chapter 2.
 
 
 ] [6]) [7] [8]
-\openout2 = `ch-Methodology.aux'.
+\openout2 = `chapters/ch-Methodology.aux'.
 
- (ch-Methodology.tex
+ (chapters/ch-Methodology.tex
 Chapter 3.
-<figures/SpiritedAwayDuck3.png, id=52, 235.63031pt x 195.73125pt>
+<figures/SpiritedAwayDuck3.png, id=61, 235.63031pt x 195.73125pt>
 File: figures/SpiritedAwayDuck3.png Graphic file (type png)
 <use figures/SpiritedAwayDuck3.png>
 Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 13.
@@ -284,9 +365,10 @@ Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 13.
 
 
  <./figures/SpiritedAwayDuck3.png>] [10] [11]) [12] [13]
-\openout2 = `ch-Results.aux'.
+\openout2 = `chapters/ch-Results.aux'.
 
- (ch-Results.tex
+
+(chapters/ch-Results.tex
 Chapter 4.
 [14
 
@@ -294,9 +376,9 @@ Chapter 4.
 
 
 ] [15]) [16] [17]
-\openout2 = `ch-Conclusion.aux'.
+\openout2 = `chapters/ch-Conclusion.aux'.
 
- (ch-Conclusion.tex
+ (chapters/ch-Conclusion.tex
 Chapter 5.
 [18
 
@@ -313,40 +395,40 @@ rtation Project\LATEX Document\auxil\main.bbl) [22
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-ExecutiveSummary.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-ExecutiveSummary.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Declaration.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-Declaration.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Introduction.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-Introduction.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-LiteratureReview.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-LiteratureReview.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Methodology.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-Methodology.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Results.aux)
+rtation Project\LATEX Document\auxil\chapters/ch-Results.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\ch-Conclusion.aux)) ) 
+rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 3406 strings out of 478614
- 65437 string characters out of 2843122
- 440528 words of memory out of 3000000
- 21486 multiletter control sequences out of 15000+600000
- 475569 words of font info for 49 fonts, out of 8000000 for 9000
+ 7763 strings out of 478614
+ 181902 string characters out of 2843122
+ 547605 words of memory out of 3000000
+ 25804 multiletter control sequences out of 15000+600000
+ 476194 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,77p,229b,238s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Calum\AppD
-ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk><C:/Users/Calum
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
-ers/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10
-.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
+ 72i,6n,77p,229b,240s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\C
+alum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk><C:/Us
+ers/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbxti10.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr17.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (28 pages, 25517
-8 bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (31 pages, 25764
+7 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

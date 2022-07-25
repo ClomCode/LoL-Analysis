@@ -1,16 +1,16 @@
 # Dissertation Python Script
 
-import numpy as np
 import pandas as pd
+import numpy as np
 import matplotlib as plt
 import seaborn as sns
 
-data_21 = pd.read_csv(
-    'C:/Users/Calum/Desktop/Useful/University/Business Analytics/Dissertation/Datasets/2021_LoL_esports_match_data_from_OraclesElixir_20220606.csv')
+
+df21 = pd.read_csv('data/2021_LoL_esports_match_data_from_OraclesElixir_20220606.csv')
+df22 = pd.read_csv('data/2022_LoL_esports_match_data_from_OraclesElixir_20220606.csv')
 
 # Data exploration
-data_21.info()
-data_21.head(20)
+df21.info()
 # Just shy of 150k rows with 123 columns
 # Rows are a combination of Individual Player data and Team data
 

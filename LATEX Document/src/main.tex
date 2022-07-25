@@ -22,6 +22,9 @@
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
   {\normalfont\bfseries}{}{0pt}{\Large}
+% Package for Abbreviations
+\usepackage{acro}
+\include{abbreviations}
 
 % Document
 \begin{document}
@@ -68,54 +71,64 @@
 % ---------------------------------------------------------------
 % Executive Summary
 % ---------------------------------------------------------------
-    \include{ch-ExecutiveSummary}
+    \addcontentsline{toc}{chapter}{Executive Summary}
+    \include{chapters/ch-ExecutiveSummary}
 
 
 % ---------------------------------------------------------------
 % Declaration of Originality
 % ---------------------------------------------------------------
-
-    \include{ch-Declaration}
+    \addcontentsline{toc}{chapter}{Declaration of Originality}
+    \include{chapters/ch-Declaration}
 
 % ---------------------------------------------------------------
 % Table of Contents
 % ---------------------------------------------------------------
+    \addcontentsline{toc}{chapter}{Table of Contents}
     \tableofcontents
 % ---------------------------------------------------------------
 % List of Figures
 % ---------------------------------------------------------------
+    \addcontentsline{toc}{chapter}{List of Figures}
     \listoffigures
 % ---------------------------------------------------------------
 % List of Tables
 % ---------------------------------------------------------------
+    \addcontentsline{toc}{chapter}{List of Tables}
     \listoftables
+% ---------------------------------------------------------------
+% List of Abbreviations
+% ---------------------------------------------------------------
+    \addcontentsline{toc}{chapter}{List of Abbreviations}
+    \printacronyms
     \newpage
 
     \pagenumbering{arabic}
+
 % ---------------------------------------------------------------
 % Introduction
 % ---------------------------------------------------------------
-    \include{ch-Introduction}
+    \include{chapters/ch-Introduction}
 
 % ---------------------------------------------------------------
 % Literature Review
 % ---------------------------------------------------------------
-    \include{ch-LiteratureReview}
+    \include{chapters/ch-LiteratureReview}
 
 % ---------------------------------------------------------------
 % Methodology
 % ---------------------------------------------------------------
-    \include{ch-Methodology}
+    \include{chapters/ch-Methodology}
 
 % ---------------------------------------------------------------
 % Results
 % ---------------------------------------------------------------
-    \include{ch-Results}
+    \include{chapters/ch-Results}
 
 % ---------------------------------------------------------------
 % Conclusion
 % ---------------------------------------------------------------
-    \include{ch-Conclusion}
+    \include{chapters/ch-Conclusion}
 
 
     \bibliography{main}
