@@ -7,4 +7,25 @@ Ani, R., Harikumar, V., Devan, A.~K. \harvardand\ Deepa, O.  \harvardyearleft
   selection and ensemble methods, {\em in} `2019 International Conference on
   Intelligent Computing and Control Systems (ICCS)', IEEE, pp.~74--77.
 
+\harvarditem[Kokkinakis et~al.]{Kokkinakis, York, Patra, Robertson, Kirman,
+  Coates, Pedrassoli~Chitayat, Demediuk, Drachen, Hook
+  et~al.}{2021}{kokkinakis2021metagaming}
+Kokkinakis, A., York, P., Patra, M., Robertson, J., Kirman, B., Coates, A.,
+  Pedrassoli~Chitayat, A., Demediuk, S.~P., Drachen, A., Hook, J.~D. et~al.
+  \harvardyearleft 2021\harvardyearright , `Metagaming and metagames in
+  esports', {\em International Journal of Esports} .
+
+\harvarditem{LoLEsports}{2022}{LCSRules}
+LoLEsports  \harvardyearleft 2022\harvardyearright , 2022 lcs rule set,
+  Technical report, Riot Games.
+
+\harvarditem{Newzoo}{2022}{newzoo2022viewers}
+Newzoo  \harvardyearleft 2022\harvardyearright , Global esports \& live
+  streaming market report, Technical report, newzoo.
+
+\harvarditem{Ward \harvardand\ Harmon}{2019}{ward2019esport}
+Ward, M.~R. \harvardand\ Harmon, A.~D.  \harvardyearleft 2019\harvardyearright
+  , `Esport superstars', {\em Journal of Sports Economics} {\bf
+  20}(8),~987--1013.
+
 \end{thebibliography}
