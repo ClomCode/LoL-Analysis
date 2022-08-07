@@ -1,11 +1,35 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{{ActivePlayer}}{n.d.}{playercount}
+{ActivePlayer}  \harvardyearleft n.d.\harvardyearright , `{Total League of
+  Legends Playercount}'.
+\newblock Accessed: 18-07-2022.
+\newline\harvardurl{https://activeplayer.io/league-of-legends/}
+
 \harvarditem[Ani et~al.]{Ani, Harikumar, Devan \harvardand\
   Deepa}{2019}{ani2019victory}
 Ani, R., Harikumar, V., Devan, A.~K. \harvardand\ Deepa, O.  \harvardyearleft
   2019\harvardyearright , Victory prediction in league of legends using feature
   selection and ensemble methods, {\em in} `2019 International Conference on
   Intelligent Computing and Control Systems (ICCS)', IEEE, pp.~74--77.
+
+\harvarditem{Apostolou \harvardand\ Tjortjis}{2019}{apostolou2019sports}
+Apostolou, K. \harvardand\ Tjortjis, C.  \harvardyearleft 2019\harvardyearright
+  , Sports analytics algorithms for performance prediction, {\em in} `2019 10th
+  International Conference on Information, Intelligence, Systems and
+  Applications (IISA)', IEEE, pp.~1--4.
+
+\harvarditem{{Esports Earnings}}{n.d.}{esportsearnings}
+{Esports Earnings}  \harvardyearleft n.d.\harvardyearright , `{Largest
+  Individual Tournament Prize Pools}'.
+\newblock Accessed: 16-07-2022.
+\newline\harvardurl{https://www.esportsearnings.com/tournaments/largest-individual-tournaments}
+
+\harvarditem{Gray \harvardand\ Wert-Gray}{2012}{gray2012customer}
+Gray, G.~T. \harvardand\ Wert-Gray, S.  \harvardyearleft 2012\harvardyearright
+  , `Customer retention in sports organization marketing: examining the impact
+  of team identification and satisfaction with team performance', {\em
+  International Journal of Consumer Studies} {\bf 36}(3),~275--281.
 
 \harvarditem[Kokkinakis et~al.]{Kokkinakis, York, Patra, Robertson, Kirman,
   Coates, Pedrassoli~Chitayat, Demediuk, Drachen, Hook
@@ -16,12 +40,22 @@ Kokkinakis, A., York, P., Patra, M., Robertson, J., Kirman, B., Coates, A.,
   esports', {\em International Journal of Esports} .
 
 \harvarditem{LoLEsports}{2022}{LCSRules}
-LoLEsports  \harvardyearleft 2022\harvardyearright , 2022 lcs rule set,
+LoLEsports  \harvardyearleft 2022\harvardyearright , {2022 LCS Rule Set},
   Technical report, Riot Games.
 
+\harvarditem{Mangeloja}{2019}{mangeloja2019economics}
+Mangeloja, E.  \harvardyearleft 2019\harvardyearright , `Economics of esports',
+  {\em Electronic Journal of Business Ethics and Organization Studies} {\bf
+  24}(2).
+
 \harvarditem{Newzoo}{2022}{newzoo2022viewers}
-Newzoo  \harvardyearleft 2022\harvardyearright , Global esports \& live
-  streaming market report, Technical report, newzoo.
+Newzoo  \harvardyearleft 2022\harvardyearright , {Global Esports \& Live
+  Streaming Market Report}, Technical report, Newzoo.
+
+\harvarditem{Sarlis \harvardand\ Tjortjis}{2020}{sarlis2020sports}
+Sarlis, V. \harvardand\ Tjortjis, C.  \harvardyearleft 2020\harvardyearright ,
+  `Sports analytics—evaluation of basketball players and team performance',
+  {\em Information Systems} {\bf 93},~101562.
 
 \harvarditem{Ward \harvardand\ Harmon}{2019}{ward2019esport}
 Ward, M.~R. \harvardand\ Harmon, A.~D.  \harvardyearleft 2019\harvardyearright

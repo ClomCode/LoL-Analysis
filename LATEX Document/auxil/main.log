@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  5 AUG 2022 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  7 AUG 2022 20:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -139,20 +139,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
-)
-(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
-Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box53
-\beforetitleunit=\skip54
-\aftertitleunit=\skip55
-\ttl@plus=\dimen150
-\ttl@minus=\dimen151
-\ttl@toksa=\toks24
-\titlewidth=\dimen152
-\titlewidthlast=\dimen153
-\titlewidthfirst=\dimen154
-)
-(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/acro\acro.sty
+) (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/acro\acro.sty
 Package: acro 2022/04/01 v3.8 typeset acronyms and other abbreviations (CN)
 \l__acro_tmpa_int=\count277
 \l__acro_tmpb_int=\count278
@@ -212,14 +199,15 @@ Loading module `upgrade' ...
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 27.
+e 23.
 
 (abbreviations.tex
 \c@g@acro@lol@int=\count288
 \c@g@acro@MOBA@int=\count289
+\c@g@acro@Esports@int=\count290
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 30.
+h' as default language. on input line 26.
 
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
@@ -239,35 +227,35 @@ rtation Project\LATEX Document\auxil\chapters/ch-Results.aux)
 rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen155
-\scratchbox=\box54
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen156
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count291
+\scratchdimen=\dimen150
+\scratchbox=\box53
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen151
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks25
 )
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -285,7 +273,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 30.
+or `english'. on input line 26.
  [1
 
 {C:/Users/Calum/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
@@ -338,29 +326,44 @@ rtation Project\LATEX Document\auxil\main.lot)
 (chapters/ch-Introduction.tex
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
 
  []
 
 [1
 
 
-] [2] [3] [4]) [5] [6]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+
+ []
+
+[2] [3]) [4]
 \openout2 = `chapters/ch-LiteratureReview.aux'.
 
  (chapters/ch-LiteratureReview.tex
 Chapter 2.
-[7
+[5
 
 
 
 
-] [8]) [9] [10] [11]
+] [6]) [7] [8] [9]
 \openout2 = `chapters/ch-Methodology.aux'.
 
  (chapters/ch-Methodology.tex
 Chapter 3.
-<figures/SpiritedAwayDuck3.png, id=71, 235.63031pt x 195.73125pt>
+<figures/SpiritedAwayDuck3.png, id=65, 235.63031pt x 195.73125pt>
 File: figures/SpiritedAwayDuck3.png Graphic file (type png)
 <use figures/SpiritedAwayDuck3.png>
 Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 17.
@@ -368,39 +371,45 @@ Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12
+[10
 
 
 
 
-] [13 <./figures/SpiritedAwayDuck3.png>] [14]) [15] [16]
+] [11 <./figures/SpiritedAwayDuck3.png>] [12]) [13] [14]
 \openout2 = `chapters/ch-Results.aux'.
 
 
 (chapters/ch-Results.tex
 Chapter 4.
-[17
+[15
 
 
 
 
-] [18]) [19] [20] [21]
+] [16] [17]) [18] [19]
 \openout2 = `chapters/ch-Conclusion.aux'.
 
  (chapters/ch-Conclusion.tex
 Chapter 5.
-[22
+[20
 
 
 
 
-] [23] [24]) [25] [26]
+] [21] [22]) [23] [24]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
-rtation Project\LATEX Document\auxil\main.bbl) [27
+rtation Project\LATEX Document\auxil\main.bbl
+Underfull \hbox (badness 2119) in paragraph at lines 23--27
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.esportsearnings.com/tourname
+nts/largest-individual-
+ []
+
+[25
 
 
 
-]
+]) [26]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
@@ -418,26 +427,27 @@ rtation Project\LATEX Document\auxil\chapters/ch-Results.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 7866 strings out of 478614
- 185991 string characters out of 2843122
- 551055 words of memory out of 3000000
- 25907 multiletter control sequences out of 15000+600000
- 476500 words of font info for 52 fonts, out of 8000000 for 9000
+ 7679 strings out of 478614
+ 186389 string characters out of 2843122
+ 546664 words of memory out of 3000000
+ 25723 multiletter control sequences out of 15000+600000
+ 477137 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,77p,884b,240s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\C
-alum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk><C:/Us
-ers/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbxti10.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb>
+alum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\U
+sers\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1200.pk>
+<C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbxti10.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Calum/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (36 pages, 26954
-6 bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (35 pages, 26698
+3 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
