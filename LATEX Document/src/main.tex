@@ -13,15 +13,20 @@
 % Packages
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
+\usepackage{hyperref}
 \usepackage{lipsum}
 % Package for Harvard Referencing
 \usepackage{natbib}
 % Package for Figures
 \usepackage{graphicx}
+% Package for Glossary
+\usepackage{glossaries}
 % Package for Abbreviations
 \usepackage{acro}
+\usepackage{datatool}
 \include{abbreviations}
-
+\loadglsentries{glossary}
+\makenoidxglossaries
 % Document
 \begin{document}
 
@@ -35,16 +40,26 @@
 
         {\Large Master of Science in Business Analytics}
 
-    \vspace{2cm}
+    \vspace{1.5cm}
         {\huge\bfseries League of Legends Victory Prediction Analysis}
 
-    \vspace{1.5cm}
+    \vspace{1cm}
         {By}
 
     \vspace{0.5cm}
         {\Large Calum Palmer}
 
-    \vspace{5cm}
+    \vspace{0.25cm}
+    %! suppress = MissingLabel
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=4cm]{figures/SurreyCrest}
+    \end{figure}
+
+    \vspace{0.25cm}
+        {\large Surrey Business School}
+
+    \vspace{0.25cm}
         {\large Faculty of Arts and Social Sciences}
 
     \vspace{0.25cm}
@@ -53,7 +68,7 @@
     \vspace{1cm}
         {\large September 2022}
 
-    \vspace{1.5cm}
+    \vspace{1cm}
         {\large Word Count: 15,000}
 
     \vfill
@@ -95,10 +110,15 @@
 % ---------------------------------------------------------------
 % List of Abbreviations
 % ---------------------------------------------------------------
-    \addcontentsline{toc}{chapter}{List of Abbreviations}
     \printacronyms
-    \newpage
+    \addcontentsline{toc}{chapter}{Acronyms}
+    \clearpage
 
+    \addcontentsline{toc}{chapter}{Glossary}
+    \glsfindwidesttoplevelname
+    \setglossarystyle{alttree}
+    \printnoidxglossaries
+    \clearpage
     \pagenumbering{arabic}
 
 % ---------------------------------------------------------------

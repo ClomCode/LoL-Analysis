@@ -1,11 +1,5 @@
 \begin{thebibliography}{xx}
 
-\harvarditem{{ActivePlayer}}{n.d.}{playercount}
-{ActivePlayer}  \harvardyearleft n.d.\harvardyearright , `{Total League of
-  Legends Playercount}'.
-\newblock Accessed: 18-07-2022.
-\newline\harvardurl{https://activeplayer.io/league-of-legends/}
-
 \harvarditem[Ani et~al.]{Ani, Harikumar, Devan \harvardand\
   Deepa}{2019}{ani2019victory}
 Ani, R., Harikumar, V., Devan, A.~K. \harvardand\ Deepa, O.  \harvardyearleft
@@ -23,7 +17,7 @@ Apostolou, K. \harvardand\ Tjortjis, C.  \harvardyearleft 2019\harvardyearright
 {Esports Earnings}  \harvardyearleft n.d.\harvardyearright , `{Largest
   Individual Tournament Prize Pools}'.
 \newblock Accessed: 16-07-2022.
-\newline\harvardurl{https://www.esportsearnings.com/tournaments/largest-individual-tournaments}
+\newline\harvardurl{https://www.esportsearnings.com/tournaments/largest-team-tournaments}
 
 \harvarditem{Gray \harvardand\ Wert-Gray}{2012}{gray2012customer}
 Gray, G.~T. \harvardand\ Wert-Gray, S.  \harvardyearleft 2012\harvardyearright
@@ -48,9 +42,21 @@ Mangeloja, E.  \harvardyearleft 2019\harvardyearright , `Economics of esports',
   {\em Electronic Journal of Business Ethics and Organization Studies} {\bf
   24}(2).
 
+\harvarditem{McLaughlin}{2021}{upcomerworld2021}
+McLaughlin, D.  \harvardyearleft 2021\harvardyearright , `{Worlds 2021 final
+  draws 73.8 million peak concurrent viewers, Riot reports}', {\em Upcomer} .
+\newblock Accessed: 18-07-2022.
+\newline\harvardurl{https://upcomer.com/worlds-2021-final-draws-73-8-million-peak-concurrent-viewers-riot-reports}
+
 \harvarditem{Newzoo}{2022}{newzoo2022viewers}
 Newzoo  \harvardyearleft 2022\harvardyearright , {Global Esports \& Live
   Streaming Market Report}, Technical report, Newzoo.
+
+\harvarditem{{Riot Games}}{2021}{riotplayercount}
+{Riot Games}  \harvardyearleft 2021\harvardyearright , `{Total League of
+  Legends Playercount}'.
+\newblock Accessed: 18-07-2022.
+\newline\harvardurl{https://twitter.com/riotgames/status/1455172784938651649?s=20-\&t=dydJavkVHnrR5YnceUFnMw}
 
 \harvarditem{Sarlis \harvardand\ Tjortjis}{2020}{sarlis2020sports}
 Sarlis, V. \harvardand\ Tjortjis, C.  \harvardyearleft 2020\harvardyearright ,
