@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  9 AUG 2022 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  9 AUG 2022 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -625,7 +625,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 34.
-<figures/SurreyCrest.png, id=110, 217.81375pt x 248.93pt>
+<figures/SurreyCrest.png, id=118, 217.81375pt x 248.93pt>
 File: figures/SurreyCrest.png Graphic file (type png)
 <use figures/SurreyCrest.png>
 Package pdftex.def Info: figures/SurreyCrest.png  used on input line 59.
@@ -689,12 +689,12 @@ Using TeX to sort glossary entries---this may take a while
  (chapters/ch-Introduction.tex
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--11
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--16
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
 
  []
 
@@ -703,116 +703,125 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 
+l.14 
       [1
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 17--21
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
 [2]
-<figures/MOBAMap.png, id=283, 1027.84pt x 1027.84pt>
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+<figures/MOBAMap.png, id=294, 1027.84pt x 1027.84pt>
 File: figures/MOBAMap.png Graphic file (type png)
 <use figures/MOBAMap.png>
 Package pdftex.def Info: figures/MOBAMap.png  used on input line 39.
-(pdftex.def)             Requested size: 234.00238pt x 233.99864pt.
- [3 <./figures/MOBAMap.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+(pdftex.def)             Requested size: 195.0pt x 194.99364pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--59
+
+ []
+
+[3]
+<figures/DraftPhase.png, id=311, 1178.4025pt x 204.765pt>
+File: figures/DraftPhase.png Graphic file (type png)
+<use figures/DraftPhase.png>
+Package pdftex.def Info: figures/DraftPhase.png  used on input line 62.
+(pdftex.def)             Requested size: 390.0pt x 67.76949pt.
+ [4 <./figures/MOBAMap.png (PNG copy)> <./figures/DraftPhase.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--78
+Underfull \hbox (badness 10000) in paragraph at lines 93--100
 
  []
 
-[4]) [5]
+[5]) [6]
 \openout2 = `chapters/ch-LiteratureReview.aux'.
 
  (chapters/ch-LiteratureReview.tex
 Chapter 2.
-[6
+[7
 
 
 
 
-] [7] [8]) [9] [10] [11]
+]) [8] [9]
 \openout2 = `chapters/ch-Methodology.aux'.
 
  (chapters/ch-Methodology.tex
 Chapter 3.
-<figures/SpiritedAwayDuck3.png, id=344, 235.63031pt x 195.73125pt>
-File: figures/SpiritedAwayDuck3.png Graphic file (type png)
-<use figures/SpiritedAwayDuck3.png>
-Package pdftex.def Info: figures/SpiritedAwayDuck3.png  used on input line 17.
-(pdftex.def)             Requested size: 284.52756pt x 236.3517pt.
+[10
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+
+]) [11]
+\openout2 = `chapters/ch-Results.aux'.
+
+ (chapters/ch-Results.tex
+Chapter 4.
 [12
 
 
 
 
-] [13 <./figures/SpiritedAwayDuck3.png>] [14] [15]) [16] [17]
-\openout2 = `chapters/ch-Results.aux'.
-
-
-(chapters/ch-Results.tex
-Chapter 4.
-[18
-
-
-
-
-] [19] [20]) [21] [22] [23]
+]) [13] [14]
 \openout2 = `chapters/ch-Conclusion.aux'.
 
  (chapters/ch-Conclusion.tex
 Chapter 5.
-[24
+[15
 
 
 
 
-] [25] [26]) [27] [28] [29]
+]) [16] [17]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 17--21
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.esportsearnings.com/tourname
 nts/largest-team-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--50
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://upcomer.com/worlds-2021-final-dr
 aws-73-8-million-peak-
  []
 
-[30
+[18
 
 
 
 ]
-Overfull \hbox (1.66959pt too wide) in paragraph at lines 56--60
+Overfull \hbox (1.66959pt too wide) in paragraph at lines 49--53
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://twitter.com/riotgames/status/145
 5172784938651649?s=20-
  []
 
-) [31]
+) [19]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
@@ -830,16 +839,16 @@ rtation Project\LATEX Document\auxil\chapters/ch-Results.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2C2154BA2931086CD7B942741F83D9E7;2540.
+(rerunfilecheck)             Checksum: 92BC67B43604C5FCFE1815BB718F71EF;2855.
  ) 
 Here is how much of TeX's memory you used:
- 19186 strings out of 478614
- 372879 string characters out of 2843122
- 786532 words of memory out of 3000000
- 36926 multiletter control sequences out of 15000+600000
- 476542 words of font info for 52 fonts, out of 8000000 for 9000
+ 19176 strings out of 478614
+ 372417 string characters out of 2843122
+ 785158 words of memory out of 3000000
+ 36927 multiletter control sequences out of 15000+600000
+ 476837 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,6n,91p,1132b,600s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 91i,6n,91p,1132b,604s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk> <C:\Users\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcti1200.pk><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -849,10 +858,10 @@ amsfonts/cm/cmbx12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Calum/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (42 pages, 49480
-7 bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (30 pages, 49351
+0 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

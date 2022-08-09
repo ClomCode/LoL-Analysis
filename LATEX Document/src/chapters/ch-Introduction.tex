@@ -1,8 +1,6 @@
 % INTRODUCTION CHAPTER
 \chapter{Introduction}\label{ch:introduction}
-
 \section{Context}\label{sec:Context}
-
 Esports is a form of competition using video games where participants will compete either individually or in a team for a chance at victory.
 These competitions attract millions of viewers, with estimates of 532 million spectators by the end of 2022, and this value is expected to grow annually at a value of roughly 8.7\%~\citep{newzoo2022viewers}.
 The rapid growth in Esports has led to the industry becoming professional, with hundreds of players contracted on full-time contracts competing for prize pools of up to \$40 million~\citep{esportsearnings}.
@@ -12,7 +10,7 @@ As the Esports industry continues to grow, so does the importance on teams to wi
 In traditional sports, analytics has become an extremely popular field with teams investing heavily in some form of analytics.
 These analytics can be used from evaluating opposing teams, to individual player forecasting and even used to decide signings or team selection~\citep{sarlis2020sports, apostolou2019sports}.
 \citet{apostolou2019sports, sarlis2020sports} shows that these analytics can be applied for each athlete, giving an accurate estimation of key metrics such as goals scored per season or the number of shots attempted in a given match.
-This same methodology could be applied to Esports, using these machine learning techniques could highlight specific factors both pre-game and in-game helping analysts and coaches refine strategies within the game.\\
+This same methodology could be applied to Esports, using these machine learning techniques could highlight specific factors both pre-game and in-game, helping analysts and coaches refine strategies within the game.\\
 
 The ease of data collection coming from each match has led to a rise in Esports analytics.
 In-depth analysis of matches, teams and pre-game factors become key techniques for teams to gain this advantage over their competitors, with teams being required by their leagues to have at least one dedicated coach and analyst similar to traditional sports teams~\citep{LCSRules}.
@@ -27,16 +25,18 @@ especially when the volatility of a players job security results in only the top
 
 
 \section{League of Legends}\label{sec:League of Legends}
+\subsection{General Information}\label{subsec:general-information}
 League of Legends is a \ac{MOBA} game developed by Riot Games released in 2009, it is one of most popular esports games in the world with over 180 million monthly players and a peak of 73.8 million concurrent viewers~\citep{riotplayercount, upcomerworld2021}.
 A \ac{MOBA} is fusion genre of real-time strategy, role-playing and action games in which two sets of teams will compete in a known arena.
-The objective of each game is to defeat the opposition by destroying the enemy's base.
-Each player will select and control a unique~\gls{champion} with their own set of distinct abilities, this~\gls{champion} will be selected before the game starts and cannot be changed until the game has ended.
+The objective of each game is to defeat the opposition by destroying the enemy's base.\\
+
+Each player will select and control a unique~\gls{champion} with their own set of distinct abilities, this~\gls{champion} will be selected before the game starts and cannot be changed until the game has ended - this will be covered further in Section~\ref{subsec:champ-select}.
 Players can strengthen their~\glspl{champion} by gaining experience and gold, this can be done by slaying enemy~\glspl{minion}, \gls{jungle} monsters, enemy structures or enemy \glspl{champion}.
 This gold can be spent in the shop allowing players to purchase items that enhance the attributes of their \gls{champion}, as well as various utility items such as \glspl{ward}.\\
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.6\textwidth]{figures/MOBAMap}
+    \includegraphics[width=0.5\textwidth]{figures/MOBAMap}
     \caption{Map of League of Legends}
     \label{fig:Lolmap}
 \end{figure}
@@ -48,8 +48,30 @@ Each coloured dot represents a \gls{tower} that must be taken in order to reach 
 A river separates the territories between the Blue (Team 1) and the Red team (Team 2) along the dotted black line seen in Figure~\ref{fig:Lolmap}.
 In this river you can find \Gls{baron} or \Gls{rift herald} in top-side and the \Gls{dragon} in the bottom-side, they are key objectives that will often be contested.
 
+\subsection{Champion Selection}\label{subsec:champ-select}
 
+Champion Selection plays an important part in every game of League of Legends.
+Certain champions have inherent synergies with one another, meaning they are beneficial to be picked with each other.
+Likewise, some champions are considered counter matchups when they are good at stopping another champion.
+This means that picking a good mixture of \glspl{champion} that are solid synergistically, whilst also ensuring the opponents \glspl{champion} do not counter yours is vital.
+These ideas are the fundamentals of champion selection, and they are what professional coaches and analysts attempt to solve each week.
+Factors such as player champion experience, the current game balance \gls{patch} or a champion's ability to be flexible across different lanes will change champion select from game to game. \\
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{figures/DraftPhase}
+    \caption{Champion Select}
+    \label{fig:draft}
+\end{figure}
+
+As seen in Figure~\ref{fig:draft}, the current draft phase works as follows:
+Ban Phase 1 begins starting with the Blue team, in turn each team bans three champions from the pool.
+After Ban Phase 1, Pick Phase 1 begins starting with a singular pick from the Blue side, followed by two picks from the Red side.
+Blue side will get two more picks, followed by a singular pick from Red side for three picks each.
+It will then enter Ban Phase 2.
+Here both teams will ban two more champions in turn, with Red side starting.
+After both teams have banned two more champions, the final Pick Phase will begin.
+Here Red side get their fourth champion pick, followed by two picks from Blue side and finally Red side pick their final champion.
 
 \section{Structure, Aims, and Objectives}\label{sec:Structure, Aims, and Objectives}
 
@@ -70,10 +92,10 @@ Finally, chapter~\ref{ch:conclusion} will conclude the dissertation giving an ov
 
 Having pre-established the landscape of Esports and its relationship with analytics, it is clear that refinement in the way that this industry uses its highly available data is needed.
 Many academics have predicted the outcomes of matches in Esports titles such as ~\citet{silva2018continuous}.
-However, performing these studies, few academics addressed the implications of the \gls{champion select} phase on the overall outcome on a given League of Legends match.
-Often it is put into the model as a singular feature defined as champion
-In contrast to other studies, this study uses a much larger, updated dataset and will concentrate much more on the overall effects of the pre-game choices that a team will make inside \gls{champion select}.
-This includes the effects of an individual champion on the likelihood of winning a match.
+However, performing these studies, few academics addressed the implications of the champion select phase on the overall outcome on a given League of Legends match.
+Often it is put into the model as a singular feature defined as champion or ban, without giving much implication on how an individual champion effects a game more than another.
+In contrast to other studies, this study uses a much larger, updated dataset and will concentrate much more on the overall effects of the pre-game choices that a team will make inside champion select.
+This includes the effects of each individual champion on the likelihood of winning a match.
 Therefore, the research question that will be addressed is as follows:\\
 
-\begin{quote}  \emph{Can the outcome of a League of Legends match be predicted using machine learning models from only pre-game factors?} \end{quote}
+\begin{quote}  \emph{Can the outcome of a League of Legends match be predicted during Champion Selection?} \end{quote}
