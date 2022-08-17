@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  9 AUG 2022 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  17 AUG 2022 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -625,7 +625,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 34.
-<figures/SurreyCrest.png, id=118, 217.81375pt x 248.93pt>
+<figures/SurreyCrest.png, id=126, 217.81375pt x 248.93pt>
 File: figures/SurreyCrest.png Graphic file (type png)
 <use figures/SurreyCrest.png>
 Package pdftex.def Info: figures/SurreyCrest.png  used on input line 59.
@@ -728,7 +728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
-<figures/MOBAMap.png, id=294, 1027.84pt x 1027.84pt>
+<figures/MOBAMap.png, id=306, 1027.84pt x 1027.84pt>
 File: figures/MOBAMap.png Graphic file (type png)
 <use figures/MOBAMap.png>
 Package pdftex.def Info: figures/MOBAMap.png  used on input line 39.
@@ -741,87 +741,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--59
 
  []
 
-[3]
-<figures/DraftPhase.png, id=311, 1178.4025pt x 204.765pt>
+[3] [4 <./figures/MOBAMap.png (PNG copy)>]
+<figures/DraftPhase.png, id=327, 1178.4025pt x 204.765pt>
 File: figures/DraftPhase.png Graphic file (type png)
 <use figures/DraftPhase.png>
-Package pdftex.def Info: figures/DraftPhase.png  used on input line 62.
+Package pdftex.def Info: figures/DraftPhase.png  used on input line 73.
 (pdftex.def)             Requested size: 390.0pt x 67.76949pt.
- [4 <./figures/MOBAMap.png (PNG copy)> <./figures/DraftPhase.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--100
-
- []
-
-[5]) [6]
+[5 <./figures/DraftPhase.png (PNG copy)>]) [6] [7]
 \openout2 = `chapters/ch-LiteratureReview.aux'.
 
- (chapters/ch-LiteratureReview.tex
+
+(chapters/ch-LiteratureReview.tex
 Chapter 2.
-[7
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+
+ []
+
+[8
 
 
 
 
-]) [8] [9]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 39--50
+
+ []
+
+[10]) [11]
 \openout2 = `chapters/ch-Methodology.aux'.
 
  (chapters/ch-Methodology.tex
 Chapter 3.
-[10
-
-
-
-
-]) [11]
-\openout2 = `chapters/ch-Results.aux'.
-
- (chapters/ch-Results.tex
-Chapter 4.
 [12
 
 
 
 
-]) [13] [14]
+]) [13]
+\openout2 = `chapters/ch-Results.aux'.
+
+ (chapters/ch-Results.tex
+Chapter 4.
+[14
+
+
+
+
+]) [15] [16]
 \openout2 = `chapters/ch-Conclusion.aux'.
 
  (chapters/ch-Conclusion.tex
 Chapter 5.
-[15
+[17
 
 
 
 
-]) [16] [17]
+]) [18] [19]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://esportsinsider.com/2019/03/betwa
+y-agrees-to-a-one-year-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--41
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.esportsearnings.com/tourname
 nts/largest-team-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
-\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://upcomer.com/worlds-2021-final-dr
-aws-73-8-million-peak-
- []
-
-[18
+[20
 
 
 
 ]
-Overfull \hbox (1.66959pt too wide) in paragraph at lines 49--53
+Underfull \hbox (badness 10000) in paragraph at lines 82--86
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://upcomer.com/worlds-2021-final-dr
+aws-73-8-million-peak-
+ []
+
+
+Overfull \hbox (1.66959pt too wide) in paragraph at lines 98--102
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://twitter.com/riotgames/status/145
 5172784938651649?s=20-
  []
 
-) [19]
+[21]) [22]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
@@ -839,14 +856,14 @@ rtation Project\LATEX Document\auxil\chapters/ch-Results.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 92BC67B43604C5FCFE1815BB718F71EF;2855.
+(rerunfilecheck)             Checksum: 201DD038CA2223C0BAB6C3D7665DA055;3485.
  ) 
 Here is how much of TeX's memory you used:
- 19176 strings out of 478614
- 372417 string characters out of 2843122
- 785158 words of memory out of 3000000
- 36927 multiletter control sequences out of 15000+600000
- 476837 words of font info for 53 fonts, out of 8000000 for 9000
+ 19222 strings out of 478614
+ 373482 string characters out of 2843122
+ 785682 words of memory out of 3000000
+ 36959 multiletter control sequences out of 15000+600000
+ 476840 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,6n,91p,1132b,604s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -858,10 +875,10 @@ amsfonts/cm/cmbx12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Calum/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (30 pages, 49351
-0 bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (33 pages, 51014
+5 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 493 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,25 +1,64 @@
 % LITERATURE REVIEW CHAPTER
 \chapter{Literature Review}\label{ch:literaturereview}
+Research Problem.
+- Can the outcome of a League of Legends match be predicted?
 
-3000 words
+Research Objectives.
+- To understand how prediction exists in existing literature.
+- To evaluate how predictions change through game time.
+- To make key recommendations of champion picks within champion selection. \\
 
-This section gives an overview of the context and background to the research problem.
-It builds on your problem definition and aims and objectives and so is an expansion of the concise arguments you make there.
-It is probably the section that will give you most scope to show off the wide range of sources you have consulted.
-Although based on existing literature, you should still present your material critically.
+This section aims to review previous literature of prediction models in the esports industry that was explored during in Chapter~\ref{ch:introduction}.
+These literatures will help create a better working understanding of how to properly model, extract and gain knowledge from the datasets.
+It will cover papers from traditional sports where prediction models are widespread and lesser researched esports models, to research on the betting industry with its new relation to esports.
 
-1)Reiterate your research objectives in the beginning and outline how the LR will help to answer those
+\section{Esports Prediction Modelling}\label{sec:EsportsPredictionModelling}
+\subsection{Match Outcome Prediction}\label{subsec:Match Outcome Prediction}
+In the mid to late 2000s the use of prediction modelling exploded academically, being applied to a multitude of fields from biology and medicine to political sciences.
+This academic surge of interest caused thousands of studies all using various forms of predictive modelling.
+Not only did this evolve many practises across these fields, but it also helped develop the techniques of predictive modelling today.
+The work of predictive modelling in esports only started in the mid 2010s, with one of the original papers by~\citet{lin2016league} exploring match outcomes in League of Legends.
+This work focused on the relationship between the potential feature-sets that a game such as League of Legends can create, and how they impact the predicted match outcome both pre-game and in-game.
+The data was collected using the Riot API from matches with average ranked players, with the in-game data being extracted from the statistics published at the end of a match.
+It becomes apparent that the data used in this initial study appears to be highly correlated with the match result, and this is reflected by the 95\% success rate on prediction using in-game data.
 
-2)Draw on theories/concepts/data and critically evaluate the information in the light of the research objectives
 
-3)Deduce hypotheses from the information/formulate research questions
+\subsection{Champion Select Prediction}\label{subsec:Champion Select Prediction}
+Prediction using champion selections.
+
+\section{Esports Betting}\label{sec:Esports Betting}
+As esports has grown, so has the ability of bookmakers to capitalise on a new developing market and create revenue.
+According to~\citet{absolute2022esportsbet}, the global esports betting market has been estimated to be worth up to \$10 Billion in 2021, and is forecasted to double by the year 2028 with a compound annual growth rate of 13.1\%.
+A new focus of esports has grown throughout traditional bookmakers, with an increasingly larger number of esports titles to bet on and some bookmakers even sponsoring some events~\citep{esportsinsider2019}.
+With the large variety of titles comes the challenge of creating odds that are representative of the outcomes that will occur.
+There are numerous studies showing how gambling markets in most traditional sports can change how a given team is evaluated, often with regard to sentiment bias~\citep{feddersen2018sentiment, na2019not}.
+This means that odds-makers must create predictive models that can accurately replicate the true likelihood of match outcome in order to ensure money is continually being made.
+According to the efficient-market hypothesis, sport bets should be subject to all available information that may be publicly available and this information will be reflected in the odds themselves\citep{even1992testing}.
+The betting market is therefore thought of as a fair and efficient market in which match outcomes can be accurately predicted.\\
+
+Betting within esports has taken on many forms.
+Money line bets and proposition bets are the most common types of bets.
+Money line bets are bets that are placed on the outcome of a specific match, with payouts based on the odds that are created by the odds-makers using their internal prediction models.
+Proposition bets are bets made based on whether a specific event will take place within the game itself while the match is ongoing.
+A common proposition bet is whether a team would achieve the first kill of the game - commonly referred to as First Blood.
+All these types of bets require highly calculated odds ensuring the bookmakers will make money.
+With esports betting being in its early form, there are no regulatory structures put in place to effectively to keep match integrity in place similar to those found within most sports~\citep{dos2017q}.
+This lack of match integrity causes potential match-fixing scandals which threatens the competitive integrity of both the league and the gambling market, as well as ruining games for spectators alike.
+Whilst studies such as~\citet{abarbanel2019esports} claim that esports spectators aren't deeply concerned about potential match-fixing, with most spectators being willing to forgive infractions that have occurred previously.
+Cases of match-fixing have already been investigated, with a Chinese player- `Bo' being suspended after being coerced into match-fixing in the Chinese academy leagues, subsequently causing a league-wide large-scale investigation~\citep{heath2021matchfixing}.
+This caused a call for harsher punishments and stricter measures to ensure infractions like these would become highly disincentivised, however no regulatory structures apart from the league's punishment systems currently exist.\\
 
 
-\section{D}\label{sec:D}
-\lipsum[1]
 
-\section{E}\label{sec:E}
-\lipsum[1]
+\section{Summary}\label{sec:Summary}
+This chapter provided an overview of key literature in esports and prediction modelling found within it.
+These give a baseline understanding of how prediction models function...
+The betting industry was explored, showing its relation to the world of esports and how they use prediction modelling for their business.
 
-\section{F}\label{sec:F}
-\lipsum[1]
+With the information gained throughout this literature review, the following research hypotheses have been created:
+
+\begin{quote}  \emph{Hypothesis 1: Esports prediction models are xyz.} \end{quote}
+
+\begin{quote}  \emph{Hypothesis 2: Esports prediction models are xyz.} \end{quote}
+
+\begin{quote}  \emph{Hypothesis 3: Esports betting indicates that highly accurate prediction models for match outcomes are feasible.} \end{quote}
