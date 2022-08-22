@@ -1,30 +1,100 @@
 % LITERATURE REVIEW CHAPTER
 \chapter{Literature Review}\label{ch:literaturereview}
-Research Problem.
-- Can the outcome of a League of Legends match be predicted?
-
-Research Objectives.
-- To understand how prediction exists in existing literature.
-- To evaluate how predictions change through game time.
-- To make key recommendations of champion picks within champion selection. \\
-
 This section aims to review previous literature of prediction models in the esports industry that was explored during in Chapter~\ref{ch:introduction}.
 These literatures will help create a better working understanding of how to properly model, extract and gain knowledge from the datasets.
 It will cover papers from traditional sports where prediction models are widespread and lesser researched esports models, to research on the betting industry with its new relation to esports.
 
-\section{Esports Prediction Modelling}\label{sec:EsportsPredictionModelling}
-\subsection{Match Outcome Prediction}\label{subsec:Match Outcome Prediction}
-In the mid to late 2000s the use of prediction modelling exploded academically, being applied to a multitude of fields from biology and medicine to political sciences.
+\section{Predictive Analytics in Traditional Sports}\label{sec:TradSports}
+In the mid to late 2000s the use of prediction modelling exploded academically, being applied to a multitude of fields from biology and medicine to political sciences or sports.
 This academic surge of interest caused thousands of studies all using various forms of predictive modelling.
 Not only did this evolve many practises across these fields, but it also helped develop the techniques of predictive modelling today.
-The work of predictive modelling in esports only started in the mid 2010s, with one of the original papers by~\citet{lin2016league} exploring match outcomes in League of Legends.
+This is section we will explore literature related to how predictive analytics are used in sports, and how insights can be gained from this type of modelling.
+\citet{sarlis2020sports} studied the impact of how various performance evaluation metrics can be used to identify dominant attributes that will help predict candidates for the Most Valuable Player (MVP) award, as well as Defender of the Year.
+They concluded that using their Propagation Neural Networks with 8 years of training data, that their model was able to accurately predict the MVP of the season with 100\% accuracy, and could also predict the Defender of the Year.
+Similar studies have been performed with football such as~\citet{pantzalis2020sports}, where they analysed 4 top football leagues in Europe and predicted the final standings with up to 70\% accuracy.
+\citet{scelles2021peculiar} shows us that transferring this level of analysis from a traditional sports team to an esports team is highly supported, with claims that `esports\ldots~could provide some insights about the future development of sport`.
+This suggests that prediction modelling is likely to work when used to predict both player performances, whilst potentially being able to predict standing of esports leagues globally. \\
+
+
+\section{Predictive Analytics in Esports}\label{sec:PredictiveAnalyticsinEsports}
+\subsection{Match Outcome Prediction}\label{subsec:Match Outcome Prediction}
+tThe work of predictive modelling in esports only started in the mid 2010s, with one of the original papers by~\citet{lin2016league} exploring match outcomes in League of Legends.
 This work focused on the relationship between the potential feature-sets that a game such as League of Legends can create, and how they impact the predicted match outcome both pre-game and in-game.
 The data was collected using the Riot API from matches with average ranked players, with the in-game data being extracted from the statistics published at the end of a match.
-It becomes apparent that the data used in this initial study appears to be highly correlated with the match result, and this is reflected by the 95\% success rate on prediction using in-game data.
+It becomes apparent that the data used in this initial study appears to be highly correlated with the match result, and this is reflected by the 95\% success rate on prediction using in-game data. \\
+
+Two studies built upon the previous research just two years later.
+\citet{silva2018continuous} introduces the use of \ac{RNN} to predict esports matches through time intervals between the 0 and 25 minute mark, and uses data from matches between 2015 to early 2018.
+They concluded that these \ac{RNN}s were capable of obtaining prediction accuracy of between 63.91\% to 83.54\%, depending on the time interval in-game.
+Their study presented evidence of the predictability of each match and its positive correlation with the in-game timer, showing that the accuracy of prediction becomes stronger as matches progress, reflecting the snowballing nature of the game itself.
+However, it should be noted that the study ignores the presentation of each feature's weighting and thus does not provide any insight into what features are most influential in these victories. \\
+
+\citet{gaina2018league} built upon the study from~\citet{lin2016league}, analysing the features that predict match outcomes at the 10-minute interval.
+Moreover, the correlation between the impact of early performance on the match result for each individual player in all 5 roles was found to be `a medium correlation`, with `a weaker one` when overall team performance is compared.
+Other scholars such as~\citet{ani2019victory} have presented findings that suggest that prediction model accuracy can reach performance levels of 99.75\%, with a combination of pre-game and in-game predictors using the Random Forest algorithm.
+An interesting note about~\citet{ani2019victory} is whilst using Adaboost, Gradient Boosting and Extreme Gradient Boosting they were only able to achieve an accuracy of 57.22\% to 65.67\% using only pre-game features which is drastically lower than the Random Forest algorithm.
+In the literature, both the Random Forest algorithm and Gradient Boosted Trees are commonly used machine-learning strategies that are used inside prediction models.
+These methods are both decision tree based in which a target variable is predicted based on a number of decision rules inferred from the feature-set, with the main downside is potential overfitting of the data~\citep{scikitDecisionTrees}.
+This level of accuracy from pre-game features is more in line with other studies and will be discussed further in Section~\ref{subsec:Champion Selection Prediction}. \\
+
+\citet{lee2020predicting} also produced a match outcome prediction model, using data from the Riot API of high level players from the ranked ladder.
+Similar to their predecessors of~\citet{silva2018continuous}, they tested their dataset across game time intervals, as well as the importance of each feature in the dataset.
+They achieved a prediction accuracy of between 62.25\% and 96.08\%, which is an improvement over the \ac{RNN} used in previous studies.
+Gold difference and the number of Towers taken appear to consistently be the two most important features across most studies referenced, with gold difference having a relative feature importance calculated up to 43.08\% at the 10-minute mark and turrets having up to a 22\% importance~\citep{lee2020predicting, ani2019victory, gaina2018league}.
+Another interesting study comes from~\citet{novak2020performance}, here they apply a coach-centred approach to modelling performances seen at the 2018 League of Legends World Championship.
+Three coaches rated the proposed feature set using a correlation scale of 1 to 10, with median ratings for features equal or over 6 being retained for modelling.
+After multicollinearity checks, only 14 predicting features remained and the strongest fixed effect was `Tower Percentage', closely followed by `Inhibitors Taken' and allowed the model to achieve prediction accuracy of 95.8\% - which remains consistent with previous studies.
 
 
-\subsection{Champion Select Prediction}\label{subsec:Champion Select Prediction}
-Prediction using champion selections.
+\subsection{Champion Selection Prediction}\label{subsec:Champion Selection Prediction}
+As described earlier in Section~\ref{subsec:champ-select}, champion selection is a key part of any MOBA game and has the ability to give your team an inherent advantage in-game before the game even begins.
+Previous works have explored the ideas of character recommendation systems with two key methodologies in mind - models based upon historical win rates of each character and an association rule model based on common selection frequencies.
+\citet{chen2018art} proposed a \ac{MCTS} recommendation model in another popular MOBA game - DOTA 2, that suggests characters to add to the team in the draft phase that will maximise the team's victory probability.
+The draft phase is approximated to a combinatorial, sequential, zero-sum game with perfect information and deterministic rewards.
+Therefore, an optimal pick at each stage will be the highest predicted win-rate character at a given stage, when both teams behave optimally in the process.
+Due to the large branching factor of the draft process, the decision-making scales exponentially larger as the draft process progresses and the computational power required does too.
+The \ac{MCTS} is a tree search algorithm that is commonly used to solve deterministic games such as Chess, Tic Tac Toe and Go~\citep{alphago2016}.
+As seen in Figure~\ref{fig:MCTS}, this algorithm explores the choice tree from root to leaf, selecting child nodes that represent the best winning outcomes.
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{figures/MCTS Selection}
+  \caption{Selection step}
+  \label{fig:MCTS Selection}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{figures/MCTS Expansion}
+  \caption{Expansion step}
+  \label{fig:MCTS Expansion}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{figures/MCTS Simulation}
+  \caption{Simulation step}
+  \label{fig:MCTS Simulation}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{figures/MCTS Backpropagation}
+  \caption{Backpropagation step}
+  \label{fig:MCTS Backpropagation}
+\end{subfigure}
+\caption{A graph showing the steps of a Monte-Carlo Tree Search}
+\label{fig:MCTS}
+\end{figure}
+
+If the leaf node does not terminate the game, it will create the next step with more child nodes throughout the tree, and if this simulated child node gives optimistic result probabilities it will update and back-propagate up the tree towards the root.
+At its core, the \ac{MCTS} chooses the optimal move from the current state of a game's tree with the help of reinforcement learning.
+Using this system, \citet{chen2018art} were able to achieve a win-rate of up to 88.0\% versus a standard association rule draft recommendation system used in studies such as \citet{hanke2017moba}. \\
+
+Recently, \citet{shen2022deep} initiated studies into the champion recommendation using a mix of \ac{NLP} techniques and Bidirectional long-short term memory models.
+They found that their proposed recommendation mechanisms were effective in both the coverage of champions and user satisfaction
+Whilst this paper reiterated the fact that the champion selection phase can be predicted, it gives a unique perspective of adding a level of subjectivity to model by using user feedback and offers a wider-coverage of champions who are deemed less popular picks.
+But this lack of objective measure gives it no quantifiable metric onto which this study can extract valuable information from.
+
 
 \section{Esports Betting}\label{sec:Esports Betting}
 As esports has grown, so has the ability of bookmakers to capitalise on a new developing market and create revenue.
@@ -48,17 +118,18 @@ Whilst studies such as~\citet{abarbanel2019esports} claim that esports spectator
 Cases of match-fixing have already been investigated, with a Chinese player- `Bo' being suspended after being coerced into match-fixing in the Chinese academy leagues, subsequently causing a league-wide large-scale investigation~\citep{heath2021matchfixing}.
 This caused a call for harsher punishments and stricter measures to ensure infractions like these would become highly disincentivised, however no regulatory structures apart from the league's punishment systems currently exist.\\
 
-
-
 \section{Summary}\label{sec:Summary}
-This chapter provided an overview of key literature in esports and prediction modelling found within it.
-These give a baseline understanding of how prediction models function...
-The betting industry was explored, showing its relation to the world of esports and how they use prediction modelling for their business.
-
+This chapter provided an overview of key literature in predictive analytics and its relation to both sports and esports, as well as an .
+Starting with a background on predictive analytics in sports and the various uses scholars have modelled with.
+This was followed with studies showing how these predictive analytics can be applied to various esport titles.
+The various methodologies that have been used previously were explained such as the Monte-Carlo Tree Search and the Random Forest classifier.
+The betting industry was then explored, showing its relation to the world of esports and how they use prediction modelling for their business.
 With the information gained throughout this literature review, the following research hypotheses have been created:
 
-\begin{quote}  \emph{Hypothesis 1: Esports prediction models are xyz.} \end{quote}
+\begin{quote}  \emph{Hypothesis 1: League of Legends matches are snowballing in nature, therefore prediction accuracy will increase as in-game time increases.} \end{quote}
 
-\begin{quote}  \emph{Hypothesis 2: Esports prediction models are xyz.} \end{quote}
+\begin{quote}  \emph{Hypothesis 2: League of Legends prediction models will naturally suffer from some level of multicollinearity.} \end{quote}
 
-\begin{quote}  \emph{Hypothesis 3: Esports betting indicates that highly accurate prediction models for match outcomes are feasible.} \end{quote}
+\begin{quote}  \emph{Hypothesis 3: A decision tree algorithm will likely be the optimal machine learning technique for prediction.} \end{quote}
+
+\begin{quote}  \emph{Hypothesis 4: Esports betting indicates that highly accurate prediction models for match outcomes are feasible outside of academia and provide value to a business.} \end{quote}

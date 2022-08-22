@@ -1,7 +1,12 @@
 \acswitchoff 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Map of League of Legends}}{4}{figure.1.1}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Champion Select}}{5}{figure.1.2}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Map of League of Legends\relax }}{3}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A depiction of the Champion Selection phase\relax }}{5}{figure.caption.11}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A graph showing the steps of a Monte-Carlo Tree Search\relax }}{12}{figure.caption.12}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

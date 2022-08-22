@@ -10,6 +10,13 @@ Abarbanel, B. \harvardand\ Johnson, M.~R.  \harvardyearleft
 {Absolute Reports}  \harvardyearleft 2022\harvardyearright , `Global esports
   betting market'.
 
+\harvarditem[Ani et~al.]{Ani, Harikumar, Devan \harvardand\
+  Deepa}{2019}{ani2019victory}
+Ani, R., Harikumar, V., Devan, A.~K. \harvardand\ Deepa, O.  \harvardyearleft
+  2019\harvardyearright , Victory prediction in league of legends using feature
+  selection and ensemble methods, {\em in} `2019 International Conference on
+  Intelligent Computing and Control Systems (ICCS)', IEEE, pp.~74--77.
+
 \harvarditem{Apostolou \harvardand\ Tjortjis}{2019}{apostolou2019sports}
 Apostolou, K. \harvardand\ Tjortjis, C.  \harvardyearleft 2019\harvardyearright
   , Sports analytics algorithms for performance prediction, {\em in} `2019 10th
@@ -22,6 +29,14 @@ Byrne, L.  \harvardyearleft 2019\harvardyearright , `{Betway agrees to a
 \newblock Accessed: 20-07-2022.
 \newline\harvardurl{https://esportsinsider.com/2019/03/betway-agrees-to-a-one-year-sponsorship-deal-for-blast-pro-series/}
 
+\harvarditem[Chen et~al.]{Chen, Nguyen, Xu, Amato, Cooper, Sun \harvardand\
+  El-Nasr}{2018}{chen2018art}
+Chen, Z., Nguyen, T.-H.~D., Xu, Y., Amato, C., Cooper, S., Sun, Y. \harvardand\
+  El-Nasr, M.~S.  \harvardyearleft 2018\harvardyearright , The art of drafting:
+  a team-oriented hero recommendation system for multiplayer online battle
+  arena games, {\em in} `Proceedings of the 12th ACM Conference on Recommender
+  Systems', pp.~200--208.
+
 \harvarditem{Dos~Reis}{2017}{dos2017q}
 Dos~Reis, V.  \harvardyearleft 2017\harvardyearright , `Q\&a: The rise of
   esports betting and the challenges the industry faces', {\em Gaming Law
@@ -32,6 +47,12 @@ Dos~Reis, V.  \harvardyearleft 2017\harvardyearright , `Q\&a: The rise of
   4-month ban for match-fixing in Chinese academy league}'.
 \newblock Accessed: 23-07-2022.
 \newline\harvardurl{https://dotesports.com/league-of-legends/news/fpx-bo-handed-four-month-ban-match-fixing}
+
+\harvarditem{Duckett}{2016}{alphago2016}
+Duckett, C.  \harvardyearleft 2016\harvardyearright , `{Google AlphaGo AI clean
+  sweeps European Go champion}', {\em ZDNet} .
+\newblock Accessed: 24-07-2022.
+\newline\harvardurl{https://www.zdnet.com/article/google-alphago-ai-clean-sweeps-european-go-champion/}
 
 \harvarditem{{Esports Earnings}}{n.d.}{esportsearnings}
 {Esports Earnings}  \harvardyearleft n.d.\harvardyearright , `{Largest
@@ -50,11 +71,21 @@ Feddersen, A., Humphreys, B.~R. \harvardand\ Soebbing, B.~P.  \harvardyearleft
   2018\harvardyearright , `Sentiment bias in national basketball association
   betting', {\em Journal of Sports Economics} {\bf 19}(4),~455--472.
 
+\harvarditem{Gaina \harvardand\ Nordmoen}{2018}{gaina2018league}
+Gaina, R. \harvardand\ Nordmoen, C.  \harvardyearleft 2018\harvardyearright ,
+  `League of legends: A study of early game impact'.
+
 \harvarditem{Gray \harvardand\ Wert-Gray}{2012}{gray2012customer}
 Gray, G.~T. \harvardand\ Wert-Gray, S.  \harvardyearleft 2012\harvardyearright
   , `Customer retention in sports organization marketing: examining the impact
   of team identification and satisfaction with team performance', {\em
   International Journal of Consumer Studies} {\bf 36}(3),~275--281.
+
+\harvarditem{Hanke \harvardand\ Chaimowicz}{2017}{hanke2017moba}
+Hanke, L. \harvardand\ Chaimowicz, L.  \harvardyearleft 2017\harvardyearright ,
+  A recommender system for hero line-ups in moba games, {\em in} `Proceedings
+  of the AAAI Conference on Artificial Intelligence and Interactive Digital
+  Entertainmen', pp.~43--49.
 
 \harvarditem[Kokkinakis et~al.]{Kokkinakis, York, Patra, Robertson, Kirman,
   Coates, Pedrassoli~Chitayat, Demediuk, Drachen, Hook
@@ -64,6 +95,12 @@ Kokkinakis, A., York, P., Patra, M., Robertson, J., Kirman, B., Coates, A.,
   \harvardyearleft 2021\harvardyearright , `Metagaming and metagames in
   esports', {\em International Journal of Esports} .
 
+\harvarditem[Lee et~al.]{Lee, Hong \harvardand\ Yang}{2020}{lee2020predicting}
+Lee, S.-K., Hong, S.-J. \harvardand\ Yang, S.-I.  \harvardyearleft
+  2020\harvardyearright , Predicting game outcome in multiplayer online battle
+  arena games, {\em in} `2020 International Conference on Information and
+  Communication Technology Convergence (ICTC)', IEEE, pp.~1261--1263.
+
 \harvarditem{Lin}{2016}{lin2016league}
 Lin, L.  \harvardyearleft 2016\harvardyearright , `League of legends match
   outcome prediction', {\em Comput. Sci. Dept., Univ. Stanford, Stanford, CA,
@@ -72,6 +109,7 @@ Lin, L.  \harvardyearleft 2016\harvardyearright , `League of legends match
 \harvarditem{LoLEsports}{2022}{LCSRules}
 LoLEsports  \harvardyearleft 2022\harvardyearright , {2022 LCS Rule Set},
   Technical report, Riot Games.
+\newline\harvardurl{https://lolesports.com/article/2021-lcs-rule-set-and-penalty-index/bltd4266fc4777c19a9}
 
 \harvarditem{Mangeloja}{2019}{mangeloja2019economics}
 Mangeloja, E.  \harvardyearleft 2019\harvardyearright , `Economics of esports',
@@ -94,6 +132,25 @@ Na, S., Su, Y. \harvardand\ Kunkel, T.  \harvardyearleft 2019\harvardyearright
 Newzoo  \harvardyearleft 2022\harvardyearright , {Global Esports \& Live
   Streaming Market Report}, Technical report, Newzoo.
 
+\harvarditem[Novak et~al.]{Novak, Bennett, Pluss \harvardand\
+  Fransen}{2020}{novak2020performance}
+Novak, A.~R., Bennett, K.~J., Pluss, M.~A. \harvardand\ Fransen, J.
+  \harvardyearleft 2020\harvardyearright , `Performance analysis in esports:
+  modelling performance at the 2018 league of legends world championship', {\em
+  International Journal of Sports Science \& Coaching} {\bf 15}(5-6),~809--817.
+
+\harvarditem{{Oracle's Elixir}}{n.d.}{oraclesElixir}
+{Oracle's Elixir}  \harvardyearleft n.d.\harvardyearright , `{Match Data
+  Downloads}'.
+\newblock Accessed: 06-06-2022.
+\newline\harvardurl{https://oracleselixir.com/tools/downloads}
+
+\harvarditem{Pantzalis \harvardand\ Tjortjis}{2020}{pantzalis2020sports}
+Pantzalis, V.~C. \harvardand\ Tjortjis, C.  \harvardyearleft
+  2020\harvardyearright , Sports analytics for football league table and player
+  performance prediction, {\em in} `2020 11th International Conference on
+  Information, Intelligence, Systems and Applications (IISA', IEEE, pp.~1--8.
+
 \harvarditem{{Riot Games}}{2021}{riotplayercount}
 {Riot Games}  \harvardyearleft 2021\harvardyearright , `{Total League of
   Legends Playercount}'.
@@ -104,6 +161,27 @@ Newzoo  \harvardyearleft 2022\harvardyearright , {Global Esports \& Live
 Sarlis, V. \harvardand\ Tjortjis, C.  \harvardyearleft 2020\harvardyearright ,
   `Sports analytics—evaluation of basketball players and team performance',
   {\em Information Systems} {\bf 93},~101562.
+
+\harvarditem[Scelles et~al.]{Scelles, Peng \harvardand\
+  Valenti}{2021}{scelles2021peculiar}
+Scelles, N., Peng, Q. \harvardand\ Valenti, M.  \harvardyearleft
+  2021\harvardyearright , `Do the peculiar economics of professional team
+  sports apply to esports? sequential snowballing literature reviews and
+  implications', {\em Economies} {\bf 9}(1),~31.
+
+\harvarditem{{scikit-learn}}{n.d.}{scikitDecisionTrees}
+{scikit-learn}  \harvardyearleft n.d.\harvardyearright , `{1.10. Decision
+  Trees}'.
+\newblock Accessed: 24-07-2022.
+\newline\harvardurl{https://scikit-learn.org/stable/modules/tree.html}
+
+\harvarditem[Shen et~al.]{Shen, Zhou, Lin \harvardand\
+  Feng}{2022}{shen2022deep}
+Shen, Y., Zhou, J., Lin, W. \harvardand\ Feng, Z.  \harvardyearleft
+  2022\harvardyearright , A deep learning supported sequential recommendation
+  mechanism for ban-pick in moba games, {\em in} `2022 IEEE 2nd International
+  Conference on Software Engineering and Artificial Intelligence (SEAI)', IEEE,
+  pp.~259--265.
 
 \harvarditem[Silva et~al.]{Silva, Pappa \harvardand\
   Chaimowicz}{2018}{silva2018continuous}

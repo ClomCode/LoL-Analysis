@@ -1,17 +1,58 @@
 % METHODOLOGY CHAPTER
 \chapter{Methodology}\label{ch:methodology}
 
-3000 words
+In this chapter, the methodology that is used to research the topic is presented.
+This study attempts to produce a predictive analytics model that uses a machine learning approach that can predict the match outcomes of a League of Legends match.
+Firstly, an explanation of the pre-processing data-pipeline - how the data was collected, a description of the dataset, and how the data is prepared and cleansed for modelling.
+The subsequent section then follows the dataset through the prediction methodology, and ends with how the predictive capability of the model is tested and assessed.
 
-This section evaluates and justifies the research methodology that will be used to obtain the data to answer the research questions.
-It states the research problem, discusses the operationalization of hypotheses (where relevant), discusses the research instrument used, the method of collecting the data – including sampling, the analysis of the data and the validity and reliability of data.
-It should contain enough detail to allow someone else to repeat your study.
+\section{Data Pre-processing}\label{sec:Data Pre-processing}
+\subsection{Data Overview}\label{subsec:Data Overview}
+The data used in this project is based upon the match data collected from all the League of Legends esports leagues found globally in 2021.
+Oracle's Elixir is a website that collects all the esports match data provided by Riot Games;
+the publisher of League of Legends, and aggregates them into datasets that are freely downloadable and offered to coaches, analysts and fans alike~\citep{oraclesElixir}.
+These datasets are updated daily, and go back until 2014.
+When the dataset is downloaded, it is given in a .csv format that can be opened Microsoft Excel to get an easier perspective of the data.
+Once opened, it can be seen that it is a huge dataset contained within one spreadsheet with 149,496 rows and 123 columns, and will have to be prepared in order to be ready for  modelling.
+The rows contain data from a unique player within a given match, this starts off with the Blue side Top Lane player and continues serially until the Red side Support player is reached, it will then contain a row for each team's collective data.
+This means there are 12 rows for each unique match before reaching data for the next match, this can be seen in Table~\ref{tab:1}.
 
-\section{G}\label{sec:G}
-\lipsum[1]
+\begin{table}[h!]
+\centering
+\caption{An excerpt from the dataset.}
+\begin{tabular}{ c c c c }
+ \hline
+ Participant & Side & Position & TeamName \\ [0.5ex]
+ \hline
+ 1 & Blue & top & DWG KIA \\
+ 2 & Blue & jng & DWG KIA \\
+ 3 & Blue & mid & DWG KIA \\
+ 4 & Blue & bot & DWG KIA \\
+ 5 & Blue & sup & DWG KIA \\
+ 6 & Red & top & Nongshim RedForce \\
+ 7 & Red & jng & Nongshim RedForce \\
+ 8 & Red & mid & Nongshim RedForce \\
+ 9 & Red & bot & Nongshim RedForce \\
+ 10 & Red & sup & Nongshim RedForce \\
+ 100 & Blue & team & DWG KIA \\
+ 200 & Red & team & Nongshim RedForce \\ [1ex]
+ \hline
+\end{tabular}
+\label{tab:1}
+\end{table}
 
-\section{H}\label{sec:H}
-\lipsum[1]
+The target variable is the intended prediction variable, and is found at the eighteenth column named `Result'.
+It is a binary value and simply denotes whether a team wins or loses using 1 and 0 respectively.
+Preceding this column are the match descriptor variables, here lies the unique match id, the league in which the game is played, the date, the game number for best of 5 series, and other information such as match length and those found in Table~\ref{tab:1}.
+One of the key columns that will be used is the `datacompleteness' variable, this contains 4 options of `complete', `found', `partial' and `reparse', and describes the state of the data in a given row.
+Following these 18 match descriptor variables, are the 105 in-game statistic variables that have been recorded.
+The values in these columns will be the key predictors in our match-outcome prediction model, however the usefulness of each variable will be decided later in Section~\ref{subsec:Data Preparation}.
+These predictors range from simple statistics such as the total number of kills or deaths in a given match, to more advanced statistics such as GSPD - The average gold spent difference between teams.
+Many of these statistics also come in the form such as `goldat10' and `goldat15', which is simply the amount of gold obtained by the 10 and 15-minute mark in-game respectively.
+These time-based statistics will be important in factoring how much the match outcome varies by the in-game time.
+Another note about the data, is the fact that it tracks the opponent statistics for all of these statistics inside each row, so this should allow the use of data from only one side whilst maintaining all the statistics from both teams.
 
-\section{I}\label{sec:I}
-\lipsum[1]
+\subsection{Data Preparation}\label{subsec:Data Preparation}
+Data Prep work
+
+\section{Data Modelling}\label{sec:Data Modelling}
