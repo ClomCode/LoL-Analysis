@@ -10,6 +10,11 @@ Abarbanel, B. \harvardand\ Johnson, M.~R.  \harvardyearleft
 {Absolute Reports}  \harvardyearleft 2022\harvardyearright , `Global esports
   betting market'.
 
+\harvarditem{Alin}{2010}{alin2010multicollinearity}
+Alin, A.  \harvardyearleft 2010\harvardyearright , `Multicollinearity', {\em
+  Wiley interdisciplinary reviews: computational statistics} {\bf
+  2}(3),~370--374.
+
 \harvarditem[Ani et~al.]{Ani, Harikumar, Devan \harvardand\
   Deepa}{2019}{ani2019victory}
 Ani, R., Harikumar, V., Devan, A.~K. \harvardand\ Deepa, O.  \harvardyearleft
@@ -22,6 +27,11 @@ Apostolou, K. \harvardand\ Tjortjis, C.  \harvardyearleft 2019\harvardyearright
   , Sports analytics algorithms for performance prediction, {\em in} `2019 10th
   International Conference on Information, Intelligence, Systems and
   Applications (IISA)', IEEE, pp.~1--4.
+
+\harvarditem{Brownlee}{2019}{brownlee2019choose}
+Brownlee, J.  \harvardyearleft 2019\harvardyearright , `How to choose a feature
+  selection method for machine learning', {\em Machine Learning Mastery} {\bf
+  10}.
 
 \harvarditem{Byrne}{2019}{esportsinsider2019}
 Byrne, L.  \harvardyearleft 2019\harvardyearright , `{Betway agrees to a
@@ -86,6 +96,12 @@ Hanke, L. \harvardand\ Chaimowicz, L.  \harvardyearleft 2017\harvardyearright ,
   A recommender system for hero line-ups in moba games, {\em in} `Proceedings
   of the AAAI Conference on Artificial Intelligence and Interactive Digital
   Entertainmen', pp.~43--49.
+
+\harvarditem{{Jayant Verma}}{n.d.}{normalizePython}
+{Jayant Verma}  \harvardyearleft n.d.\harvardyearright , `{2 Easy Ways to
+  Normalize data in Python}'.
+\newblock Accessed: 05-08-2022.
+\newline\harvardurl{https://www.digitalocean.com/community/tutorials/normalize-data-in-python}
 
 \harvarditem[Kokkinakis et~al.]{Kokkinakis, York, Patra, Robertson, Kirman,
   Coates, Pedrassoli~Chitayat, Demediuk, Drachen, Hook
@@ -189,6 +205,12 @@ Silva, A. L.~C., Pappa, G.~L. \harvardand\ Chaimowicz, L.  \harvardyearleft
   2018\harvardyearright , `Continuous outcome prediction of league of legends
   competitive matches using recurrent neural networks', {\em SBC-Proceedings of
   SBCGames} pp.~2179--2259.
+
+\harvarditem{{TIOBE}}{n.d.}{tiobePython}
+{TIOBE}  \harvardyearleft n.d.\harvardyearright , `{TIOBE Index for August
+  2022}'.
+\newblock Accessed: 28-07-2022.
+\newline\harvardurl{https://www.tiobe.com/tiobe-index/}
 
 \harvarditem{Ward \harvardand\ Harmon}{2019}{ward2019esport}
 Ward, M.~R. \harvardand\ Harmon, A.~D.  \harvardyearleft 2019\harvardyearright

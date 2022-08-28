@@ -21,44 +21,44 @@ The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: chapters/ch-appendix.aux
 Database file #1: main.bib
-You've used 33 entries,
+You've used 37 entries,
             2909 wiz_defined-function locations,
-            834 strings with 11403 characters,
-and the built_in function-call counts, 132058 in all, are:
-= -- 21413
-> -- 1774
+            857 strings with 11935 characters,
+and the built_in function-call counts, 140161 in all, are:
+= -- 22662
+> -- 1870
 < -- 0
-+ -- 10142
-- -- 539
-* -- 11302
-:= -- 26617
-add.period$ -- 41
-call.type$ -- 33
-change.case$ -- 464
-chr.to.int$ -- 33
-cite$ -- 33
-duplicate$ -- 548
-empty$ -- 1087
-format.name$ -- 651
-if$ -- 23725
++ -- 10680
+- -- 567
+* -- 11927
+:= -- 28402
+add.period$ -- 47
+call.type$ -- 37
+change.case$ -- 520
+chr.to.int$ -- 37
+cite$ -- 37
+duplicate$ -- 601
+empty$ -- 1201
+format.name$ -- 687
+if$ -- 25146
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 26
-newline$ -- 119
-num.names$ -- 340
-pop$ -- 175
+missing$ -- 28
+newline$ -- 135
+num.names$ -- 380
+pop$ -- 203
 preamble$ -- 1
-purify$ -- 495
+purify$ -- 555
 quote$ -- 0
-skip$ -- 475
+skip$ -- 516
 stack$ -- 0
-substring$ -- 30126
-swap$ -- 115
-text.length$ -- 462
+substring$ -- 31805
+swap$ -- 123
+text.length$ -- 518
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 148
 warning$ -- 0
-while$ -- 735
+while$ -- 821
 width$ -- 0
-write$ -- 450
+write$ -- 502

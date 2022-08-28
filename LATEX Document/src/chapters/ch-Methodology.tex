@@ -53,6 +53,127 @@ These time-based statistics will be important in factoring how much the match ou
 Another note about the data, is the fact that it tracks the opponent statistics for all of these statistics inside each row, so this should allow the use of data from only one side whilst maintaining all the statistics from both teams.
 
 \subsection{Data Preparation}\label{subsec:Data Preparation}
-Data Prep work
+It is vital for the data gathered to be both reliable and of high validity, this is ensured by a rigorous data preparation stage.
+In order for the data to be prepared for modelling, coding is required.
+The coding language used in this study is Python, it is a well-rounded language that is opensource and allows access to great analytical libraries, visualisations and is well documented online whilst being the main analytics language used in industry~\citep{tiobePython}.
+Jupyter Notebooks are used as a personal preference, but any IDE could be used. \\
+
+The CSV file of all the match data for 2021 is read into the notebook as a dataframe.
+The data-types of the dataframe are checked to ensure that they are as intended.
+Once again the data is inspected and a large proportion of missing data becomes visible, many features such as `turretplates' and `elementaldrakes' had well over 100,000 null values and were not fully complete.
+Features like these will likely be removed during feature selection due to their lack of data, otherwise it would ultimately harm the modelling process - the feature selection process will be covered later.
+Firstly, the dataframe is sorted for the feature `datacompleteness' and opts to reject any row that is not `complete', this massively helps reduce the number of null values found in the data.
+Additionally, another filter is used on the `position' feature, reducing our data to only rows with team information instead of a mixture of individual and team data.
+This will help focus on the overall impact of the team's actions in response to an outcome of a match.
+Now the dataframe should only consist of team-base data, but will contain rows for both the blue-side and the red-side teams for each individual `gameid'.
+The problem here is that only one side of data is required to predict with, here it is chosen to predict the outcome of a blue-side team using blue-side match data.
+This issue is easily subverted by dropping any duplicate `gameid' rows, leaving the dataframe with only team-based data from the blue-side team.
+As the dataset is now made-up of only team-based data, no duplicate rows exist and contains no null values, descriptive statistics are used to further inspect the data to search for potential outliers that could corrupt our model.
+This is completed using the `describe' function and manually searching for data minimums and maximums that look suspicious.
+It can be seen that the `gamelength' feature has an unusually high maximum value when compared to both the median value and the 75th percentile value.
+This is then removed by removing any rows that exist above the 99th percentile for `gamelength', reducing the maximum gamelength from over 40,700 minutes, down to a maximum of 47.2 minutes;
+a gamelength that is as expected.
+After these steps are complete, the dataset has been properly cleansed and now 11,145 rows remain.\\
+
+Then comes the step of feature selection that aims to reduce the overall dimensionality of the dataset, increase the computational cost of modelling and to improve the performance of the model~\citep{brownlee2019choose}.
+All the features that include opposition team data are removed as they will cause issues with multicollinearity later, as well as prediction from opposition statistics being deemed redundant for understanding how a given team could improve.
+After removing many features, a correlation matrix is created between the remaining features in the data subset.
+Finding the correlation allows for the measure of how features share an interdependence between one another.
+Here the Kendall correlation is calculated between features using the `corr()' function and visualised using the `heatmap()' function from the `Seaborn' package.
+Correlation values between the target and themselves are deemed better predictors when this value moves closer to 1 or -1.
+Therefore, those features with values close to zero should be removed from the dataset as they likely provide no benefit to the model, whilst adding further complexity.
+On the contrary, features with high correlation values with other predicting features should be removed or reworked due to the issue of multicollinearity~\citep{alin2010multicollinearity}. \\
+
+The correlation matrix can be found at Appendix~\ref{fig:CorrMat1}.
+Here it can be observed that the correlations with our target - `result', range anywhere between an absolute minimum value of 0.17 from the `firstdragon' and `assistsat10' features, to 0.66 from the `firstbaron' variable.
+These correlations suggest that most features have a weak-moderate, with a few stronger predictors such as `firstbaron' and `firstthreetowers'.
+When the correlation between features is examined, features containing assists and kills at the 10 and 15 minute mark are highly positively correlated with a values of 0.80 and 0.78.
+When correlations are high between features, these features should be either be ignored or transformed.
+Here it is chosen to transform these features, as they both are deemed useful to the model due to their correlation to the target variable.
+These four features will simply be combined to create two new features called `KillParat10' and `KillParat15', and were constructed as such:
+
+\[ Kill \: Participations = Kills + Assists \]
+
+Checking the correlation of these new features now shows that the relationship between the target remains stable, whilst removing the problematic large correlations between predictor features in the dataset.
+Another correlation issue is seen between recurrent features at different minute intervals in-game.
+This is fixed by splitting these features into different datasets which in-turn will create separate models based on the statistics from the 10-minute mark and the 15-minute mark. \\
+
+Balancing the data was deemed unnecessary due to the target variable - `result', having a 52.8 - 47.2\% win to loss balance as seen in Figure~\ref{fig:DataBalance}.
+This means that the dataset does not require any balancing techniques such as SMOTE to be applied, as it already should give reliable and decisive outputs.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/DataBalance}
+    \caption{A graph showing the target balance of the dataset}
+    \label{fig:DataBalance}
+\end{figure}
+
+Finally, the data is put through the normalization process, re-scaling the data in each column between the values of 0 and 1.
+This step is completed to reduce the effects of the magnitude of feature scale on the model, potentially creating faster converging and better performing models~\citep{normalizePython}.
 
 \section{Data Modelling}\label{sec:Data Modelling}
+Now that the dataset has been properly collected, cleansed and processed, the data can enter the data modelling process.
+With this data the target is a binary classification problem, meaning that a classification algorithm is required to help generate a probability for our target variable based on our features.
+As mentioned in Section~\ref{ch:literaturereview}, previous works have used a variety of methods such as Naïve Bayes classifiers, the Random Forest algorithm, Recurrent Neural Networks and Gradient Boosting.
+For this instance, it is chosen to use the Python Libraries - `scikit-learn' and `pycaret', they both offer a wide range of machine learning techniques
+After reviewing the possible models, it was chosen that the Random Forest algorithm would be used to create the baseline model.
+Then the PyCaret library would be used to test a larger pool of techniques and ultimately tune the model until the final model is chosen.
+The Random Forest algorithm is a commonly used supervised machine learning algorithm that creates an ensemble of decision trees and uses a bagging, majority voting system to help classify our problem - see Figure~\ref{fig:RandomForest}.
+This technique ensures that the chance of overfitting is kept to a minimum, as well as allowing for easy determination of importance from any given feature in the model.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/RandomForest}
+    \caption{A diagram showing how the Random Forest algorithm classifies}
+    \label{fig:RandomForest}
+\end{figure}
+
+A binary logistic regression model was also developed following the Random Forest Model.
+Like the previous model, a logistic regression classifier can estimate the probability of a target binary response variable using a set of predictor variables.
+This machine learning technique is based upon the natural logarithm of the odds;
+commonly referred to as a logit or log-odds, system for each event with a logistic function converting these log-odds into a probability.
+This logistic function is a sigmoid function that takes inputs between the bound of zero and one, it is defined as follows:
+
+\[ p(x) \:= \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \]
+
+Here \(\beta_{0}\) is the intercept from the linear regression equation which is solved using numerical methods, and \(\beta_{1}x\) is the regression coefficient.
+With \(x\) being a combination of values from the predictor variables.
+Once solved for \(p(x)\), it will provide the probability for the Blue-side team winning a given match. \\
+
+The data then needs to be split into training data and testing data.
+Here a subset of the total dataset is split purely to train the machine learning model, before it is deployed to unseen training data.
+This help guarantees the model ensuring that there is no overfitting to the seen data, and validates the quality of the model.
+The data split ratio is chosen at a 70:30 train-test data split.
+This allows a larger split to train the model, and the test data will be tested on a more robust, accurate model because of this.
+A technique called Stratified K-Fold cross validation is used to get an accurate representation of the overall population balance from the target variable - reflecting the 52.8 - 47.2\% win-loss balance, as well as evaluating a truer accuracy by summarising models built upon K subsets of data.
+This leads to a model that is less biased overall and more realistic in its prediction accuracies. \\
+
+Table~\ref{tab:ModelsBuilt} shows the four models which were built for analysis purposes.
+The first three models were built using the Random Forest Algorithm with the 10, 15 and 20 minute datasets, and the following three models were built using Logistic Regression
+also using the datasets from the 10, 15 and 20 minute marks.
+
+\begin{table}[h!]
+\centering
+\caption{A table describing the models that were built}
+\begin{tabular}{ c c c }
+ \hline
+ Model & Technique & Dataset \\ [0.5ex]
+ \hline
+ 1 & Random Forest & 10-minute \\
+ 2 & Random Forest & 15-minute \\
+ 3 & Random Forest & 20-minute \\
+ 4 & Logistic Regression & 10-minute \\
+ 5 & Logistic Regression & 15-minute \\
+ 6 & Logistic Regression & 20-minute \\[1ex]
+ \hline
+\end{tabular}
+\label{tab:ModelsBuilt}
+\end{table}
+
+\section{Summary}\label{sec:MethodSummary}
+In this Chapter, the data extracted from Oracle's Elixir was explored and described in a data overview.
+The methodology behind the data preparation were rationalised during the data cleansing and pre-processing subsections, highlighting key techniques used to ensure the data modelling process would work correctly.
+This helped reduce the dataset from over 140,000 rows with 100+ features to a more succinct and useful 11,000 rows with less than 20 features.
+This was then followed by the data modelling subsection, that explained the machine learning techniques used to create the predictive modelling system.
+Following this chapter is Chapter~\ref{ch:results}, which will present and analyse the results of this work.
+

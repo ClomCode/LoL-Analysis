@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  22 AUG 2022 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  28 AUG 2022 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,7 +664,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 36.
-<figures/SurreyCrest.png, id=150, 217.81375pt x 248.93pt>
+<figures/SurreyCrest.png, id=154, 217.81375pt x 248.93pt>
 File: figures/SurreyCrest.png Graphic file (type png)
 <use figures/SurreyCrest.png>
 Package pdftex.def Info: figures/SurreyCrest.png  used on input line 61.
@@ -762,7 +762,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--35
  []
 
 [2]
-<figures/MOBAMap.png, id=341, 1027.84pt x 1027.84pt>
+<figures/MOBAMap.png, id=354, 1027.84pt x 1027.84pt>
 File: figures/MOBAMap.png Graphic file (type png)
 <use figures/MOBAMap.png>
 Package pdftex.def Info: figures/MOBAMap.png  used on input line 38.
@@ -773,7 +773,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--66
  []
 
 [4]
-<figures/DraftPhase.png, id=365, 1178.4025pt x 204.765pt>
+<figures/DraftPhase.png, id=378, 1178.4025pt x 204.765pt>
 File: figures/DraftPhase.png Graphic file (type png)
 <use figures/DraftPhase.png>
 Package pdftex.def Info: figures/DraftPhase.png  used on input line 80.
@@ -783,7 +783,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[6]) [7]
+) [6]
 \openout2 = `chapters/ch-LiteratureReview.aux'.
 
  (chapters/ch-LiteratureReview.tex
@@ -798,7 +798,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--17
 
  []
 
-[8
+[7
 
 
 
@@ -813,7 +813,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--31
 
  []
 
-[9]
+[8]
 Overfull \hbox (2.29178pt too wide) in paragraph at lines 32--39
 [][]\OT1/cmr/m/n/12 Gaina & Nord-moen[] ([]2018[]) built upon the study from []
 Lin[] ([]2016[]), analysing
@@ -824,23 +824,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--39
 
  []
 
-[10] [11]
-<figures/MCTS Selection.png, id=454, 528.97626pt x 393.47pt>
+[9] [10]
+<figures/MCTS Selection.png, id=463, 528.97626pt x 393.47pt>
 File: figures/MCTS Selection.png Graphic file (type png)
 <use figures/MCTS Selection.png>
 Package pdftex.def Info: figures/MCTS Selection.png  used on input line 63.
 (pdftex.def)             Requested size: 156.0006pt x 116.0366pt.
-<figures/MCTS Expansion.png, id=455, 528.97626pt x 505.89pt>
+<figures/MCTS Expansion.png, id=464, 528.97626pt x 505.89pt>
 File: figures/MCTS Expansion.png Graphic file (type png)
 <use figures/MCTS Expansion.png>
 Package pdftex.def Info: figures/MCTS Expansion.png  used on input line 69.
 (pdftex.def)             Requested size: 156.0006pt x 149.18993pt.
-<figures/MCTS Simulation.png, id=456, 528.97626pt x 581.17125pt>
+<figures/MCTS Simulation.png, id=465, 528.97626pt x 581.17125pt>
 File: figures/MCTS Simulation.png Graphic file (type png)
 <use figures/MCTS Simulation.png>
 Package pdftex.def Info: figures/MCTS Simulation.png  used on input line 75.
 (pdftex.def)             Requested size: 156.0006pt x 171.39082pt.
-<figures/MCTS Backpropagation.png, id=457, 528.97626pt x 505.89pt>
+<figures/MCTS Backpropagation.png, id=466, 528.97626pt x 505.89pt>
 File: figures/MCTS Backpropagation.png Graphic file (type png)
 <use figures/MCTS Backpropagation.png>
 Package pdftex.def Info: figures/MCTS Backpropagation.png  used on input line 8
@@ -851,39 +851,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
-[12 <./figures/MCTS Selection.png> <./figures/MCTS Expansion.png> <./figures/MC
+[11 <./figures/MCTS Selection.png> <./figures/MCTS Expansion.png> <./figures/MC
 TS Simulation.png> <./figures/MCTS Backpropagation.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 100--108
 
  []
 
-[13]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 109--120
 
  []
 
-[14]
+[13]
 Overfull \hbox (2.65239pt too wide) in paragraph at lines 135--135
 \OT1/cmr/m/it/12 dic-tion mod-els for match out-comes are fea-si-ble out-side o
 f academia
  []
 
-) [15]
+) [14]
 \openout2 = `chapters/ch-Methodology.aux'.
 
  (chapters/ch-Methodology.tex
 Chapter 3.
-[16
+[15
 
 
 
 
-] [17]) [18]
+] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--77
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
+
+ []
+
+[19]
+<figures/DataBalance.png, id=562, 505.89pt x 358.33875pt>
+File: figures/DataBalance.png Graphic file (type png)
+<use figures/DataBalance.png>
+Package pdftex.def Info: figures/DataBalance.png  used on input line 106.
+(pdftex.def)             Requested size: 350.99762pt x 248.62642pt.
+ [20 <./figures/DataBalance.png (PNG copy)>]
+<figures/RandomForest.png, id=572, 343.2825pt x 493.845pt>
+File: figures/RandomForest.png Graphic file (type png)
+<use figures/RandomForest.png>
+Package pdftex.def Info: figures/RandomForest.png  used on input line 126.
+(pdftex.def)             Requested size: 195.0pt x 280.52249pt.
+ [21 <./figures/RandomForest.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--150
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22]) [23]
 \openout2 = `chapters/ch-Results.aux'.
 
  (chapters/ch-Results.tex
 Chapter 4.
-) [19
+) [24
 
 
 
@@ -893,72 +938,83 @@ Chapter 4.
 
  (chapters/ch-Conclusion.tex
 Chapter 5.
-) [20
+) [25
 
 
 
 
-] [21]
+] [26]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 27--31
+Underfull \hbox (badness 10000) in paragraph at lines 37--41
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://esportsinsider.com/2019/03/betwa
 y-agrees-to-a-one-year-
  []
 
-[22
+[27
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.zdnet.com/article/google-alp
 hago-ai-clean-sweeps-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--72
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.esportsearnings.com/tourname
 nts/largest-team-
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 101--105
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.digitalocean.com/community/t
+utorials/normalize-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://lolesports.com/article/2021-lcs-
 rule-set-and-penalty-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 136--140
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://upcomer.com/worlds-2021-final-dr
 aws-73-8-million-peak-
  []
 
-[24]
-Overfull \hbox (1.66959pt too wide) in paragraph at lines 155--159
+[29]
+Overfull \hbox (1.66959pt too wide) in paragraph at lines 171--175
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://twitter.com/riotgames/status/145
 5172784938651649?s=20-
  []
 
-) [25]
+[30]) [31]
 \openout2 = `chapters/ch-appendix.aux'.
 
  (chapters/ch-appendix.tex
 Appendix A.
-[26
+[32
 
 
 ]
 Appendix B.
-[27
+[33
 
 ]
 Appendix C.
-[28
+<figures/CorrMat1.png, id=636, 1031.855pt x 942.52126pt>
+File: figures/CorrMat1.png Graphic file (type png)
+<use figures/CorrMat1.png>
+Package pdftex.def Info: figures/CorrMat1.png  used on input line 14.
+(pdftex.def)             Requested size: 390.0pt x 356.23465pt.
+[34
 
-]
+ <./figures/CorrMat1.png (PNG copy)>]
 Appendix D.
-) [29
+) [35
 
 ]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
@@ -980,14 +1036,14 @@ rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\chapters/ch-appendix.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D0B479FD6A814EE2FA570696660A07C;4617.
+(rerunfilecheck)             Checksum: 77055B505240266796C475B2E5D58D45;4707.
  ) 
 Here is how much of TeX's memory you used:
- 21143 strings out of 478614
- 418861 string characters out of 2843122
- 816780 words of memory out of 3000000
- 38829 multiletter control sequences out of 15000+600000
- 478049 words of font info for 57 fonts, out of 8000000 for 9000
+ 21210 strings out of 478614
+ 420333 string characters out of 2843122
+ 817269 words of memory out of 3000000
+ 38878 multiletter control sequences out of 15000+600000
+ 478055 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,8n,91p,1132b,604s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -995,15 +1051,21 @@ Here is how much of TeX's memory you used:
 0\tcti1200.pk><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Calum/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Calum/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Calum/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Calum/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Calum/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Calum/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ca
+lum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
+Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.p
+fb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (39 pages, 66864
-2 bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (45 pages, 90052
+8 bytes).
 PDF statistics:
- 646 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 332 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
