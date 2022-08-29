@@ -5,6 +5,10 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces An excerpt from the dataset.\relax }}{16}{table.caption.13}%
 \contentsline {table}{\numberline {3.2}{\ignorespaces A table describing the models that were built\relax }}{23}{table.caption.16}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces A table showing the model results for the 10 minute dataset\relax }}{27}{table.caption.18}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces A table showing the mean metrics after 10-fold cross-validation\relax }}{28}{table.caption.19}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces A table showing the model results for the 15 minute dataset\relax }}{30}{table.caption.21}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces A table showing the model results for the 20 minute dataset\relax }}{30}{table.caption.22}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

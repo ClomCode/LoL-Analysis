@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  28 AUG 2022 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  30 AUG 2022 00:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -562,18 +562,75 @@ Package: datatool 2019/09/27 v2.32 (NLCT)
 \dtl@entrycr=\count341
 \dtl@omitlines=\count342
 )
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count343
+\@cmidlb=\count344
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count345
+\@lastruleclass=\count346
+\@thisrulewidth=\dimen185
+)
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count347
+\calc@Bcount=\count348
+\calc@Adimen=\dimen186
+\calc@Bdimen=\dimen187
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count349
+\calc@Cskip=\skip70
+)
+(C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count350
+\l_MT_multwidth_dim=\dimen188
+\origjot=\skip71
+\l_MT_shortvdotswithinadjustabove_dim=\dimen189
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen190
+\l_MT_above_intertext_sep=\dimen191
+\l_MT_below_intertext_sep=\dimen192
+\l_MT_above_shortintertext_sep=\dimen193
+\l_MT_below_shortintertext_sep=\dimen194
+\xmathstrut@box=\box59
+\xmathstrut@dim=\dimen195
+)
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 32.
+e 34.
 
 (abbreviations.tex
-\c@g@acro@MOBA@int=\count343
-\c@g@acro@RNN@int=\count344
-\c@g@acro@MCTS@int=\count345
-\c@g@acro@NLP@int=\count346
+\c@g@acro@MOBA@int=\count351
+\c@g@acro@RNN@int=\count352
+\c@g@acro@MCTS@int=\count353
+\c@g@acro@NLP@int=\count354
+\c@g@acro@TP@int=\count355
+\c@g@acro@TN@int=\count356
+\c@g@acro@FP@int=\count357
+\c@g@acro@FN@int=\count358
+\c@g@acro@ROC@int=\count359
+\c@g@acro@FPR@int=\count360
+\c@g@acro@AUC@int=\count361
 ) (glossary.tex)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 36.
+h' as default language. on input line 38.
 
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
@@ -595,25 +652,25 @@ rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux)
 rtation Project\LATEX Document\auxil\chapters/ch-appendix.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-Package hyperref Info: Link coloring OFF on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+Package hyperref Info: Link coloring OFF on input line 38.
 
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.out)
@@ -626,16 +683,16 @@ rtation Project\LATEX Document\auxil\main.out)
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count347
-\scratchdimen=\dimen173
-\scratchbox=\box59
-\nofMPsegments=\count348
-\nofMParguments=\count349
+\scratchcounter=\count362
+\scratchdimen=\dimen196
+\scratchbox=\box60
+\nofMPsegments=\count363
+\nofMParguments=\count364
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count350
-\MPscratchDim=\dimen174
-\MPnumerator=\count351
-\makeMPintoPDFobject=\count352
+\MPscratchCnt=\count365
+\MPscratchDim=\dimen197
+\MPnumerator=\count366
+\makeMPintoPDFobject=\count367
 \everyMPtoPDFconversion=\toks56
 )
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -663,11 +720,11 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 36.
-<figures/SurreyCrest.png, id=154, 217.81375pt x 248.93pt>
+or `english'. on input line 38.
+<figures/SurreyCrest.png, id=162, 217.81375pt x 248.93pt>
 File: figures/SurreyCrest.png Graphic file (type png)
 <use figures/SurreyCrest.png>
-Package pdftex.def Info: figures/SurreyCrest.png  used on input line 61.
+Package pdftex.def Info: figures/SurreyCrest.png  used on input line 63.
 (pdftex.def)             Requested size: 113.81102pt x 130.06726pt.
  [1
 
@@ -762,7 +819,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--35
  []
 
 [2]
-<figures/MOBAMap.png, id=354, 1027.84pt x 1027.84pt>
+<figures/MOBAMap.png, id=377, 1027.84pt x 1027.84pt>
 File: figures/MOBAMap.png Graphic file (type png)
 <use figures/MOBAMap.png>
 Package pdftex.def Info: figures/MOBAMap.png  used on input line 38.
@@ -773,7 +830,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--66
  []
 
 [4]
-<figures/DraftPhase.png, id=378, 1178.4025pt x 204.765pt>
+<figures/DraftPhase.png, id=401, 1178.4025pt x 204.765pt>
 File: figures/DraftPhase.png Graphic file (type png)
 <use figures/DraftPhase.png>
 Package pdftex.def Info: figures/DraftPhase.png  used on input line 80.
@@ -825,22 +882,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--39
  []
 
 [9] [10]
-<figures/MCTS Selection.png, id=463, 528.97626pt x 393.47pt>
+<figures/MCTS Selection.png, id=486, 528.97626pt x 393.47pt>
 File: figures/MCTS Selection.png Graphic file (type png)
 <use figures/MCTS Selection.png>
 Package pdftex.def Info: figures/MCTS Selection.png  used on input line 63.
 (pdftex.def)             Requested size: 156.0006pt x 116.0366pt.
-<figures/MCTS Expansion.png, id=464, 528.97626pt x 505.89pt>
+<figures/MCTS Expansion.png, id=487, 528.97626pt x 505.89pt>
 File: figures/MCTS Expansion.png Graphic file (type png)
 <use figures/MCTS Expansion.png>
 Package pdftex.def Info: figures/MCTS Expansion.png  used on input line 69.
 (pdftex.def)             Requested size: 156.0006pt x 149.18993pt.
-<figures/MCTS Simulation.png, id=465, 528.97626pt x 581.17125pt>
+<figures/MCTS Simulation.png, id=488, 528.97626pt x 581.17125pt>
 File: figures/MCTS Simulation.png Graphic file (type png)
 <use figures/MCTS Simulation.png>
 Package pdftex.def Info: figures/MCTS Simulation.png  used on input line 75.
 (pdftex.def)             Requested size: 156.0006pt x 171.39082pt.
-<figures/MCTS Backpropagation.png, id=466, 528.97626pt x 505.89pt>
+<figures/MCTS Backpropagation.png, id=489, 528.97626pt x 505.89pt>
 File: figures/MCTS Backpropagation.png Graphic file (type png)
 <use figures/MCTS Backpropagation.png>
 Package pdftex.def Info: figures/MCTS Backpropagation.png  used on input line 8
@@ -899,13 +956,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--100
  []
 
 [19]
-<figures/DataBalance.png, id=562, 505.89pt x 358.33875pt>
+<figures/DataBalance.png, id=585, 505.89pt x 358.33875pt>
 File: figures/DataBalance.png Graphic file (type png)
 <use figures/DataBalance.png>
 Package pdftex.def Info: figures/DataBalance.png  used on input line 106.
 (pdftex.def)             Requested size: 350.99762pt x 248.62642pt.
  [20 <./figures/DataBalance.png (PNG copy)>]
-<figures/RandomForest.png, id=572, 343.2825pt x 493.845pt>
+<figures/RandomForest.png, id=595, 343.2825pt x 493.845pt>
 File: figures/RandomForest.png Graphic file (type png)
 <use figures/RandomForest.png>
 Package pdftex.def Info: figures/RandomForest.png  used on input line 126.
@@ -928,22 +985,71 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  (chapters/ch-Results.tex
 Chapter 4.
-) [24
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+
+ []
+
+<figures/ConfusionMatrix10.png, id=617, 566.115pt x 385.44pt>
+File: figures/ConfusionMatrix10.png Graphic file (type png)
+<use figures/ConfusionMatrix10.png>
+Package pdftex.def Info: figures/ConfusionMatrix10.png  used on input line 16.
+(pdftex.def)             Requested size: 312.00119pt x 212.43375pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24
 
 
 
 
-]
+] [25 <./figures/ConfusionMatrix10.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 49--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+[26]
+Overfull \hbox (20.77995pt too wide) in paragraph at lines 64--82
+ [][] 
+ []
+
+[27]
+<figures/FeatureImport10.png, id=643, 777.90625pt x 460.72125pt>
+File: figures/FeatureImport10.png Graphic file (type png)
+<use figures/FeatureImport10.png>
+Package pdftex.def Info: figures/FeatureImport10.png  used on input line 119.
+(pdftex.def)             Requested size: 390.0pt x 230.98573pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (20.77995pt too wide) in paragraph at lines 134--153
+ [][] 
+ []
+
+[28]
+Overfull \hbox (20.77995pt too wide) in paragraph at lines 169--188
+ [][] 
+ []
+
+) [29 <./figures/FeatureImport10.png (PNG copy)>] [30]
 \openout2 = `chapters/ch-Conclusion.aux'.
 
- (chapters/ch-Conclusion.tex
+
+(chapters/ch-Conclusion.tex
 Chapter 5.
-) [25
+) [31
 
 
 
 
-] [26]
+] [32]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 37--41
@@ -951,7 +1057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--41
 y-agrees-to-a-one-year-
  []
 
-[27
+[33
 
 
 
@@ -967,54 +1073,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--72
 nts/largest-team-
  []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 101--105
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://developers.google.com/machine-le
+arning/crash-
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.digitalocean.com/community/t
 utorials/normalize-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://lolesports.com/article/2021-lcs-
 rule-set-and-penalty-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://upcomer.com/worlds-2021-final-dr
 aws-73-8-million-peak-
  []
 
-[29]
-Overfull \hbox (1.66959pt too wide) in paragraph at lines 171--175
+[35]
+Overfull \hbox (1.66959pt too wide) in paragraph at lines 177--181
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://twitter.com/riotgames/status/145
 5172784938651649?s=20-
  []
 
-[30]) [31]
+[36]) [37]
 \openout2 = `chapters/ch-appendix.aux'.
 
  (chapters/ch-appendix.tex
 Appendix A.
-[32
+[38
 
 
 ]
 Appendix B.
-[33
+[39
 
 ]
 Appendix C.
-<figures/CorrMat1.png, id=636, 1031.855pt x 942.52126pt>
+<figures/CorrMat1.png, id=697, 1031.855pt x 942.52126pt>
 File: figures/CorrMat1.png Graphic file (type png)
 <use figures/CorrMat1.png>
 Package pdftex.def Info: figures/CorrMat1.png  used on input line 14.
 (pdftex.def)             Requested size: 390.0pt x 356.23465pt.
-[34
+[40
 
  <./figures/CorrMat1.png (PNG copy)>]
 Appendix D.
-) [35
+) [41
 
 ]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
@@ -1036,36 +1148,37 @@ rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\chapters/ch-appendix.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 77055B505240266796C475B2E5D58D45;4707.
+(rerunfilecheck)             Checksum: B0E0064595048252E964B0AC37A39874;5489.
  ) 
 Here is how much of TeX's memory you used:
- 21210 strings out of 478614
- 420333 string characters out of 2843122
- 817269 words of memory out of 3000000
- 38878 multiletter control sequences out of 15000+600000
- 478055 words of font info for 57 fonts, out of 8000000 for 9000
+ 22643 strings out of 478614
+ 460923 string characters out of 2843122
+ 851651 words of memory out of 3000000
+ 40280 multiletter control sequences out of 15000+600000
+ 480168 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,8n,91p,1132b,604s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 91i,8n,91p,1132b,614s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk> <C:\Users\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcti1200.pk><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Calum/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Calum/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Calum/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ca
-lum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
-Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.p
-fb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb>
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Calum/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Calum/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Calum/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/C
+alum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (45 pages, 90052
-8 bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (51 pages, 96723
+6 bytes).
 PDF statistics:
- 733 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
- 355 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 802 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

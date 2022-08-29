@@ -26,14 +26,16 @@
 \contentsline {section}{\numberline {3.2}Data Modelling}{20}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Summary}{23}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Results}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}J}{24}{section.4.1}%
-\contentsline {section}{\numberline {4.2}K}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}L}{24}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}M}{26}{section.5.1}%
-\contentsline {section}{\numberline {5.2}N}{26}{section.5.2}%
-\contentsline {section}{\numberline {5.3}O}{26}{section.5.3}%
-\contentsline {chapter}{\numberline {A}Python Code}{32}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Data Description}{33}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Feature Correlations}{34}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Idk}{35}{appendix.D}%
+\contentsline {section}{\numberline {4.1}Performance Metrics}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Model Results}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}10 Minute Model}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}15 Minute Model}{28}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}20 Minute Model}{29}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Works}{32}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Research Limitations}{32}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Further Research}{32}{section.5.3}%
+\contentsline {chapter}{\numberline {A}Python Code}{38}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Data Description}{39}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Feature Correlations}{40}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Idk}{41}{appendix.D}%

@@ -8,9 +8,11 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces A graph showing the target balance of the dataset\relax }}{20}{figure.caption.14}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces A diagram showing how the Random Forest algorithm classifies\relax }}{21}{figure.caption.15}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A confusion matrix of a Logistic Regression Model trained on the 10 minute dataset\relax }}{25}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A graph showing the imp 10 minute dataset\relax }}{29}{figure.caption.20}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces A matrix of correlations between features in the dataset\relax }}{34}{figure.caption.18}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces A matrix of correlations between features in the dataset\relax }}{40}{figure.caption.24}%
 \addvspace {10\p@ }
