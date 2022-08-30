@@ -29,13 +29,13 @@
 \contentsline {section}{\numberline {4.1}Performance Metrics}{24}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Model Results}{27}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}10 Minute Model}{27}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}15 Minute Model}{28}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}20 Minute Model}{29}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{31}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Works}{32}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Research Limitations}{32}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Further Research}{32}{section.5.3}%
-\contentsline {chapter}{\numberline {A}Python Code}{38}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Data Description}{39}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Feature Correlations}{40}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Idk}{41}{appendix.D}%
+\contentsline {subsection}{\numberline {4.2.2}15 Minute Model}{29}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}20 Minute Model}{32}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Discussion of Results}{35}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Works}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Research Limitations}{37}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Further Research}{37}{section.5.3}%
+\contentsline {chapter}{\numberline {A}Python Code}{43}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Data Description}{44}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Feature Correlations}{45}{appendix.C}%

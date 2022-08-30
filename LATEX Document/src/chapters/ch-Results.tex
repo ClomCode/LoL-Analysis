@@ -9,7 +9,7 @@ The machine learning algorithms are evaluated to determine the best model at pre
 The performance of any algorithm is evaluated by a few factors that are measured on the test dataset, where the trained model attempts to correctly predict the target field and this performance is then compared to its true outcome.
 This assessment method is the norm on any binary classification problem and often will be visualised using a confusion matrix.
 The confusion matrix is a simple visualisation in which the four possible permutations of predictions are displayed.
-As seen in Figure~\ref{fig:ConfusionMatrix10}, it compares the number of predictions of wins and losses made by the model verses the number of real wins and losses found in the dataset. \\
+As seen in Figure~\ref{fig:ConfusionMatrix10}, it compares the number of predictions of wins and losses made by the model versus the number of real wins and losses found in the dataset. \\
 
 \begin{figure}[h]
     \centering
@@ -46,13 +46,15 @@ Other metrics such as AUC, Precision, Recall are also calculated and evaluated, 
     FPR = \frac{\sum FP}{\sum FP + \sum TN}\\
 \end{gather*}
 
-A \ac{ROC} curve is a graph that plots the Recall verses the \ac{FPR}, it plots these performance metrics between the bounds of zero and one.
+A \ac{ROC} curve is a graph that plots the Recall versus the \ac{FPR}, it plots these performance metrics between the bounds of zero and one.
 \ac{AUC}, is a measure that understandably calculates the area under the \ac{ROC} curve which provides a measure of performance across all possible classification thresholds~\citep{aucGoogle}.
 Essentially, \ac{AUC} is the probability that a model can distinguish between a positive and negative class - in this study it represents the ability to distinguish wins from losses.
 Therefore, to conclusively accept a model as a feasible option, the Accuracy and AUC are the two core metrics that a model will have to score sufficiently on and will ultimately be the performance indicators to evaluate with. \\
 
+
 \section{Model Results}\label{sec:Model Results}
 \subsection{10 Minute Model}\label{subsec:10-minute-model}
+
 
 As seen in Table~\ref{tab:ModelResults10}, most of the machine learning algorithms score quite similarly.
 The four metrics of Accuracy, AUC, Recall and Precision all are within a 5\% range for every algorithm tested.
@@ -88,7 +90,7 @@ These techniques are techniques based on linear regression analysis that opt to 
 These results then may indicate that the problem of match outcomes in League of Legends is linearly separable.
 The model for the 10-minute mark was chosen to be built upon a logistic regression technique.
 Firstly, the model is tested across the data split by the stratified k-fold cross-validation and tuned afterwards.
-The resultant performance metrics can be seen in Table~\ref{tab:Kfold10}.
+The resultant performance metrics can be seen in Table~\ref{tab:Kfold10}. \\
 
 \begin{table}[h]
     \centering
@@ -100,7 +102,7 @@ The resultant performance metrics can be seen in Table~\ref{tab:Kfold10}.
         Std & 0.0150 & 0.0169 & 0.0285 & 0.0116 \\
         \bottomrule
     \end{tabular}
-    \caption{A table showing the mean metrics after 10-fold cross-validation}
+    \caption{A table showing the mean metrics for the 10 minute logistic regression model after 10-fold cross-validation}
     \label{tab:Kfold10}
 \end{table}
 
@@ -112,24 +114,27 @@ The top 10 features by feature importance are presented down the y-axis in decre
 The most important features are those related to the player performance inside their lanes such as `csdiffat10', `deathsat10' and `KillParat10', with more objective team-based features having lower importance in predicting the resultant outcome of a given match.
 At first this seems counter-intuitive, especially when given that teams must destroy towers in order to eventually win the game.
 However, it is likely that at this stage of the game there is very low likelihood that teams can effectively destroy towers, so the focus should be on progressing their individual leads inside their lane.
-These leads that they garner are reflected in the three features mentioned previously, and should translate into further advantages in more objective oriented features in a later game-state.
+These leads that they garner are reflected in the three features mentioned previously, and should translate into further advantages in more objective oriented features in a later game-state. \\
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{figures/FeatureImport10}
-    \caption{A graph showing the imp 10 minute dataset}
+    \caption{A graph showing the Relative Importance of the features in the Logistic Regression Model using the 10 minute dataset}
     \label{fig:FeatureImport10}
 \end{figure}
 
-
-
+\newpage
 
 \subsection{15 Minute Model}\label{subsec:15-minute-model}
 
-Table~\ref{tab:ModelResults15} highlights that once again that all the machine learning algorithms score within a 5\% range of the four key metrics tracked.
+Table~\ref{tab:ModelResults15} highlights that once again that all but one of the machine learning algorithms score within a 5\% range of the four key metrics tracked.
 The two best performing machine learning algorithm remain the Logistic Regression model and the Linear Discriminant Analysis model, scoring an accuracy of 76.84\% and 76.87\%,  and AUC values of 84.74\% and 84.53\% respectively.
+Once again the decision tree based algorithms that were commonly used in previous studies appear to vastly under-perform when compared to Logistic Regression or Linear Discriminant Analysis, with the Decision Tree Classifier falling behind by roughly 10\% across all the four key metrics calculated.
+It is once again chosen for the Logistic Regression model to be the final model for the 15-minute dataset.
+The model is once again built and a stratified k-fold cross-validation is applied.
+The final performance metrics can be seen in Table~\ref{tab:Kfold15}. \\
 
-\begin{table}
+\begin{table}[h]
     \centering
     \begin{tabular}{l c c c c }
         \toprule
@@ -154,17 +159,58 @@ The two best performing machine learning algorithm remain the Logistic Regressio
     \label{tab:ModelResults15}
 \end{table}
 
+Table~\ref{tab:Kfold15} shows an accuracy increase of 0.22\% after tuning, bumping the Logistical Regression model accuracy value to 77.06\%.
+The change in the accuracy of the model between the 10 to 15 minute models only increases by roughly 2\%.
+This increase is much lower than expected when compared to previous studies such as~\citet{silva2018continuous, lee2020predicting} achieving increases of ~5-6\% between the same period in game time, albeit whilst achieving accuracy levels on par or greater than its predecessors.
+These differences between studies are likely due to differences in the feature selection stage, as well as both the quality of the data collected and the metrics that the data offer.
+In the dataset used in this study, there are many binary objective-type features that are labelled as to which team had completed them first.
+These variables are often important milestones that help a team towards victory throughout the game, but most importantly they often can reveal which team is in control at a given game-time and thus be a key predictor into the victor of the overall match. \\
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lcccccc}
+        \toprule
+        \textbf{} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
+        \midrule
+        Mean & 0.7706 & 0.8478 & 0.7752 & 0.7889 \\
+        Std & 0.0200 & 0.0173 & 0.0289 & 0.0198 \\
+        \bottomrule
+    \end{tabular}
+    \caption{A table showing the mean metrics for the 15 minute Logistic Regression model after 10-fold cross-validation}
+    \label{tab:Kfold15}
+\end{table}
+
+Again, the feature importance of the features included in the dataset were calculated and visualised.
+Figure~\ref{fig:FeatureImport15} shows the average relative importance of each feature when using the 15-minute dataset.
+It remains that the most important features are those related to the player performance inside their lanes such as `csdiffat15', `deathsat15' and `KillParat15', with slightly more emphasis on `deathsat15' when compared to the previous model.
+In fact the relative importance for these features has roughly doubled
+with more objective team-based features having lower importance in predicting the resultant outcome of a given match.
+An interesting feature that appears here is in fact when the blue side team loses their first tower.
+The model believes this to be an important factor in the blue side achieving a victory, which is the opposite notion to what the previous model suggests.
+However, the model still believes that destroying the mid-lane tower is the prime team-based objective on the map within the first 15 minute mark.
+This could lead to the conclusion that as long as the blue side team obtains the first mid-lane tower, but allows the opposition to take the first tower in either the top or bottom lane, that this will still lead to a higher probability of a match victory. \\
 
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/FeatureImport15}
+    \caption{A graph showing the Relative Importance of the features in the Logistic Regression Model using the 15 minute dataset}
+    \label{fig:FeatureImport15}
+\end{figure}
+
+\newpage
 
 \subsection{20 Minute Model}\label{subsec:20-minute-model}
 
-As seen in Table~\ref{tab:ModelResults20}, most of the machine learning algorithms score quite similarly.
-The four metrics of Accuracy, AUC, Recall and Precision all are within a 5\% range for every algorithm tested.
-Here the best performing machine learning algorithm is the Logistic Regression model, scoring an accuracy of 75.06\% and an AUC of 82.30\%.
-This is closely followed by the Linear Discriminant Analysis at an identical accuracy, but with an AUC of 82.28\%.
+Again all the machine learning algorithms score within a performance metric range of 5\% as seen in Table~\ref{tab:ModelResults20}.
+This just reiterates that there is minimal difference in performance between the machine-learning algorithms tested, with the decision tree based algorithms generally falling behind.
+This remains true aside from the Gradient Boosting Classifier, where it is in-fact the best performing model overall.
+It scored an accuracy of 85.85\% and an AUC of 94.33\%.
+It was then closely followed by the two previous algorithms mentioned in both Section~\ref{subsec:10-minute-model} and~\ref{subsec:15-minute-model} - the Logistic Regression and the Linear Discriminant Analysis at identical accuracies of 85.83\%, but with respective AUC values of 92.66\% and 92.57\%.
+This sequential increase of accuracy in the models reinforces Hypothesis 1, suggesting that prediction accuracy would increase in proportion to the gamelength.
+However the machine learning algorithm results seem to reject the claim made in Hypothesis 3, as when compared to other algorithms such as the Linear Discriminant Analysis or Logistic Regression, the decision tree-based algorithms tend to be weaker predictors of match outcomes. \\
 
-\begin{table}
+\begin{table}[h]
     \centering
     \begin{tabular}{l c c c c }
         \toprule
@@ -189,4 +235,64 @@ This is closely followed by the Linear Discriminant Analysis at an identical acc
     \label{tab:ModelResults20}
 \end{table}
 
+For this model, the Gradient Boosting Classifier is chosen as it scores high on all major performance metrics calculated.
+After the model is tuned, the accuracy increases to 85.99\%, an increase of 0.14\% - see Table~\ref{tab:Kfold20}.
+The change in the accuracy of the model between the 10 to 15 minute models only increases by roughly 2\%.
+From the previous model, the accuracy increases
+This is much lower than expected when compared to previous studies such as~\citet{silva2018continuous, lee2020predicting} achieving increases of ~5-6\% between the same period in game time, albeit whilst achieving accuracy levels on par or greater than its predecessors. \\
 
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lcccccc}
+        \toprule
+        \textbf{} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
+        \midrule
+        Mean & 0.8599 & 0.9433 & 0.8789 & 0.8602 \\
+        Std & 0.0061 & 0.0042 & 0.0130 & 0.0087 \\
+        \bottomrule
+    \end{tabular}
+    \caption{A table showing the mean metrics for the 20 minute Gradient Boosting Classifier model after 10-fold cross-validation}
+    \label{tab:Kfold20}
+\end{table}
+
+The average relative importance for the Gradient Boosting Classifier model is shown in Figure~\ref{fig:FeatureImport20}.
+Now at the 20 minute mark the features that are most influential inside the model have changed.
+Suddenly the player performance features that were dominating the relative importance previously such as `csdiffat15', `deathsat15' and `KillParat15' have now fallen out of favour versus the team-based map objectives.
+Here the `firstbaron' metric becomes the focal feature in whether a team will achieve the victory, with a relative importance three times as large as the next highest.
+The next two key features are `gamelength' and `firsttothreetowers', reiterating the
+team-based map objectives being key to achieving victory as the gamelength increases.
+The `firstbaron' feature being this impactful makes logical sense when accounting for the context behind the powerful \gls{buff} that this monster grants when slain.
+This \gls{buff} gives players the ability to increase the power of their surrounding \glspl{minion}, and thus a large increase in the capability to destroy enemy \glspl{tower} or \glspl{inhibitor}.
+Subsequently, the team that slays the \gls{baron} is granted a large sum of experience and gold through the monster itself, as well as the towers that could also fall.
+This large spike in income and champion strength likely  helps the team to win future fights and then the match, this snowballing effect was hypothesised in Hypothesis 1 during Chapter~\ref{ch:literaturereview}. \\
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/FeatureImport20}
+    \caption{A graph showing the Relative Importance of the features in the Gradient Boosting Classifier Model using the 20 minute dataset}
+    \label{fig:FeatureImport20}
+\end{figure}
+
+
+\section{Discussion of Results}\label{sec:discussion-of-results}
+
+Discuss all results and what they mean?
+
+The results of these three models indicate that there is potential for a highly efficient League of Legends esports prediction model
+
+
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Model} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
+        \midrule
+        10 Minute Logistic Regression & 0.7516 & 0.8226 & 0.7618 & 0.7682 \\
+        15 Minute Logistic Regression & 0.7706 & 0.8478 & 0.7752 & 0.7889 \\
+        20 Minute Gradient Boosting Classifier & 0.8599 & 0.9433 & 0.8789 & 0.8602 \\
+        \bottomrule
+    \end{tabular}
+    \caption{A table comparing the performance metrics for all three models}
+    \label{tab:ModelCompare}
+\end{table}

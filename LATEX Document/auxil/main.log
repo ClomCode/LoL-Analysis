@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  30 AUG 2022 00:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  30 AUG 2022 23:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,7 +819,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--35
  []
 
 [2]
-<figures/MOBAMap.png, id=377, 1027.84pt x 1027.84pt>
+<figures/MOBAMap.png, id=410, 1027.84pt x 1027.84pt>
 File: figures/MOBAMap.png Graphic file (type png)
 <use figures/MOBAMap.png>
 Package pdftex.def Info: figures/MOBAMap.png  used on input line 38.
@@ -830,7 +830,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--66
  []
 
 [4]
-<figures/DraftPhase.png, id=401, 1178.4025pt x 204.765pt>
+<figures/DraftPhase.png, id=434, 1178.4025pt x 204.765pt>
 File: figures/DraftPhase.png Graphic file (type png)
 <use figures/DraftPhase.png>
 Package pdftex.def Info: figures/DraftPhase.png  used on input line 80.
@@ -882,22 +882,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--39
  []
 
 [9] [10]
-<figures/MCTS Selection.png, id=486, 528.97626pt x 393.47pt>
+<figures/MCTS Selection.png, id=519, 528.97626pt x 393.47pt>
 File: figures/MCTS Selection.png Graphic file (type png)
 <use figures/MCTS Selection.png>
 Package pdftex.def Info: figures/MCTS Selection.png  used on input line 63.
 (pdftex.def)             Requested size: 156.0006pt x 116.0366pt.
-<figures/MCTS Expansion.png, id=487, 528.97626pt x 505.89pt>
+<figures/MCTS Expansion.png, id=520, 528.97626pt x 505.89pt>
 File: figures/MCTS Expansion.png Graphic file (type png)
 <use figures/MCTS Expansion.png>
 Package pdftex.def Info: figures/MCTS Expansion.png  used on input line 69.
 (pdftex.def)             Requested size: 156.0006pt x 149.18993pt.
-<figures/MCTS Simulation.png, id=488, 528.97626pt x 581.17125pt>
+<figures/MCTS Simulation.png, id=521, 528.97626pt x 581.17125pt>
 File: figures/MCTS Simulation.png Graphic file (type png)
 <use figures/MCTS Simulation.png>
 Package pdftex.def Info: figures/MCTS Simulation.png  used on input line 75.
 (pdftex.def)             Requested size: 156.0006pt x 171.39082pt.
-<figures/MCTS Backpropagation.png, id=489, 528.97626pt x 505.89pt>
+<figures/MCTS Backpropagation.png, id=522, 528.97626pt x 505.89pt>
 File: figures/MCTS Backpropagation.png Graphic file (type png)
 <use figures/MCTS Backpropagation.png>
 Package pdftex.def Info: figures/MCTS Backpropagation.png  used on input line 8
@@ -919,13 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--120
 
  []
 
-[13]
-Overfull \hbox (2.65239pt too wide) in paragraph at lines 135--135
-\OT1/cmr/m/it/12 dic-tion mod-els for match out-comes are fea-si-ble out-side o
-f academia
- []
-
-) [14]
+[13]) [14]
 \openout2 = `chapters/ch-Methodology.aux'.
 
  (chapters/ch-Methodology.tex
@@ -956,13 +950,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--100
  []
 
 [19]
-<figures/DataBalance.png, id=585, 505.89pt x 358.33875pt>
+<figures/DataBalance.png, id=618, 505.89pt x 358.33875pt>
 File: figures/DataBalance.png Graphic file (type png)
 <use figures/DataBalance.png>
 Package pdftex.def Info: figures/DataBalance.png  used on input line 106.
 (pdftex.def)             Requested size: 350.99762pt x 248.62642pt.
  [20 <./figures/DataBalance.png (PNG copy)>]
-<figures/RandomForest.png, id=595, 343.2825pt x 493.845pt>
+<figures/RandomForest.png, id=628, 343.2825pt x 493.845pt>
 File: figures/RandomForest.png Graphic file (type png)
 <use figures/RandomForest.png>
 Package pdftex.def Info: figures/RandomForest.png  used on input line 126.
@@ -990,7 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
  []
 
-<figures/ConfusionMatrix10.png, id=617, 566.115pt x 385.44pt>
+<figures/ConfusionMatrix10.png, id=650, 566.115pt x 385.44pt>
 File: figures/ConfusionMatrix10.png Graphic file (type png)
 <use figures/ConfusionMatrix10.png>
 Package pdftex.def Info: figures/ConfusionMatrix10.png  used on input line 16.
@@ -1009,47 +1003,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--53
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--61
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
 
  []
 
 [26]
-Overfull \hbox (20.77995pt too wide) in paragraph at lines 64--82
+Overfull \hbox (20.77995pt too wide) in paragraph at lines 66--84
  [][] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
+
+ []
+
 [27]
-<figures/FeatureImport10.png, id=643, 777.90625pt x 460.72125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 109--118
+
+ []
+
+<figures/FeatureImport10.png, id=676, 777.90625pt x 460.72125pt>
 File: figures/FeatureImport10.png Graphic file (type png)
 <use figures/FeatureImport10.png>
-Package pdftex.def Info: figures/FeatureImport10.png  used on input line 119.
+Package pdftex.def Info: figures/FeatureImport10.png  used on input line 121.
 (pdftex.def)             Requested size: 390.0pt x 230.98573pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 130--136
+
+ []
+
+
+Overfull \hbox (20.77995pt too wide) in paragraph at lines 139--158
+ [][] 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (20.77995pt too wide) in paragraph at lines 134--153
+Underfull \hbox (badness 10000) in paragraph at lines 162--168
+
+ []
+
+[29 <./figures/FeatureImport10.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--192
+
+ []
+
+[30]
+<figures/FeatureImport15.png, id=697, 777.90625pt x 460.72125pt>
+File: figures/FeatureImport15.png Graphic file (type png)
+<use figures/FeatureImport15.png>
+Package pdftex.def Info: figures/FeatureImport15.png  used on input line 196.
+(pdftex.def)             Requested size: 312.00119pt x 184.7914pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 205--212
+
+ []
+
+
+Overfull \hbox (20.77995pt too wide) in paragraph at lines 215--234
  [][] 
  []
 
-[28]
-Overfull \hbox (20.77995pt too wide) in paragraph at lines 169--188
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--243
+
+ []
+
+[32 <./figures/FeatureImport15.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 258--269
+
+ []
+
+[33]
+<figures/FeatureImport20.png, id=727, 806.01125pt x 460.72125pt>
+File: figures/FeatureImport20.png Graphic file (type png)
+<use figures/FeatureImport20.png>
+Package pdftex.def Info: figures/FeatureImport20.png  used on input line 273.
+(pdftex.def)             Requested size: 312.00119pt x 178.33783pt.
+
+Overfull \hbox (49.14493pt too wide) in paragraph at lines 280--289
  [][] 
  []
 
-) [29 <./figures/FeatureImport10.png (PNG copy)>] [30]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [34 <./figures/FeatureImport20.png (PNG copy)>] [35]
 \openout2 = `chapters/ch-Conclusion.aux'.
 
 
 (chapters/ch-Conclusion.tex
 Chapter 5.
-) [31
+) [36
 
 
 
 
-] [32]
+] [37]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 37--41
@@ -1057,7 +1123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--41
 y-agrees-to-a-one-year-
  []
 
-[33
+[38
 
 
 
@@ -1079,7 +1145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--93
 arning/crash-
  []
 
-[34]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 107--111
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.digitalocean.com/community/t
 utorials/normalize-
@@ -1097,38 +1163,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--146
 aws-73-8-million-peak-
  []
 
-[35]
+[40]
 Overfull \hbox (1.66959pt too wide) in paragraph at lines 177--181
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://twitter.com/riotgames/status/145
 5172784938651649?s=20-
  []
 
-[36]) [37]
+[41]) [42]
 \openout2 = `chapters/ch-appendix.aux'.
 
  (chapters/ch-appendix.tex
 Appendix A.
-[38
+[43
 
 
 ]
 Appendix B.
-[39
+<figures/DistributionVisualisation.png, id=769, 715.67375pt x 590.205pt>
+File: figures/DistributionVisualisation.png Graphic file (type png)
+<use figures/DistributionVisualisation.png>
+Package pdftex.def Info: figures/DistributionVisualisation.png  used on input l
+ine 10.
+(pdftex.def)             Requested size: 390.0pt x 321.63283pt.
+[44
 
-]
+ <./figures/DistributionVisualisation.png (PNG copy)>]
 Appendix C.
-<figures/CorrMat1.png, id=697, 1031.855pt x 942.52126pt>
+<figures/CorrMat1.png, id=774, 1031.855pt x 942.52126pt>
 File: figures/CorrMat1.png Graphic file (type png)
 <use figures/CorrMat1.png>
-Package pdftex.def Info: figures/CorrMat1.png  used on input line 14.
+Package pdftex.def Info: figures/CorrMat1.png  used on input line 19.
 (pdftex.def)             Requested size: 390.0pt x 356.23465pt.
-[40
+<figures/CorrMat10.png, id=775, 709.65125pt x 630.355pt>
+File: figures/CorrMat10.png Graphic file (type png)
+<use figures/CorrMat10.png>
+Package pdftex.def Info: figures/CorrMat10.png  used on input line 26.
+(pdftex.def)             Requested size: 390.0pt x 346.427pt.
+[45
 
  <./figures/CorrMat1.png (PNG copy)>]
-Appendix D.
-) [41
+<figures/CorrMat15.png, id=781, 709.65125pt x 630.355pt>
+File: figures/CorrMat15.png Graphic file (type png)
+<use figures/CorrMat15.png>
+Package pdftex.def Info: figures/CorrMat15.png  used on input line 33.
+(pdftex.def)             Requested size: 390.0pt x 346.427pt.
 
-]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/CorrMat20.png, id=782, 729.72626pt x 650.43pt>
+File: figures/CorrMat20.png Graphic file (type png)
+<use figures/CorrMat20.png>
+Package pdftex.def Info: figures/CorrMat20.png  used on input line 40.
+(pdftex.def)             Requested size: 390.0pt x 347.61435pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [46 <./figures/CorrMat10.png (PNG copy)>] [47 <./figures/CorrMat15.png (PNG c
+opy)>] [48 <./figures/CorrMat20.png (PNG copy)>]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
@@ -1148,14 +1240,14 @@ rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\chapters/ch-appendix.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B0E0064595048252E964B0AC37A39874;5489.
+(rerunfilecheck)             Checksum: AB62E1B148B2D62DA981D95E2BB5A2FB;5595.
  ) 
 Here is how much of TeX's memory you used:
- 22643 strings out of 478614
- 460923 string characters out of 2843122
- 851651 words of memory out of 3000000
- 40280 multiletter control sequences out of 15000+600000
- 480168 words of font info for 64 fonts, out of 8000000 for 9000
+ 22738 strings out of 478614
+ 463278 string characters out of 2843122
+ 853042 words of memory out of 3000000
+ 40351 multiletter control sequences out of 15000+600000
+ 480175 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,8n,91p,1132b,614s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -1175,10 +1267,10 @@ sfonts/cm/cmr8.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/Calum/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmti12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (51 pages, 96723
-6 bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (58 pages, 12555
+18 bytes).
 PDF statistics:
- 802 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 894 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 411 words of extra memory for PDF output out of 10000 (max. 10000000)
 
