@@ -276,11 +276,9 @@ This large spike in income and champion strength likely  helps the team to win f
 
 \section{Discussion of Results}\label{sec:discussion-of-results}
 
-Discuss all results and what they mean?
-
-The results of these three models indicate that there is potential for a highly efficient League of Legends esports prediction model
-
-
+The results of these three models indicate that there is potential for a highly efficient League of Legends esports prediction model.
+Using a mixture of Logistic Regression models and Gradient Boosting Classifiers the accuracy of predictions were calculated between the 10 to 20 in-game minute mark.
+A summary of these results can be seen in Table~\ref{tab:ModelCompare}. \\
 
 \begin{table}[h]
     \centering
@@ -288,11 +286,43 @@ The results of these three models indicate that there is potential for a highly 
         \toprule
         \textbf{Model} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
         \midrule
-        10 Minute Logistic Regression & 0.7516 & 0.8226 & 0.7618 & 0.7682 \\
-        15 Minute Logistic Regression & 0.7706 & 0.8478 & 0.7752 & 0.7889 \\
-        20 Minute Gradient Boosting Classifier & 0.8599 & 0.9433 & 0.8789 & 0.8602 \\
+        10 Minute LR & 0.7516 & 0.8226 & 0.7618 & 0.7682 \\
+        15 Minute LR & 0.7706 & 0.8478 & 0.7752 & 0.7889 \\
+        20 Minute GBC & 0.8599 & 0.9433 & 0.8789 & 0.8602 \\
         \bottomrule
     \end{tabular}
     \caption{A table comparing the performance metrics for all three models}
     \label{tab:ModelCompare}
+\end{table}
+
+The assumption can be made that with no prior knowledge any given League of Legends esports match result can be roughly predicted via coinflip, with the class balance shown previously in Figure~\ref{fig:DataBalance}.
+However using the models create in this study, an average layman could theoretically predict the match outcome over 75\% of the time when given some key features at the 10 minute mark, with this increasing to 86\% by the 20 minute mark.
+Using the key figures seen in Table~\ref{tab:ModelCompare}, it can be seen that when compared to previous attempts at a similar form of prediction modelling for League of Legends, these models exceed the metrics found by many of its predecessors. \\
+
+\citet{silva2018continuous} used \ac{RNN}s for their prediction modelling using esports data between 2015 and early 2018, similar to this study they produced results for time intervals during the game.
+\citet{lee2020predicting} used a Random Forest Classifier for their modelling using ranked data extracted from the Riot API, and once again produced results for varying time intervals in-game.
+The results published in those studies have been collated into Table~\ref{tab:LitCompare}.
+Here it can be seen that the prediction accuracy is much higher than those stated in previous studies, with improvements up to ~7\% at the 10 minute interval.
+This means that the models created during this study not only contribute more proof to the growing numbers of literature surrounding predictive modelling in the esports industry, but are also outperforming the most recent literature in the field.
+As seen with all the results collated, the improvements to the prediction accuracy increases as the in-game timer increases.
+All three studies show an accuracy increase of 10\% from the 10 minute mark to the 20 minute mark, regardless of the initial accuracy.
+This reaffirms Hypothesis 1 stated in Section~\ref{sec:Summary}, ultimately verifying the idea that a match of League of Legends has a snowballing nature, thus the outcome becomes more predictable as it progresses.
+Hypothesis 2 can generally be assumed to be true when looking at the correlations between many of the features during the data exploration phase, these correlation values are highlighted in Figure~\ref{ch:Feature Correlations}.
+Many of these features have a correlation level between 0.4 and 0.8, which suggests a moderate to strong level of correlation and can lead the overall model to suffer from some level of multicollinearity.
+The best performing models in this study were the Logistic Regression and the Gradient Boosting Classifier, with the Logistic Regression being used for two of three models.
+Hypothesis 3 stated that a decision tree algorithm will likely be the optimal algorithm for the prediction model, but this ultimately was proven to be mostly wrong with the exception of the Gradient Boosting Classifier.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lccc}
+        \toprule
+        \textbf{Study} & \textbf{10 Minutes} & \textbf{15 Minutes} & \textbf{20 Minutes} \\
+        \midrule
+        This Study & 0.7516 & 0.7706 & 0.8599  \\
+        Silva et al. & 0.6869 & 0.7523 & 0.8018 \\
+        Lee et al. & 0.6788 & 0.7318 & 0.7649  \\
+        \bottomrule
+    \end{tabular}
+    \caption{A table comparing the accuracy for different time intervals from other studies~\citep{silva2018continuous, lee2020predicting}}
+    \label{tab:LitCompare}
 \end{table}

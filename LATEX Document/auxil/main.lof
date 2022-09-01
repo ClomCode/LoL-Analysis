@@ -1,23 +1,24 @@
 \acswitchoff 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Map of League of Legends\relax }}{3}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces A depiction of the Champion Selection phase\relax }}{5}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Map of League of Legends\relax }}{3}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A depiction of the Champion Selection phase\relax }}{5}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A graph showing the steps of a Monte-Carlo Tree Search\relax }}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A graph showing the steps of a Monte-Carlo Tree Search\relax }}{12}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A graph showing the target balance of the dataset\relax }}{20}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A diagram showing how the Random Forest algorithm classifies\relax }}{21}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A graph showing the target balance of the dataset\relax }}{21}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A diagram showing how the Random Forest algorithm classifies\relax }}{22}{figure.caption.16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A confusion matrix of a Logistic Regression Model trained on the 10 minute dataset\relax }}{25}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces A graph showing the Relative Importance of the features in the Logistic Regression Model using the 10 minute dataset\relax }}{29}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces A graph showing the Relative Importance of the features in the Logistic Regression Model using the 15 minute dataset\relax }}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces A graph showing the Relative Importance of the features in the Gradient Boosting Classifier Model using the 20 minute dataset\relax }}{34}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A confusion matrix of a Logistic Regression Model trained on the 10 minute dataset\relax }}{26}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A graph showing the Relative Importance of the features in the Logistic Regression Model using the 10 minute dataset\relax }}{30}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A graph showing the Relative Importance of the features in the Logistic Regression Model using the 15 minute dataset\relax }}{33}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A graph showing the Relative Importance of the features in the Gradient Boosting Classifier Model using the 20 minute dataset\relax }}{35}{figure.caption.27}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Graphs showing the distribution of data for the dataset\relax }}{44}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces A matrix of correlations between features in the dataset\relax }}{45}{figure.caption.30}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces A matrix of correlations from the 10-minute dataset\relax }}{46}{figure.caption.31}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces A matrix of correlations from the 15-minute dataset\relax }}{47}{figure.caption.32}%
-\contentsline {figure}{\numberline {C.4}{\ignorespaces A matrix of correlations from the 20-minute dataset\relax }}{48}{figure.caption.33}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Graphs showing the distribution of data for the dataset\relax }}{49}{figure.caption.31}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces A matrix of correlations between features in the dataset\relax }}{50}{figure.caption.32}%
+\contentsline {figure}{\numberline {D.2}{\ignorespaces A matrix of correlations from the 10-minute dataset\relax }}{51}{figure.caption.33}%
+\contentsline {figure}{\numberline {D.3}{\ignorespaces A matrix of correlations from the 15-minute dataset\relax }}{52}{figure.caption.34}%
+\contentsline {figure}{\numberline {D.4}{\ignorespaces A matrix of correlations from the 20-minute dataset\relax }}{53}{figure.caption.35}%

@@ -3,16 +3,16 @@
 \section{Context}\label{sec:Context}
 Esports is a form of competition using video games where participants will compete either individually or in a team for a chance at victory.
 These competitions attract millions of viewers, with estimates of 532 million spectators by the end of 2022, and this value is expected to grow annually at a value of roughly 8.7\%~\citep{newzoo2022viewers}.
-The rapid growth in Esports has led to the industry becoming professional, with hundreds of players contracted on full-time contracts competing for prize pools of up to \$40 million~\citep{esportsearnings}.
+The rapid growth in esports has led to the industry becoming professional, with hundreds of players contracted on full-time contracts competing for prize pools of up to \$40 million~\citep{esportsearnings}.
 According to~\citet{newzoo2022viewers} this viewership will help the industry generate over \$1.38 billion in revenue by the end of 2022.
-As the Esports industry continues to grow, so does the importance on teams to win and remain relevant in the industry.\\
+As the esports industry continues to grow, so does the importance on teams to win and remain relevant in the industry.\\
 
 In traditional sports, analytics has become an extremely popular field with teams investing heavily in some form of analytics.
 These analytics can be used from evaluating opposing teams, to individual player forecasting and even used to decide signings or team selection~\citep{sarlis2020sports, apostolou2019sports}.
 \citet{apostolou2019sports, sarlis2020sports} shows that these analytics can be applied for each athlete, giving an accurate estimation of key metrics such as goals scored per season or the number of shots attempted in a given match.
-This same methodology could be applied to Esports, using these machine learning techniques could highlight specific factors both pre-game and in-game, helping analysts and coaches refine strategies within the game.\\
+This same methodology could be applied to esports, using these machine learning techniques could highlight specific factors both pre-game and in-game, helping analysts and coaches refine strategies within the game.\\
 
-The ease of data collection coming from each match has led to a rise in Esports analytics.
+The ease of data collection coming from each match has led to a rise in esports analytics.
 In-depth analysis of matches, teams and pre-game factors become key techniques for teams to gain this advantage over their competitors, with teams being required by their leagues to have at least one dedicated coach and analyst similar to traditional sports teams~\citep{LCSRules}.
 These coaches and analysts use predictive analytics to maximise their team's likelihood of winning by altering numerous features related to pre-game and in-game strategies, current \gls{meta} analysis and common patterns of their competition~\citep{kokkinakis2021metagaming}.
 However, this analysis is often completed manually by watching key highlights of matches using the analyst's intuition and using rudimentary analysis of in-game factors.\\
@@ -89,27 +89,29 @@ These factors can give one side the edge based on the \Gls{patch}, leading to va
 
 \section{Structure, Aims, and Objectives}\label{sec:Structure, Aims, and Objectives}
 
-The following section explores an overview of this dissertation:
+The following section explores an overview of this dissertation: \\
 
-The next chapter, Chapter~\ref{ch:literaturereview}, discusses the role of...
+The next chapter, Chapter~\ref{ch:literaturereview}, attempts to review the previous literature in the predictive analytics field, exploring the use in traditional sports for both individual and team performance.
+It then moves on to how these predictive models have been used in newer esports studies, with games such as League of Legends and DOTA 2, highlighting key techniques that were used to get a better understanding of key predictors and better performance metrics.
+The relation of commercial predictive models were briefly discussed in the betting industry with the popularisation of esports betting, and the industry's need for highly accurate models for their odds-makers. \\
 
 Chapter~\ref{ch:methodology} follows the techniques and tools used for predicting the effect of pre-game choices on the outcome of the match.
-Beginning with...
+Beginning with a brief data description, showing how the data is viewed when it is first accessed as well as the meaning behind many of the features.
+The whole data preparation phase is then reviewed, followed by how the data was modelled and the technique that were used were explained. \\
 
+Chapter~\ref{ch:results} then proceeds with a discussion of how the results that were produced were going to be evaluated, and how these performance metrics would ultimately judge the implication of these results.
+The results for each time interval model is then presented, with the feature importance of each model being shown.
+An interpretation of what these performance metrics mean, and a discussion of why certain features are favoured over others.
+The results section is then wrapped up with a general overview of all the results, an implication of what they mean for this study and how they impact the field of predictive analytics inside esports. \\
 
-Chapter~\ref{ch:results} then proceeds with a discussion of the work
-carried out and presents the outputs of the model created.
-An evaluation of...
+Finally, chapter~\ref{ch:conclusion} will conclude the dissertation giving a summary of the work completed, potential limitations of the works completed, as well as any further opportunities for research. \\
 
-Finally, chapter~\ref{ch:conclusion} will conclude the dissertation giving an overall summary of the work completed, as well as any further opportunities for research. \\
-
-
-Having pre-established the landscape of Esports and its relationship with analytics, it is clear that refinement in the way that this industry uses its highly available data is needed.
-Many academics have predicted the outcomes of matches in Esports titles such as ~\citet{silva2018continuous}.
-However, performing these studies, few academics addressed the implications of the champion select phase on the overall outcome on a given League of Legends match.
-Often it is put into the model as a singular feature defined as champion or ban, without giving much implication on how an individual champion effects a game more than another.
-In contrast to other studies, this study uses a much larger, updated dataset and will concentrate much more on the overall effects of the pre-game choices that a team will make inside champion select.
-This includes the effects of each individual champion on the likelihood of winning a match.
+Having pre-established the landscape of esports and its relationship with analytics, it is clear that refinement in the way that this industry uses its highly available data is needed.
+Many academics have predicted the outcomes of matches in esports titles such as ~\citet{ani2019victory} and \citet{lin2016league}.
+However, performing these studies, few academics attempted to predict these match results using data from specific time intervals within the game, with most using data from the match result.
+Predicting using statistics not only will cause the conclusions made from the studies to be highly skewed towards certain factors, but will also miss out on some decisions made inside the early stages of the game that will cause the swing in momentum for one team.
+This study also uses updated esports data, with most studies completed using either amateur player data or massively outdated esports data from between 2015 and 2018.
+In contrast to other studies, this study uses a much larger, updated dataset and will concentrate more on the overall effects of the game choices that a team will make during the course of the game, and how teams can apply these choices in order to increase their probability of winning.
 Therefore, the research question that will be addressed is as follows:
 
-\begin{quote}  \emph{Can the outcome of a League of Legends match be predicted?} \end{quote}
+\begin{quote}  \emph{Can the outcome of a League of Legends match be predicted using machine learning?} \end{quote}
