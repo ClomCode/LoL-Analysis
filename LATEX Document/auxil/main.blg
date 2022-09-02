@@ -21,44 +21,46 @@ The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: chapters/ch-appendix.aux
 Database file #1: main.bib
-You've used 41 entries,
+Warning--can't use both volume and number fields in ravari2017predicting
+You've used 42 entries,
             2909 wiz_defined-function locations,
-            881 strings with 12559 characters,
-and the built_in function-call counts, 152528 in all, are:
-= -- 24620
-> -- 2058
-< -- 0
-+ -- 11588
-- -- 623
-* -- 12971
-:= -- 30969
-add.period$ -- 52
-call.type$ -- 41
-change.case$ -- 576
-chr.to.int$ -- 41
-cite$ -- 41
-duplicate$ -- 659
-empty$ -- 1324
-format.name$ -- 753
-if$ -- 27349
+            887 strings with 12844 characters,
+and the built_in function-call counts, 158516 in all, are:
+= -- 25595
+> -- 2149
+< -- 1
++ -- 12060
+- -- 651
+* -- 13499
+:= -- 32129
+add.period$ -- 53
+call.type$ -- 42
+change.case$ -- 590
+chr.to.int$ -- 42
+cite$ -- 43
+duplicate$ -- 684
+empty$ -- 1370
+format.name$ -- 784
+if$ -- 28442
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 31
-newline$ -- 149
-num.names$ -- 422
-pop$ -- 223
+missing$ -- 32
+newline$ -- 152
+num.names$ -- 433
+pop$ -- 228
 preamble$ -- 1
-purify$ -- 615
+purify$ -- 630
 quote$ -- 0
-skip$ -- 564
+skip$ -- 589
 stack$ -- 0
-substring$ -- 34518
-swap$ -- 132
-text.length$ -- 574
+substring$ -- 35906
+swap$ -- 143
+text.length$ -- 589
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 164
-warning$ -- 0
-while$ -- 909
+type$ -- 168
+warning$ -- 1
+while$ -- 933
 width$ -- 0
-write$ -- 556
+write$ -- 572
+(There was 1 warning)

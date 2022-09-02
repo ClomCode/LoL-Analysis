@@ -35,7 +35,13 @@ The data was collected using the Riot API from matches with average ranked playe
 It becomes apparent that the data used in this initial study appears to be highly correlated with the match result, and this is reflected by the 95\% success rate on prediction using in-game data.
 \citet{yang2016real} also investigated the match outcomes in another esports MOBA game, DOTA 2.
 They considered pre-match features from individual players' historical performance data, as well as real-time data obtained during the match progression.
-It becomes apparent that the data used in this initial study appears to be highly correlated with the match result, and this is reflected by the 95\% success rate on prediction using in-game data. \\
+The effectiveness of the pre-match features seemed to be highly variable, with outcome prediction probabilities quoted at up to 71.49\%, and a model of combined pre-match and in-match data reaching up to 93.73\% accuracy at the 40th minute.
+Interestingly, for the initial 15 minutes, the prediction accuracy for the real-time model is below that of the pre-match prediction values, potentially suggesting that the pre-match prediction accuracy could be inflated due to issues of interactions between features. \\
+
+\citet{ravari2017predicting} once again considered match outcomes, but this is based upon First-Person Shooter game, Destiny.
+Classification models were created based on the different game modes available, with a model based on specific game modes and a combined model.
+They obtained results that highly favour models built upon data from specific game modes, concluding that the behavioural difference seen in players depending on the game mode is the main attributing factor.
+These models were built upon the Random Forest algorithm and the Gradient Boosting classifier. \\
 
 Two studies built upon the previous research just two years later.
 \citet{silva2018continuous} introduces the use of \ac{RNN} to predict esports matches through time intervals between the 0 and 25 minute mark, and uses data from matches between 2015 to early 2018.
