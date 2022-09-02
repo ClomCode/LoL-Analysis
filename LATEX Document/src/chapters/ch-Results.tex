@@ -63,6 +63,7 @@ This is closely followed by the Linear Discriminant Analysis at an identical acc
 
 \begin{table}[h!]
     \centering
+    \caption{A table showing the model results for the 10 minute dataset}
     \begin{tabular}{l c c c c }
         \toprule
         \textbf{Model} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
@@ -81,7 +82,6 @@ This is closely followed by the Linear Discriminant Analysis at an identical acc
         Decision Tree Classifier & 0.6804 & 0.6794 & 0.6969 & 0.6998 \\
         \bottomrule
     \end{tabular}
-    \caption{A table showing the model results for the 10 minute dataset}
     \label{tab:ModelResults10}
 \end{table}
 
@@ -94,6 +94,7 @@ The resultant performance metrics can be seen in Table~\ref{tab:Kfold10}. \\
 
 \begin{table}[h]
     \centering
+    \caption{A table showing the mean metrics for the 10 minute logistic regression model after 10-fold cross-validation}
     \begin{tabular}{lcccccc}
         \toprule
         \textbf{} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
@@ -102,7 +103,6 @@ The resultant performance metrics can be seen in Table~\ref{tab:Kfold10}. \\
         Std & 0.0150 & 0.0169 & 0.0285 & 0.0116 \\
         \bottomrule
     \end{tabular}
-    \caption{A table showing the mean metrics for the 10 minute logistic regression model after 10-fold cross-validation}
     \label{tab:Kfold10}
 \end{table}
 
@@ -136,6 +136,7 @@ The final performance metrics can be seen in Table~\ref{tab:Kfold15}. \\
 
 \begin{table}[h]
     \centering
+    \caption{A table showing the model results for the 15 minute dataset}
     \begin{tabular}{l c c c c }
         \toprule
         \textbf{Model} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
@@ -155,7 +156,6 @@ The final performance metrics can be seen in Table~\ref{tab:Kfold15}. \\
         Decision Tree Classifier & 0.6870 & 0.6854 & 0.7125 & 0.7021  \\
         \bottomrule
     \end{tabular}
-    \caption{A table showing the model results for the 15 minute dataset}
     \label{tab:ModelResults15}
 \end{table}
 
@@ -168,6 +168,7 @@ These variables are often important milestones that help a team towards victory 
 
 \begin{table}[h]
     \centering
+    \caption{A table showing the mean metrics for the 15 minute Logistic Regression model after 10-fold cross-validation}
     \begin{tabular}{lcccccc}
         \toprule
         \textbf{} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
@@ -176,7 +177,6 @@ These variables are often important milestones that help a team towards victory 
         Std & 0.0200 & 0.0173 & 0.0289 & 0.0198 \\
         \bottomrule
     \end{tabular}
-    \caption{A table showing the mean metrics for the 15 minute Logistic Regression model after 10-fold cross-validation}
     \label{tab:Kfold15}
 \end{table}
 
@@ -212,6 +212,7 @@ However the machine learning algorithm results seem to reject the claim made in 
 
 \begin{table}[h]
     \centering
+    \caption{A table showing the model results for the 20 minute dataset}
     \begin{tabular}{l c c c c }
         \toprule
         \textbf{Model} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
@@ -231,7 +232,7 @@ However the machine learning algorithm results seem to reject the claim made in 
         Decision Tree Classifier & 0.8024 & 0.8017 & 0.8140 & 0.8137\\
         \bottomrule
     \end{tabular}
-    \caption{A table showing the model results for the 20 minute dataset}
+
     \label{tab:ModelResults20}
 \end{table}
 
@@ -243,6 +244,7 @@ This is much lower than expected when compared to previous studies such as~\cite
 
 \begin{table}[h]
     \centering
+    \caption{A table showing the mean metrics for the 20 minute Gradient Boosting Classifier model after 10-fold cross-validation}
     \begin{tabular}{lcccccc}
         \toprule
         \textbf{} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
@@ -251,7 +253,7 @@ This is much lower than expected when compared to previous studies such as~\cite
         Std & 0.0061 & 0.0042 & 0.0130 & 0.0087 \\
         \bottomrule
     \end{tabular}
-    \caption{A table showing the mean metrics for the 20 minute Gradient Boosting Classifier model after 10-fold cross-validation}
+
     \label{tab:Kfold20}
 \end{table}
 
@@ -282,6 +284,7 @@ A summary of these results can be seen in Table~\ref{tab:ModelCompare}. \\
 
 \begin{table}[h]
     \centering
+    \caption{A table comparing the performance metrics for all three models}
     \begin{tabular}{lcccc}
         \toprule
         \textbf{Model} & \textbf{Accuracy} & \textbf{AUC} & \textbf{Recall} & \textbf{Precision} \\
@@ -291,7 +294,6 @@ A summary of these results can be seen in Table~\ref{tab:ModelCompare}. \\
         20 Minute GBC & 0.8599 & 0.9433 & 0.8789 & 0.8602 \\
         \bottomrule
     \end{tabular}
-    \caption{A table comparing the performance metrics for all three models}
     \label{tab:ModelCompare}
 \end{table}
 
@@ -314,6 +316,7 @@ Hypothesis 3 stated that a decision tree algorithm will likely be the optimal al
 
 \begin{table}[h]
     \centering
+    \caption{A table comparing the accuracy for different time intervals from other studies~\citep{silva2018continuous, lee2020predicting}}
     \begin{tabular}{lccc}
         \toprule
         \textbf{Study} & \textbf{10 Minutes} & \textbf{15 Minutes} & \textbf{20 Minutes} \\
@@ -323,6 +326,5 @@ Hypothesis 3 stated that a decision tree algorithm will likely be the optimal al
         Lee et al. & 0.6788 & 0.7318 & 0.7649  \\
         \bottomrule
     \end{tabular}
-    \caption{A table comparing the accuracy for different time intervals from other studies~\citep{silva2018continuous, lee2020predicting}}
     \label{tab:LitCompare}
 \end{table}

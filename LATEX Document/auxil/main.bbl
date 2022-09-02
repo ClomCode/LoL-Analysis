@@ -212,6 +212,12 @@ Silva, A. L.~C., Pappa, G.~L. \harvardand\ Chaimowicz, L.  \harvardyearleft
   competitive matches using recurrent neural networks', {\em SBC-Proceedings of
   SBCGames} pp.~2179--2259.
 
+\harvarditem[Thabtah et~al.]{Thabtah, Zhang \harvardand\
+  Abdelhamid}{2019}{thabtah2019nba}
+Thabtah, F., Zhang, L. \harvardand\ Abdelhamid, N.  \harvardyearleft
+  2019\harvardyearright , `Nba game result prediction using feature analysis
+  and machine learning', {\em Annals of Data Science} {\bf 6}(1),~103--116.
+
 \harvarditem{{TIOBE}}{n.d.}{tiobePython}
 {TIOBE}  \harvardyearleft n.d.\harvardyearright , `{TIOBE Index for August
   2022}'.
@@ -222,5 +228,15 @@ Silva, A. L.~C., Pappa, G.~L. \harvardand\ Chaimowicz, L.  \harvardyearleft
 Ward, M.~R. \harvardand\ Harmon, A.~D.  \harvardyearleft 2019\harvardyearright
   , `Esport superstars', {\em Journal of Sports Economics} {\bf
   20}(8),~987--1013.
+
+\harvarditem{Wilkens}{2021}{wilkens2021sports}
+Wilkens, S.  \harvardyearleft 2021\harvardyearright , `Sports prediction and
+  betting models in the machine learning age: The case of tennis', {\em Journal
+  of Sports Analytics} {\bf 7}(2),~99--117.
+
+\harvarditem[Yang et~al.]{Yang, Qin \harvardand\ Lei}{2016}{yang2016real}
+Yang, Y., Qin, T. \harvardand\ Lei, Y.-H.  \harvardyearleft
+  2016\harvardyearright , `Real-time esports match result prediction', {\em
+  arXiv preprint arXiv:1701.03162} .
 
 \end{thebibliography}

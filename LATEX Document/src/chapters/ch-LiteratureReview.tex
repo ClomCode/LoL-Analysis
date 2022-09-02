@@ -9,18 +9,32 @@ In the mid to late 2000s the use of prediction modelling exploded academically, 
 This academic surge of interest caused thousands of studies all using various forms of predictive modelling.
 Not only did this evolve many practises across these fields, but it also helped develop the techniques of predictive modelling today.
 This is section we will explore literature related to how predictive analytics are used in sports, and how insights can be gained from this type of modelling.
-\citet{sarlis2020sports} studied the impact of how various performance evaluation metrics can be used to identify dominant attributes that will help predict candidates for the Most Valuable Player (MVP) award, as well as Defender of the Year.
+\citet{sarlis2020sports} studied the impact of how various basketball related performance evaluation metrics can be used to identify dominant attributes that will help predict candidates for the Most Valuable Player (MVP) award, as well as Defender of the Year in the National Basketball Association.
 They concluded that using their Propagation Neural Networks with 8 years of training data, that their model was able to accurately predict the MVP of the season with 100\% accuracy, and could also predict the Defender of the Year.
 Similar studies have been performed with football such as~\citet{pantzalis2020sports}, where they analysed 4 top football leagues in Europe and predicted the final standings with up to 70\% accuracy.
 \citet{scelles2021peculiar} shows us that transferring this level of analysis from a traditional sports team to an esports team is highly supported, with claims that `esports\ldots~could provide some insights about the future development of sport`.
 This suggests that prediction modelling is likely to work when used to predict both player performances, whilst potentially being able to predict standing of esports leagues globally. \\
 
+\citet{wilkens2021sports} analysed professional tennis matches over the last decade, using player, match and betting data to produce an ensemble machine learning model to investigate how the informational content of these data points in relation to how they can help predict match outcomes.
+They used their findings to evaluate whether bettors were able to achieve consistently positive returns.
+Prediction accuracy was found to reach about 70\% with a complex model filled with all data previously mentioned, whilst a simpler baseline model using current world rankings was able to determine the result 65\% of the time.
+Despite these results, they found potential returns of 10\% from a long-term betting strategy, however the volatility, total liquidity required and model risk makes the sentiment behind the model questionable at best.
+A similar model is likely to translate well over to League of Legends, using potential features such as current league standings as a strong predictor variable as well as the historic match data that has already been collected. \\
+
+\citet{thabtah2019nba} proposed a new machine learning framework that would help predict results in the Nation Basketball Association, and discover the most influential features that affect the outcome of NBA games.
+Some models used throughout include Naïve Bayes, neural networks, and decision trees.
+They concluded that there were five key performance metrics that were the most influential to any game played in the NBA\@.
+Using these features they were able to achieve a prediction accuracy of up to 83\% using the Logistic Model Tree method.
+
 
 \section{Predictive Analytics in Esports}\label{sec:PredictiveAnalyticsinEsports}
 \subsection{Match Outcome Prediction}\label{subsec:Match Outcome Prediction}
-tThe work of predictive modelling in esports only started in the mid 2010s, with one of the original papers by~\citet{lin2016league} exploring match outcomes in League of Legends.
+The work of predictive modelling in esports only started in the mid 2010s, with one of the original papers by~\citet{lin2016league} exploring match outcomes in League of Legends.
 This work focused on the relationship between the potential feature-sets that a game such as League of Legends can create, and how they impact the predicted match outcome both pre-game and in-game.
 The data was collected using the Riot API from matches with average ranked players, with the in-game data being extracted from the statistics published at the end of a match.
+It becomes apparent that the data used in this initial study appears to be highly correlated with the match result, and this is reflected by the 95\% success rate on prediction using in-game data.
+\citet{yang2016real} also investigated the match outcomes in another esports MOBA game, DOTA 2.
+They considered pre-match features from individual players' historical performance data, as well as real-time data obtained during the match progression.
 It becomes apparent that the data used in this initial study appears to be highly correlated with the match result, and this is reflected by the 95\% success rate on prediction using in-game data. \\
 
 Two studies built upon the previous research just two years later.

@@ -14,7 +14,7 @@ In addition, analysis of the features that play a key roles in a game's outcome 
 It was found that in the first 15 minutes of the game, it was clear that individual player  statistics were the most impactful in the decision of the game, with Figure~\ref{fig:FeatureImport10} and~\ref{fig:FeatureImport15} showing a clear support in the ability for a player to keep their deaths to a minimum, whilst still creating a minion killed differential and playing a part in any kills that can occur for their team.
 This suggests that the first 15 minutes of the game should be concentrated on generating both a gold and experience lead over the opponent in each position, attempting to grab kills whenever possible.
 The model also suggests the fact that the mid-lane tower is the most important tower to take on the map, and should be the secondary focus of a team in these first 15 minutes.
-Once the 20-minute mark is met, the model now proposes that the singular feature that is of importance is now the neutral monster \ac{baron}.
+Once the 20-minute mark is met, the model now proposes that the singular feature that is of importance is now the neutral monster \gls{baron}.
 Therefore, confirming the objective of this study - that a League of Legends esports match can in-fact be predicted and with a high prediction rate. \\
 
 These results are interesting for both players, coaches and managers within the esports industry, given that these findings highlight that this model outperforms the current rivalling academic literature on this subject~\citep{lee2020predicting, silva2018continuous}.
@@ -33,7 +33,14 @@ Given this knowledge, the results from any prediction modelling about League of 
 This is due to the core gameplay mechanics revolving around the increasing power of a champion through two key aims - experience and gold.
 Despite these key aims not being the core objective to achieve the victory, they are highly influential in achieving victory and thus correlated highly with victory, and this means that a player's intention should be to achieve as much gold and experience as possible whilst also denying their opponents.
 Moreover, with almost all the actions a player can take in-game resulting in either gold or experience, all the features within a dataset become highly correlated to both gold and experience metrics.
-In order to minimise this both these were removed from the final dataset to reduce the correlation between data as much as possible, but some moderate correlations still remained.
+In order to minimise this both these were removed from the final dataset to reduce the correlation between data as much as possible, but some moderate correlations still remained. \\
+
+Secondly, it remains to be seen how effective the feature importance values truly are  when these strategies are applied in-game.
+The idea of relative importance is that it calculates an importance score based on the feature's apparent significance to the model's target variable, therefore a higher score means that a specific feature will contribute more to predicting the target variable than other features.
+This idea helps the user gain understanding of the relationships between the predicting features and the target variable, whilst also giving insight into irrelevant features in the model.
+However, whilst this feature importance can highlight which features may be relevant to the target variable, this does not help apply this to the context behind the features.
+The interpretation of these important features normally requires the insight of an expert in the given domain, in this case someone with a great understanding of League of Legends.
+Only then can the findings be properly contextualised, but this examination and application of what these features could mean is largely up to the domain expert's opinion so is highly subjective and can easily change depending on the expert questioned.
 
 
 \section{Further Research}\label{sec:Further Research}
@@ -42,6 +49,12 @@ For future work, the dataset could be expanded to delve further into pre-game ef
 A support tool could be produced for this type of model, using an online web application.
 This could use champion specific statistics combined with historical match data in order to dictate the correct champion to be selected at a given phase of the champion selection phase, and could predict the highest likelihood champion pick from the opposition.
 This would allow for an initial prediction value before the game begins, maximising a teams potential for winning before the game truly begins.
-It could also increase the synergistic effects of a given team composition, drafting champions that inherently work well together using interaction terms between all the possible champion picks.
+It could also increase the synergistic effects of a given team composition, drafting champions that inherently work well together using interaction terms between all the possible champion picks. \\
+
 Another piece of research could be investigating the ability for comebacks in these games, and the tools or objectives that teams from losing positions can use in order to make a comeback for victory.
 This would analyse winning teams when they fall a certain threshold percentage of team gold behind, and the key features that enabled them to recover from the deficits incurred.
+It would use a similar methodology, with various machine learning techniques to analyse how an individual players' performance changes whilst in these deficits and the overall chances of winning whilst in those positions.
+There is room for more of a qualitative study, with psychology of player performance obtained through questionnaire based methodologies. \\
+
+Research could even be potentially introduced in the identification of arbitrage betting through esports bets, using machine learning prediction analytics models to identify when bookmakers are exposed to excess risk due to miscalculation of match or event outcomes.
+It would use machine learning techniques to analyse the differential in calculated probabilities between a match outcome prediction model, such as the one created in this study, versus the odds published by various bookmakers in order to find a potential profitable betting strategy.

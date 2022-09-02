@@ -15,6 +15,12 @@
 \usepackage{amsmath}
 \usepackage{hyperref}
 \usepackage{lipsum}
+\usepackage{pdfpages}
+\usepackage{listings}
+\lstset{
+    basicstyle=\ttfamily,
+    breaklines=true,
+}
 % Package for Line Spacing
 \usepackage{setspace}
 \onehalfspacing
@@ -35,6 +41,12 @@
 \loadglsentries{glossary}
 \makenoidxglossaries
 % Document
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:group tabular 0 1
+%TC:group table 0 1
+
 \begin{document}
 
 % ---------------------------------------------------------------
@@ -76,7 +88,7 @@
         {\large September 2022}
 
     \vspace{1cm}
-        {\large Word Count: 11,724}
+        {\large Word Count: 11,772}
 
     \vfill
         {\itshape © Calum Palmer, 2022}

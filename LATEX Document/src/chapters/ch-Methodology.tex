@@ -96,7 +96,34 @@ These four features will simply be combined to create two new features called `K
 
 Checking the correlation of these new features now shows that the relationship between the target remains stable, whilst removing the problematic large correlations between predictor features in the dataset.
 Another correlation issue is seen between recurrent features at different minute intervals in-game.
-This is fixed by splitting these features into different datasets which in-turn will create separate models based on the statistics from the 10-minute mark and the 15-minute mark. \\
+This is fixed by splitting these features into different datasets which in-turn will create separate models based on the statistics from the 10-minute mark, the 15-minute mark and the 20-minute mark.
+A description of the data found across all three data subsets can be seen in Table~\ref{tab:DataDescription}. \\
+
+\begin{table}[h]
+    \centering
+    \caption{A table describing the data found within the dataset}
+    \begin{tabular}{p{0.35\linewidth} p{0.6\linewidth}}
+        \toprule
+        \textbf{Feature Name} & \textbf{Description} \\
+        \midrule
+        Playoffs & If the match is a playoff game  \\
+        Patch & The game patch the match is played on  \\
+        Gamelength & The duration the game was played  \\
+        First Blood & If the first kill was obtained by the blue team   \\
+        First Dragon & If the first Dragon of the match was slain by the blue team   \\
+        First Herald & If the first Herald of the match was slain by the blue team    \\
+        First Baron & If the first Baron of the match was slain by the blue team   \\
+        First Tower & If the first Tower of the match was destroyed by the blue team    \\
+        First Mid Tower & If the first Mid-lane Tower of the match was slain by the blue team \\
+        First to Three Towers & If the first three Towers of the match were destroyed by the blue team  \\
+        CS Diff at X & The differential in number of minions slain between the teams at a given interval  \\
+        Deaths at X & The number of deaths by the blue team at a given interval \\
+        Kill Participations at X & The number of kill participations of the blue team at a given interval  \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:DataDescription}
+\end{table}
+
 
 Balancing the data was deemed unnecessary due to the target variable - `result', having a 52.8 - 47.2\% win to loss balance as seen in Figure~\ref{fig:DataBalance}.
 This means that the dataset does not require any balancing techniques such as SMOTE to be applied, as it already should give reliable and decisive outputs.
@@ -148,9 +175,8 @@ This allows a larger split to train the model, and the test data will be tested 
 A technique called Stratified K-Fold cross validation is used to get an accurate representation of the overall population balance from the target variable - reflecting the 52.8 - 47.2\% win-loss balance, as well as evaluating a truer accuracy by summarising models built upon K subsets of data.
 This leads to a model that is less biased overall and more realistic in its prediction accuracies. \\
 
-Table~\ref{tab:ModelsBuilt} shows the four models which were built for analysis purposes.
-The first three models were built using the Random Forest Algorithm with the 10, 15 and 20 minute datasets, and the following three models were built using Logistic Regression
-also using the datasets from the 10, 15 and 20 minute marks.
+Table~\ref{tab:ModelsBuilt} shows the three models which were built for analysis purposes.
+The first two models were built using the Logistic Regression with the 10, and the 15 minute datasets, and the final model was built with the Gradient Boosting Classifier using the 20 minute dataset.
 
 \begin{table}[h!]
 \centering
@@ -159,12 +185,9 @@ also using the datasets from the 10, 15 and 20 minute marks.
  \hline
  Model & Technique & Dataset \\ [0.5ex]
  \hline
- 1 & Random Forest & 10-minute \\
- 2 & Random Forest & 15-minute \\
- 3 & Random Forest & 20-minute \\
- 4 & Logistic Regression & 10-minute \\
- 5 & Logistic Regression & 15-minute \\
- 6 & Logistic Regression & 20-minute \\[1ex]
+ 1 & Logistic Regression & 10-minute \\
+ 2 & Logistic Regression & 15-minute \\
+ 3 & Gradient Boosting Classifier & 20-minute \\[1ex]
  \hline
 \end{tabular}
 \label{tab:ModelsBuilt}

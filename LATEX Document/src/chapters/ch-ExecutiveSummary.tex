@@ -7,7 +7,7 @@ Esports is a form of competition using video games where participants will compe
 The recent generation of professional leagues across multiple game titles has lead to an industry boom of esports worldwide.
 League of Legends is a MOBA game that is currently one of the most popular titles globally with over 180 million monthly players, and a peak of 73.8 million concurrent viewers~\citep{riotplayercount, upcomerworld2021}.
 The objective of this paper is to use machine learning algorithms in order to predict the outcome of League of Legends esports matches by using in-game information at specific in-game intervals.
-Using this type of predictive analytics, teams could use these predictive systems to optimise and streamline their gameplay to improve their overall win-rates and highlight key weaknesses in an opposing teams game-plan.
+Using this type of predictive analytics, teams could use these predictive systems to optimise and streamline their gameplay to improve their overall win rates and highlight key weaknesses in an opposing team's game plan.
 With this in mind, studies related to predictive analytics has begun rising with a few researchers producing predictive modelling systems for games such as League of Legends and DOTA 2.
 Various predictive models have been proposed, with the majority of analyses focussed on post-game data prediction or champion selection recommendation systems by mainly using amateur game data~\citep{ani2019victory, shen2022deep}.
 Some application of these models are already seen commercially in bookmakers, with a growing number of esports titles to bet on these bookmakers have the challenge of creating odds that are representative of the outcomes that will occur, and therefore require precise predictive models or will suffer large financial losses. \\
@@ -16,21 +16,19 @@ Some application of these models are already seen commercially in bookmakers, wi
 This study analysed data that was acquired from the website Oracle's Elixir, and is based on the 2021 League of Legends competitive leagues found globally.
 As the study is based upon the match predictions, the result variable is used a binary target variable, making this a classification task.
 The dataset included over 10,000 unique matches, and 105 in-game statistic features that can be used to predict the result.
-Using Python, the data was transformed, cleansed and prepared before being split into smaller subsets based on the in-game timer, resulting in intervals of 10, 15 and 20 minutes.
+Using Python, the data was transformed, cleansed, and prepared before being split into smaller subsets based on the in-game timer, resulting in data subsets based on the intervals of 10, 15 and 20 minutes.
 A combination of Logistic Regression models and Gradient Boosting Classifiers were applied to this newly preprocessed esports data.
-Using these machine learning models, it was determined that at the three intervals of the 10, 15 and 20 minutes, the models achieved accuracies of 75.16\%, 77.06\% and 85.99\%.
-When compared to other studies that have attempted to predict results at various time intervals, the results presented in this study show improvements up to ~7\% on previous works by \citet{lee2020predicting} and \citet{silva2018continuous}.
+Using these machine learning models, it was determined that at the three intervals of the 10, 15, and 20 minutes, the models achieved accuracies of 75.16\%, 77.06\% and 85.99\%.
+When compared to other studies that have attempted to predict results at various time intervals, the results presented in this study show improvements up to ~7\% on previous works by \citet{lee2020predicting} and \citet{silva2018continuous}. \\
+
 Feature analysis was also completed.
 The features that play key roles in a game's outcome were calculated using relative importance, and a discussion of the reasoning behind why each feature was picked at each interval.
-The results of this feature analysis showed that during the first ten to fifteen minutes of the game, players should be focussing on three key metrics - minimising deaths, maximising the number of kills they participate in and the most important of all, the minions killed differential between their lane opponent.
-Secondary metrics such as taking the first tower are then the next level of importance, with teams aiming to destroy the opponents mid-lane tower over the top-lane or bot-lane towers if possible.
+The results of this feature analysis showed that during the first ten to fifteen minutes of the game, players should be focussing on three key metrics - minimising deaths, maximising the number of kills they participate in and the most important of all, the differential in the number of minions killed between their lane opponent.
+Secondary metrics such as taking the first tower are then the next level of importance, where teams should be aiming to destroy the opponents mid-lane tower over the top-lane or bot-lane towers as early as possible.
 Once the in-game timer passes the 20-minute interval, players should then focus on slaying the neutral monster called `Baron' whenever possible, as it is exceedingly the most influential feature in the data.
-Using the buff that is granted to players after this, teams should aim to expand their gold and experience leads as much as possible, by destroying as many turrets as possible - with the first three turrets predictor also being highly influential here.
-Using this predictive modelling system, an average layman with no prior knowledge of the game could theoretically predict 22\% more accurately than the no information rate benchmark.
+Using the buff that is granted to players after this, teams should aim to expand their gold and experience leads as much as possible, by destroying as many turrets as they can, with the first three turrets predictor also showing to be highly influential here.
+Using this predictive modelling system, an average layman with no prior knowledge of the game could theoretically predict any given League of Legends match 22\% more accurately than the no information rate benchmark, when given the data at the 10-minute mark.
 Ultimately, the results verify that reliable match result prediction is possible in League of Legends.
-
- \\
-
 
 
 \newpage
