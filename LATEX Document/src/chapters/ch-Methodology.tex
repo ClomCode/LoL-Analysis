@@ -6,6 +6,21 @@ This study attempts to produce a predictive analytics model that uses a machine 
 Firstly, an explanation of the pre-processing data-pipeline - how the data was collected, a description of the dataset, and how the data is prepared and cleansed for modelling.
 The subsequent section then follows the dataset through the prediction methodology, and ends with how the predictive capability of the model is tested and assessed.
 
+\section{Research Philosophy}\label{sec:Research Philosophy}
+
+This section outlines the research philosophy under which the research is conducted, and how the methodology will be approached during the course of this study.
+The framework behind the methodology explored during this section is built upon the works of~\citet{saunders2007research}.
+They proposed a methodological framework made up of 6 steps, that underpin any piece of research that they labelled the `research onion'.
+This dissertation will mostly follow the research philosophy of pragmatism, this ideology aims to find more of a practical point of view where both subjectivity and objectivity matter, and form a practical combination of methods that will be used to ultimately answer the research questions.
+The approach to the research will be quantitative,
+
+Layer 1: Research Philosophy - Pragmatism
+Layer 2: Research Approach - Deductive + Quantitative
+Layer 3: Research Strategy -
+Layer 4: Research Choices - Mono method
+Layer 5: Time Horizon
+Layer 6: Techniques and Procedures
+
 \section{Data Pre-processing}\label{sec:Data Pre-processing}
 \subsection{Data Overview}\label{subsec:Data Overview}
 The data used in this project is based upon the match data collected from all the League of Legends esports leagues found globally in 2021.
@@ -77,24 +92,66 @@ After these steps are complete, the dataset has been properly cleansed and now 1
 
 Then comes the step of feature selection that aims to reduce the overall dimensionality of the dataset, increase the computational cost of modelling and to improve the performance of the model~\citep{brownlee2019choose}.
 All the features that include opposition team data are removed as they will cause issues with multicollinearity later, as well as prediction from opposition statistics being deemed redundant for understanding how a given team could improve.
-After removing many features, a correlation matrix is created between the remaining features in the data subset.
+After removing many redundant features, a correlation matrix is created between the remaining features in the data subset.
 Finding the correlation allows for the measure of how features share an interdependence between one another.
 Here the Kendall correlation is calculated between features using the `corr()' function and visualised using the `heatmap()' function from the `Seaborn' package.
 Correlation values between the target and themselves are deemed better predictors when this value moves closer to 1 or -1.
 Therefore, those features with values close to zero should be removed from the dataset as they likely provide no benefit to the model, whilst adding further complexity.
-On the contrary, features with high correlation values with other predicting features should be removed or reworked due to the issue of multicollinearity~\citep{alin2010multicollinearity}. \\
+On the contrary, features with high correlation values with other predicting features should be removed or reworked due to the issue of multicollinearity~\citep{alin2010multicollinearity}.
+If not dealt with, this causes problems when trying to interpret what features actually are influential on the output of a model.  \\
 
 The correlation matrix can be found at Appendix~\ref{fig:CorrMat1}.
 Here it can be observed that the correlations with our target - `result', range anywhere between an absolute minimum value of 0.17 from the `firstdragon' and `assistsat10' features, to 0.66 from the `firstbaron' variable.
 These correlations suggest that most features have a weak-moderate, with a few stronger predictors such as `firstbaron' and `firstthreetowers'.
 When the correlation between features is examined, features containing assists and kills at the 10 and 15 minute mark are highly positively correlated with a values of 0.80 and 0.78.
 When correlations are high between features, these features should be either be ignored or transformed.
-Here it is chosen to transform these features, as they both are deemed useful to the model due to their correlation to the target variable.
+Here another test for multicollinearity is also used, called the Variance Inflation Factors or VIF\@.
+This tests each feature for how much variance the feature adds to the overall variance of the model, and generally describes how collinear a feature is with its other features.
+The results can be seen in Table~\ref{tab:VIF}, where it is deemed that any variable above 10 may be an issue.
+
+\begin{table}[h]
+    \centering
+    \caption{A table showing the results of the VIF test}
+    \begin{tabular}{l c}
+        \toprule
+        \textbf{Feature Name} & \textbf{VIF} \\
+        \midrule
+            playoffs &	1.217690 \\
+            patch &	12.464378 \\
+            gamelength &	1.006723 \\
+            firstblood &	2.814385 \\
+            firstdragon &	1.876673 \\
+            firstherald &	4.543882 \\
+            firstbaron &	2.484599 \\
+            firsttower &	4.868430 \\
+            firstmidtower &	4.583104 \\
+            firsttothreetowers &	5.468883 \\
+            golddiffat10 &	15.818089 \\
+            xpdiffat10 &	8.758268 \\
+            csdiffat10 &	13.385455 \\
+            killsat10 &	54.651732 \\
+            assistsat10 &	18.985235 \\
+            deathsat10 &	30.215561 \\
+            golddiffat15 &	20.547368 \\
+            xpdiffat15 &	17.244354 \\
+            csdiffat15 &	16.369323 \\
+            killsat15 &	76.322270 \\
+            assistsat15 &	27.789294 \\
+            deathsat15 &	40.345937 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:VIF}
+\end{table}
+
+Here a feature is deemed an issue if its VIF value exceeds 10, which many variables do - including those that also have large correlation values.
+Using the knowledge gained from both these tests, it is chosen to transform the kill and assist features, as they both are deemed useful to the model due to their correlation to the target variable.
+The `xpdiff' and `golddiff' features will also be removed.
 These four features will simply be combined to create two new features called `KillParat10' and `KillParat15', and were constructed as such:
 
 \[ Kill \: Participations = Kills + Assists \]
 
 Checking the correlation of these new features now shows that the relationship between the target remains stable, whilst removing the problematic large correlations between predictor features in the dataset.
+The VIF test is then repeated to ensure that the dataset no longer contains any potential multicollinearity issues, and every feature passes with a sub-10 VIF\@.
 Another correlation issue is seen between recurrent features at different minute intervals in-game.
 This is fixed by splitting these features into different datasets which in-turn will create separate models based on the statistics from the 10-minute mark, the 15-minute mark and the 20-minute mark.
 A description of the data found across all three data subsets can be seen in Table~\ref{tab:DataDescription}. \\
@@ -161,7 +218,7 @@ This machine learning technique is based upon the natural logarithm of the odds;
 commonly referred to as a logit or log-odds, system for each event with a logistic function converting these log-odds into a probability.
 This logistic function is a sigmoid function that takes inputs between the bound of zero and one, it is defined as follows:
 
-\[ p(x) \:= \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \]
+\[ p(x) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \]
 
 Here \(\beta_{0}\) is the intercept from the linear regression equation which is solved using numerical methods, and \(\beta_{1}x\) is the regression coefficient.
 With \(x\) being a combination of values from the predictor variables.
@@ -174,9 +231,6 @@ The data split ratio is chosen at a 70:30 train-test data split.
 This allows a larger split to train the model, and the test data will be tested on a more robust, accurate model because of this.
 A technique called Stratified K-Fold cross validation is used to get an accurate representation of the overall population balance from the target variable - reflecting the 52.8 - 47.2\% win-loss balance, as well as evaluating a truer accuracy by summarising models built upon K subsets of data.
 This leads to a model that is less biased overall and more realistic in its prediction accuracies. \\
-
-Table~\ref{tab:ModelsBuilt} shows the three models which were built for analysis purposes.
-The first two models were built using the Logistic Regression with the 10, and the 15 minute datasets, and the final model was built with the Gradient Boosting Classifier using the 20 minute dataset.
 
 \begin{table}[h!]
 \centering
@@ -193,10 +247,13 @@ The first two models were built using the Logistic Regression with the 10, and t
 \label{tab:ModelsBuilt}
 \end{table}
 
+Table~\ref{tab:ModelsBuilt} shows the three models which were built for analysis purposes.
+The first two models were built using the Logistic Regression with the 10, and the 15 minute datasets, and the final model was built with the Gradient Boosting Classifier using the 20 minute dataset. \\
+
 \section{Summary}\label{sec:MethodSummary}
 In this Chapter, the data extracted from Oracle's Elixir was explored and described in a data overview.
 The methodology behind the data preparation were rationalised during the data cleansing and pre-processing subsections, highlighting key techniques used to ensure the data modelling process would work correctly.
 This helped reduce the dataset from over 140,000 rows with 100+ features to a more succinct and useful 11,000 rows with less than 20 features.
 This was then followed by the data modelling subsection, that explained the machine learning techniques used to create the predictive modelling system.
-Following this chapter is Chapter~\ref{ch:results}, which will present and analyse the results of this work.
+Following this chapter is Chapter~\ref{ch:resultsandanalysis}, which will present and analyse the results of this work.
 

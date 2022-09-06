@@ -16,27 +16,28 @@
 \contentsline {section}{\numberline {2.1}Predictive Analytics in Traditional Sports}{8}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Predictive Analytics in Esports}{10}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Match Outcome Prediction}{10}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Champion Selection Prediction}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Champion Selection Prediction}{13}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Esports Betting}{15}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Summary}{16}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Methodology}{18}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Data Pre-processing}{18}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Data Overview}{18}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Data Preparation}{20}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Data Modelling}{24}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Summary}{26}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Results}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Performance Metrics}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Model Results}{31}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}10 Minute Model}{31}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}15 Minute Model}{34}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}20 Minute Model}{37}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Discussion of Results}{39}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{42}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Works}{42}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Research Limitations}{43}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Further Research}{45}{section.5.3}%
-\contentsline {chapter}{\numberline {A}Ethical Approval}{52}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Python Code}{65}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Data Description}{79}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Feature Correlations}{80}{appendix.D}%
+\contentsline {section}{\numberline {2.4}Summary}{17}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Methodology}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Philosophy}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Data Pre-processing}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Data Overview}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Data Preparation}{21}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Data Modelling}{25}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Summary}{29}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Results and Analysis}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Performance Metrics}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Model Results}{33}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}10 Minute Model}{33}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}15 Minute Model}{36}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}20 Minute Model}{39}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Discussion of Results}{41}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{44}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Works}{44}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Research Limitations}{45}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Further Research}{47}{section.5.3}%
+\contentsline {chapter}{\numberline {A}Ethical Approval}{54}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Python Code}{67}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Data Description}{81}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Feature Correlations}{82}{appendix.D}%
