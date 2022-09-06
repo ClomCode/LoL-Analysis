@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  6 SEP 2022 01:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.11)  6 SEP 2022 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -909,7 +909,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 
  []
 
-<figures/MOBAMap.png, id=463, 1027.84pt x 1027.84pt>
+<figures/MOBAMap.png, id=464, 1027.84pt x 1027.84pt>
 File: figures/MOBAMap.png Graphic file (type png)
 <use figures/MOBAMap.png>
 Package pdftex.def Info: figures/MOBAMap.png  used on input line 39.
@@ -923,7 +923,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--67
  []
 
 [4 <./figures/MOBAMap.png (PNG copy)>]
-<figures/DraftPhase.png, id=484, 1178.4025pt x 204.765pt>
+<figures/DraftPhase.png, id=485, 1178.4025pt x 204.765pt>
 File: figures/DraftPhase.png Graphic file (type png)
 <use figures/DraftPhase.png>
 Package pdftex.def Info: figures/DraftPhase.png  used on input line 81.
@@ -943,17 +943,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--98
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--107
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
 
  []
 
 [6 <./figures/DraftPhase.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
@@ -1014,22 +1014,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--65
  []
 
 [11] [12]
-<figures/MCTS Selection.png, id=587, 528.97626pt x 393.47pt>
+<figures/MCTS Selection.png, id=588, 528.97626pt x 393.47pt>
 File: figures/MCTS Selection.png Graphic file (type png)
 <use figures/MCTS Selection.png>
 Package pdftex.def Info: figures/MCTS Selection.png  used on input line 88.
 (pdftex.def)             Requested size: 156.0006pt x 116.0366pt.
-<figures/MCTS Expansion.png, id=588, 528.97626pt x 505.89pt>
+<figures/MCTS Expansion.png, id=589, 528.97626pt x 505.89pt>
 File: figures/MCTS Expansion.png Graphic file (type png)
 <use figures/MCTS Expansion.png>
 Package pdftex.def Info: figures/MCTS Expansion.png  used on input line 94.
 (pdftex.def)             Requested size: 156.0006pt x 149.18993pt.
-<figures/MCTS Simulation.png, id=589, 528.97626pt x 581.17125pt>
+<figures/MCTS Simulation.png, id=590, 528.97626pt x 581.17125pt>
 File: figures/MCTS Simulation.png Graphic file (type png)
 <use figures/MCTS Simulation.png>
 Package pdftex.def Info: figures/MCTS Simulation.png  used on input line 100.
 (pdftex.def)             Requested size: 156.0006pt x 171.39082pt.
-<figures/MCTS Backpropagation.png, id=590, 528.97626pt x 505.89pt>
+<figures/MCTS Backpropagation.png, id=591, 528.97626pt x 505.89pt>
 File: figures/MCTS Backpropagation.png Graphic file (type png)
 <use figures/MCTS Backpropagation.png>
 Package pdftex.def Info: figures/MCTS Backpropagation.png  used on input line 1
@@ -1072,70 +1072,71 @@ Chapter 3.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 75--91
+Underfull \hbox (badness 10000) in paragraph at lines 72--88
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 92--101
+Underfull \hbox (badness 10000) in paragraph at lines 89--98
 
  []
 
-[23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+[23]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
 
  []
 
-
-Overfull \hbox (4.50476pt too wide) in paragraph at lines 161--181
+[24]
+Overfull \hbox (4.50476pt too wide) in paragraph at lines 162--182
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/DataBalance.png, id=704, 505.89pt x 358.33875pt>
+<figures/DataBalance.png, id=707, 505.89pt x 358.33875pt>
 File: figures/DataBalance.png Graphic file (type png)
 <use figures/DataBalance.png>
-Package pdftex.def Info: figures/DataBalance.png  used on input line 189.
+Package pdftex.def Info: figures/DataBalance.png  used on input line 190.
 (pdftex.def)             Requested size: 350.99762pt x 248.62642pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25] [26]
-<figures/RandomForest.png, id=720, 343.2825pt x 493.845pt>
+<figures/RandomForest.png, id=722, 343.2825pt x 493.845pt>
 File: figures/RandomForest.png Graphic file (type png)
 <use figures/RandomForest.png>
-Package pdftex.def Info: figures/RandomForest.png  used on input line 209.
+Package pdftex.def Info: figures/RandomForest.png  used on input line 210.
 (pdftex.def)             Requested size: 195.0pt x 280.52249pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--225
-
- []
-
 [27 <./figures/DataBalance.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 226--233
+Underfull \hbox (badness 10000) in paragraph at lines 223--226
 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
 
  []
 
-[28 <./figures/RandomForest.png>]) [29]
+[28 <./figures/RandomForest.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+[29]) [30]
 \openout2 = `chapters/ch-Results.aux'.
 
  (chapters/ch-Results.tex
@@ -1145,7 +1146,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
 
-<figures/ConfusionMatrix10.png, id=741, 566.115pt x 385.44pt>
+<figures/ConfusionMatrix10.png, id=747, 566.115pt x 385.44pt>
 File: figures/ConfusionMatrix10.png Graphic file (type png)
 <use figures/ConfusionMatrix10.png>
 Package pdftex.def Info: figures/ConfusionMatrix10.png  used on input line 18.
@@ -1153,17 +1154,17 @@ Package pdftex.def Info: figures/ConfusionMatrix10.png  used on input line 18.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30
+[31
 
 
 
 
-] [31 <./figures/ConfusionMatrix10.png (PNG copy)>]
+] [32 <./figures/ConfusionMatrix10.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
 
-[32]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 61--65
 
  []
@@ -1178,18 +1179,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--96
 
  []
 
-[33]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 111--120
 
  []
 
-[34]
-<figures/FeatureImport10.png, id=771, 777.90625pt x 460.72125pt>
+[35]
+<figures/FeatureImport10.png, id=777, 777.90625pt x 460.72125pt>
 File: figures/FeatureImport10.png Graphic file (type png)
 <use figures/FeatureImport10.png>
 Package pdftex.def Info: figures/FeatureImport10.png  used on input line 123.
 (pdftex.def)             Requested size: 390.0pt x 230.98573pt.
- [35 <./figures/FeatureImport10.png (PNG copy)>]
+ [36 <./figures/FeatureImport10.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 132--138
 
  []
@@ -1204,45 +1205,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--170
 
  []
 
-[36]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 185--194
 
  []
 
-[37]
-<figures/FeatureImport15.png, id=793, 777.90625pt x 460.72125pt>
+[38]
+<figures/FeatureImport15.png, id=799, 777.90625pt x 460.72125pt>
 File: figures/FeatureImport15.png Graphic file (type png)
 <use figures/FeatureImport15.png>
 Package pdftex.def Info: figures/FeatureImport15.png  used on input line 198.
 (pdftex.def)             Requested size: 312.00119pt x 184.7914pt.
- [38 <./figures/FeatureImport15.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 207--214
+ [39 <./figures/FeatureImport15.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 207--216
 
  []
 
 
-Overfull \hbox (20.77995pt too wide) in paragraph at lines 218--237
+Overfull \hbox (20.77995pt too wide) in paragraph at lines 220--239
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--246
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 262--272
-
- []
-
-[40]
-<figures/FeatureImport20.png, id=821, 806.01125pt x 460.72125pt>
-File: figures/FeatureImport20.png Graphic file (type png)
-<use figures/FeatureImport20.png>
-Package pdftex.def Info: figures/FeatureImport20.png  used on input line 275.
-(pdftex.def)             Requested size: 312.00119pt x 178.33783pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--286
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
 
  []
 
@@ -1250,11 +1238,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--286
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--305
+Underfull \hbox (badness 10000) in paragraph at lines 263--273
 
  []
 
-[41 <./figures/FeatureImport20.png (PNG copy)>] [42]) [43]
+[40] [41]
+<figures/FeatureImport20.png, id=826, 806.01125pt x 460.72125pt>
+File: figures/FeatureImport20.png Graphic file (type png)
+<use figures/FeatureImport20.png>
+Package pdftex.def Info: figures/FeatureImport20.png  used on input line 276.
+(pdftex.def)             Requested size: 312.00119pt x 178.33783pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--287
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--306
+
+ []
+
+[42 <./figures/FeatureImport20.png (PNG copy)>] [43]) [44]
 \openout2 = `chapters/ch-Conclusion.aux'.
 
 
@@ -1270,7 +1277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--19
 
  []
 
-[44
+[45
 
 
 
@@ -1280,7 +1287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--37
 
  []
 
-[45] [46]
+[46] [47]
 Underfull \hbox (badness 10000) in paragraph at lines 48--53
 
  []
@@ -1290,7 +1297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
 
-) [47] [48]
+) [48] [49]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 37--41
@@ -1298,7 +1305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--41
 y-agrees-to-a-one-year-
  []
 
-[49
+[50
 
 
 
@@ -1320,7 +1327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--93
 arning/crash-
  []
 
-[50]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 107--111
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.digitalocean.com/community/t
 utorials/normalize-
@@ -1338,18 +1345,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--146
 aws-73-8-million-peak-
  []
 
-[51]
+[52]
 Overfull \hbox (1.66959pt too wide) in paragraph at lines 185--189
 \OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://twitter.com/riotgames/status/145
 5172784938651649?s=20-
  []
 
-[52]) [53]
+[53]) [54]
 \openout2 = `chapters/ch-appendix.aux'.
 
  (chapters/ch-appendix.tex
 Appendix A.
-<EthicForm.pdf, id=902, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=907, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
 <use EthicForm.pdf>
 Package pdftex.def Info: EthicForm.pdf  used on input line 4.
@@ -1358,7 +1365,7 @@ File: EthicForm.pdf Graphic file (type pdf)
 <use EthicForm.pdf>
 Package pdftex.def Info: EthicForm.pdf  used on input line 4.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<EthicForm.pdf, id=905, page=1, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=910, page=1, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
 <use EthicForm.pdf, page 1>
 Package pdftex.def Info: EthicForm.pdf , page1 used on input line 4.
@@ -1367,7 +1374,7 @@ File: EthicForm.pdf Graphic file (type pdf)
 <use EthicForm.pdf, page 1>
 Package pdftex.def Info: EthicForm.pdf , page1 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[54
+[55
 
 
 ]
@@ -1383,36 +1390,36 @@ File: EthicForm.pdf Graphic file (type pdf)
 <use EthicForm.pdf, page 1>
 Package pdftex.def Info: EthicForm.pdf , page1 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [55 <./EthicForm.pdf>]
-<EthicForm.pdf, id=937, page=2, 614.295pt x 794.97pt>
-File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 2>
-Package pdftex.def Info: EthicForm.pdf , page2 used on input line 4.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 2>
-Package pdftex.def Info: EthicForm.pdf , page2 used on input line 4.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 2>
-Package pdftex.def Info: EthicForm.pdf , page2 used on input line 4.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [56 <./EthicForm.pdf>]
-<EthicForm.pdf, id=942, page=3, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=942, page=2, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 3>
-Package pdftex.def Info: EthicForm.pdf , page3 used on input line 4.
+<use EthicForm.pdf, page 2>
+Package pdftex.def Info: EthicForm.pdf , page2 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 3>
-Package pdftex.def Info: EthicForm.pdf , page3 used on input line 4.
+<use EthicForm.pdf, page 2>
+Package pdftex.def Info: EthicForm.pdf , page2 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 3>
-Package pdftex.def Info: EthicForm.pdf , page3 used on input line 4.
+<use EthicForm.pdf, page 2>
+Package pdftex.def Info: EthicForm.pdf , page2 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [57 <./EthicForm.pdf>]
-<EthicForm.pdf, id=947, page=4, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=947, page=3, 614.295pt x 794.97pt>
+File: EthicForm.pdf Graphic file (type pdf)
+<use EthicForm.pdf, page 3>
+Package pdftex.def Info: EthicForm.pdf , page3 used on input line 4.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: EthicForm.pdf Graphic file (type pdf)
+<use EthicForm.pdf, page 3>
+Package pdftex.def Info: EthicForm.pdf , page3 used on input line 4.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: EthicForm.pdf Graphic file (type pdf)
+<use EthicForm.pdf, page 3>
+Package pdftex.def Info: EthicForm.pdf , page3 used on input line 4.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [58 <./EthicForm.pdf>]
+<EthicForm.pdf, id=952, page=4, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
 <use EthicForm.pdf, page 4>
 Package pdftex.def Info: EthicForm.pdf , page4 used on input line 4.
@@ -1426,8 +1433,8 @@ File: EthicForm.pdf Graphic file (type pdf)
 Package pdftex.def Info: EthicForm.pdf , page4 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-[58 <./EthicForm.pdf>]
-<EthicForm.pdf, id=952, page=5, 614.295pt x 794.97pt>
+[59 <./EthicForm.pdf>]
+<EthicForm.pdf, id=957, page=5, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
 <use EthicForm.pdf, page 5>
 Package pdftex.def Info: EthicForm.pdf , page5 used on input line 4.
@@ -1439,106 +1446,106 @@ Package pdftex.def Info: EthicForm.pdf , page5 used on input line 4.
 File: EthicForm.pdf Graphic file (type pdf)
 <use EthicForm.pdf, page 5>
 Package pdftex.def Info: EthicForm.pdf , page5 used on input line 4.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [59 <./EthicForm.pdf>]
-<EthicForm.pdf, id=957, page=6, 614.295pt x 794.97pt>
-File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 6>
-Package pdftex.def Info: EthicForm.pdf , page6 used on input line 4.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 6>
-Package pdftex.def Info: EthicForm.pdf , page6 used on input line 4.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 6>
-Package pdftex.def Info: EthicForm.pdf , page6 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [60 <./EthicForm.pdf>]
-<EthicForm.pdf, id=962, page=7, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=962, page=6, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 7>
-Package pdftex.def Info: EthicForm.pdf , page7 used on input line 4.
+<use EthicForm.pdf, page 6>
+Package pdftex.def Info: EthicForm.pdf , page6 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 7>
-Package pdftex.def Info: EthicForm.pdf , page7 used on input line 4.
+<use EthicForm.pdf, page 6>
+Package pdftex.def Info: EthicForm.pdf , page6 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 7>
-Package pdftex.def Info: EthicForm.pdf , page7 used on input line 4.
+<use EthicForm.pdf, page 6>
+Package pdftex.def Info: EthicForm.pdf , page6 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [61 <./EthicForm.pdf>]
-<EthicForm.pdf, id=968, page=8, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=968, page=7, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 8>
-Package pdftex.def Info: EthicForm.pdf , page8 used on input line 4.
+<use EthicForm.pdf, page 7>
+Package pdftex.def Info: EthicForm.pdf , page7 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 8>
-Package pdftex.def Info: EthicForm.pdf , page8 used on input line 4.
+<use EthicForm.pdf, page 7>
+Package pdftex.def Info: EthicForm.pdf , page7 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 8>
-Package pdftex.def Info: EthicForm.pdf , page8 used on input line 4.
+<use EthicForm.pdf, page 7>
+Package pdftex.def Info: EthicForm.pdf , page7 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [62 <./EthicForm.pdf>]
-<EthicForm.pdf, id=973, page=9, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=973, page=8, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 9>
-Package pdftex.def Info: EthicForm.pdf , page9 used on input line 4.
+<use EthicForm.pdf, page 8>
+Package pdftex.def Info: EthicForm.pdf , page8 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 9>
-Package pdftex.def Info: EthicForm.pdf , page9 used on input line 4.
+<use EthicForm.pdf, page 8>
+Package pdftex.def Info: EthicForm.pdf , page8 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 9>
-Package pdftex.def Info: EthicForm.pdf , page9 used on input line 4.
+<use EthicForm.pdf, page 8>
+Package pdftex.def Info: EthicForm.pdf , page8 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [63 <./EthicForm.pdf>]
-<EthicForm.pdf, id=978, page=10, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=978, page=9, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 10>
-Package pdftex.def Info: EthicForm.pdf , page10 used on input line 4.
+<use EthicForm.pdf, page 9>
+Package pdftex.def Info: EthicForm.pdf , page9 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 10>
-Package pdftex.def Info: EthicForm.pdf , page10 used on input line 4.
+<use EthicForm.pdf, page 9>
+Package pdftex.def Info: EthicForm.pdf , page9 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 10>
-Package pdftex.def Info: EthicForm.pdf , page10 used on input line 4.
+<use EthicForm.pdf, page 9>
+Package pdftex.def Info: EthicForm.pdf , page9 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [64 <./EthicForm.pdf>]
-<EthicForm.pdf, id=983, page=11, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=983, page=10, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 11>
-Package pdftex.def Info: EthicForm.pdf , page11 used on input line 4.
+<use EthicForm.pdf, page 10>
+Package pdftex.def Info: EthicForm.pdf , page10 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 11>
-Package pdftex.def Info: EthicForm.pdf , page11 used on input line 4.
+<use EthicForm.pdf, page 10>
+Package pdftex.def Info: EthicForm.pdf , page10 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 11>
-Package pdftex.def Info: EthicForm.pdf , page11 used on input line 4.
+<use EthicForm.pdf, page 10>
+Package pdftex.def Info: EthicForm.pdf , page10 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [65 <./EthicForm.pdf>]
-<EthicForm.pdf, id=988, page=12, 614.295pt x 794.97pt>
+<EthicForm.pdf, id=988, page=11, 614.295pt x 794.97pt>
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 12>
-Package pdftex.def Info: EthicForm.pdf , page12 used on input line 4.
+<use EthicForm.pdf, page 11>
+Package pdftex.def Info: EthicForm.pdf , page11 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 12>
-Package pdftex.def Info: EthicForm.pdf , page12 used on input line 4.
+<use EthicForm.pdf, page 11>
+Package pdftex.def Info: EthicForm.pdf , page11 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: EthicForm.pdf Graphic file (type pdf)
-<use EthicForm.pdf, page 12>
-Package pdftex.def Info: EthicForm.pdf , page12 used on input line 4.
+<use EthicForm.pdf, page 11>
+Package pdftex.def Info: EthicForm.pdf , page11 used on input line 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [66 <./EthicForm.pdf>]
+<EthicForm.pdf, id=993, page=12, 614.295pt x 794.97pt>
+File: EthicForm.pdf Graphic file (type pdf)
+<use EthicForm.pdf, page 12>
+Package pdftex.def Info: EthicForm.pdf , page12 used on input line 4.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: EthicForm.pdf Graphic file (type pdf)
+<use EthicForm.pdf, page 12>
+Package pdftex.def Info: EthicForm.pdf , page12 used on input line 4.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: EthicForm.pdf Graphic file (type pdf)
+<use EthicForm.pdf, page 12>
+Package pdftex.def Info: EthicForm.pdf , page12 used on input line 4.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [67 <./EthicForm.pdf>]
 Appendix B.
 (C:\Users\Calum\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1550,57 +1557,57 @@ Overfull \hbox (7.9133pt too wide) in paragraph at lines 21--22
 [][] 
  []
 
-[67
+[68
 
-] [68] [69] [70] [71] [72] [73] [74]
-Overfull \hbox (7.9133pt too wide) in paragraph at lines 218--219
+] [69] [70] [71] [72] [73] [74] [75] [76]
+Overfull \hbox (7.9133pt too wide) in paragraph at lines 241--242
 [][] 
  []
 
-[75] [76] [77] [78] [79] [80]
+[77] [78] [79] [80] [81] [82]
 Appendix C.
-<figures/DistributionVisualisation.png, id=1362, 715.67375pt x 590.205pt>
+<figures/DistributionVisualisation.png, id=1394, 715.67375pt x 590.205pt>
 File: figures/DistributionVisualisation.png Graphic file (type png)
 <use figures/DistributionVisualisation.png>
 Package pdftex.def Info: figures/DistributionVisualisation.png  used on input l
-ine 323.
+ine 346.
 (pdftex.def)             Requested size: 390.0pt x 321.63283pt.
-[81
+[83
 
  <./figures/DistributionVisualisation.png (PNG copy)>]
 Appendix D.
-<figures/CorrMat1.png, id=1367, 1031.855pt x 942.52126pt>
+<figures/CorrMat1.png, id=1399, 1031.855pt x 942.52126pt>
 File: figures/CorrMat1.png Graphic file (type png)
 <use figures/CorrMat1.png>
-Package pdftex.def Info: figures/CorrMat1.png  used on input line 332.
+Package pdftex.def Info: figures/CorrMat1.png  used on input line 355.
 (pdftex.def)             Requested size: 390.0pt x 356.23465pt.
-<figures/CorrMat10.png, id=1368, 709.65125pt x 630.355pt>
+<figures/CorrMat10.png, id=1400, 709.65125pt x 630.355pt>
 File: figures/CorrMat10.png Graphic file (type png)
 <use figures/CorrMat10.png>
-Package pdftex.def Info: figures/CorrMat10.png  used on input line 339.
+Package pdftex.def Info: figures/CorrMat10.png  used on input line 362.
 (pdftex.def)             Requested size: 390.0pt x 346.427pt.
-[82
+[84
 
  <./figures/CorrMat1.png (PNG copy)>]
-<figures/CorrMat15.png, id=1373, 709.65125pt x 630.355pt>
+<figures/CorrMat15.png, id=1405, 709.65125pt x 630.355pt>
 File: figures/CorrMat15.png Graphic file (type png)
 <use figures/CorrMat15.png>
-Package pdftex.def Info: figures/CorrMat15.png  used on input line 346.
+Package pdftex.def Info: figures/CorrMat15.png  used on input line 369.
 (pdftex.def)             Requested size: 390.0pt x 346.427pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/CorrMat20.png, id=1374, 729.72626pt x 650.43pt>
+<figures/CorrMat20.png, id=1406, 729.72626pt x 650.43pt>
 File: figures/CorrMat20.png Graphic file (type png)
 <use figures/CorrMat20.png>
-Package pdftex.def Info: figures/CorrMat20.png  used on input line 353.
+Package pdftex.def Info: figures/CorrMat20.png  used on input line 376.
 (pdftex.def)             Requested size: 390.0pt x 347.61435pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [83 <./figures/CorrMat10.png (PNG copy)>] [84 <./figures/CorrMat15.png (PNG c
-opy)>] [85 <./figures/CorrMat20.png (PNG copy)>]
+) [85 <./figures/CorrMat10.png (PNG copy)>] [86 <./figures/CorrMat15.png (PNG c
+opy)>] [87 <./figures/CorrMat20.png (PNG copy)>]
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\main.aux
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
@@ -1620,14 +1627,14 @@ rtation Project\LATEX Document\auxil\chapters/ch-Conclusion.aux)
 (C:/Users\Calum\Desktop\Useful\University\Business Analytics\Dissertation\Disse
 rtation Project\LATEX Document\auxil\chapters/ch-appendix.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F87F60B267E0EC17BF491E73475CF148;5953.
+(rerunfilecheck)             Checksum: 2BC39CB009E43376EEB781FCBA4772DC;6029.
  ) 
 Here is how much of TeX's memory you used:
- 26251 strings out of 478614
- 514053 string characters out of 2843122
- 1278763 words of memory out of 3000000
- 43460 multiletter control sequences out of 15000+600000
- 480551 words of font info for 66 fonts, out of 8000000 for 9000
+ 26282 strings out of 478614
+ 514544 string characters out of 2843122
+ 1273777 words of memory out of 3000000
+ 43466 multiletter control sequences out of 15000+600000
+ 480553 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,17n,91p,1132b,2106s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Calum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -1649,10 +1656,10 @@ s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Calum/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Calum/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on "C:/Users\Calum\Desktop\Useful\University\Business Analytics\
-Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (97 pages, 14708
-13 bytes).
+Dissertation\Dissertation Project\LATEX Document\out\main.pdf" (99 pages, 14791
+79 bytes).
 PDF statistics:
- 1568 PDF objects out of 1728 (max. 8388607)
- 534 named destinations out of 1000 (max. 500000)
+ 1606 PDF objects out of 1728 (max. 8388607)
+ 559 named destinations out of 1000 (max. 500000)
  507 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,20 +6,16 @@ This study attempts to produce a predictive analytics model that uses a machine 
 Firstly, an explanation of the pre-processing data-pipeline - how the data was collected, a description of the dataset, and how the data is prepared and cleansed for modelling.
 The subsequent section then follows the dataset through the prediction methodology, and ends with how the predictive capability of the model is tested and assessed.
 
-\section{Research Philosophy}\label{sec:Research Philosophy}
+\section{Philosophy, Approach and Strategy}\label{sec:Research Philosophy}
 
 This section outlines the research philosophy under which the research is conducted, and how the methodology will be approached during the course of this study.
 The framework behind the methodology explored during this section is built upon the works of~\citet{saunders2007research}.
 They proposed a methodological framework made up of 6 steps, that underpin any piece of research that they labelled the `research onion'.
 This dissertation will mostly follow the research philosophy of pragmatism, this ideology aims to find more of a practical point of view where both subjectivity and objectivity matter, and form a practical combination of methods that will be used to ultimately answer the research questions.
-The approach to the research will be quantitative,
-
-Layer 1: Research Philosophy - Pragmatism
-Layer 2: Research Approach - Deductive + Quantitative
-Layer 3: Research Strategy -
-Layer 4: Research Choices - Mono method
-Layer 5: Time Horizon
-Layer 6: Techniques and Procedures
+The approach to the research will be quantitative, and mainly follow a deductive approach, with the work completed being based upon previous theories and conclusions that previous researchers have created.
+This approach will mean that there will be analysis of numerical results, that are specific to the situation using statistical modelling and mathematics.
+The strategy applied to this research will be a mono-method experimental research strategy.
+This involves manipulating independent variables to observe a change in the dependent variable, in order to determine the relationship between the variables in a dataset.
 
 \section{Data Pre-processing}\label{sec:Data Pre-processing}
 \subsection{Data Overview}\label{subsec:Data Overview}
@@ -112,36 +108,40 @@ The results can be seen in Table~\ref{tab:VIF}, where it is deemed that any vari
 \begin{table}[h]
     \centering
     \caption{A table showing the results of the VIF test}
-    \begin{tabular}{l c}
+    \begin{tabular}{l c c}
         \toprule
-        \textbf{Feature Name} & \textbf{VIF} \\
+        \textbf{Feature Name} & \textbf{VIF Before} & \textbf{VIF After} \\
         \midrule
-            playoffs &	1.217690 \\
-            patch &	12.464378 \\
-            gamelength &	1.006723 \\
-            firstblood &	2.814385 \\
-            firstdragon &	1.876673 \\
-            firstherald &	4.543882 \\
-            firstbaron &	2.484599 \\
-            firsttower &	4.868430 \\
-            firstmidtower &	4.583104 \\
-            firsttothreetowers &	5.468883 \\
-            golddiffat10 &	15.818089 \\
-            xpdiffat10 &	8.758268 \\
-            csdiffat10 &	13.385455 \\
-            killsat10 &	54.651732 \\
-            assistsat10 &	18.985235 \\
-            deathsat10 &	30.215561 \\
-            golddiffat15 &	20.547368 \\
-            xpdiffat15 &	17.244354 \\
-            csdiffat15 &	16.369323 \\
-            killsat15 &	76.322270 \\
-            assistsat15 &	27.789294 \\
-            deathsat15 &	40.345937 \\
+            playoffs &	1.217690  & 1.235018 \\
+            patch &	12.464378  & 3.160019 \\
+            gamelength &	1.006723 & 8.216505 \\
+            firstblood &	2.814385  & 2.447549 \\
+            firstdragon &	1.876673  & 1.804742 \\
+            firstherald &	4.543882  & 3.472183 \\
+            firstbaron &	2.484599 & 2.493748 \\
+            firsttower &	4.868430 & 3.944228 \\
+            firstmidtower &	4.583104 & 4.571757 \\
+            firsttothreetowers &	5.468883 & 5.380049 \\
+            golddiffat10 &	15.818089 & - \\
+            xpdiffat10 &	8.758268 & - \\
+            csdiffat10 &	13.385455 & 4.371368  \\
+            killsat10 &	54.651732 & - \\
+            assistsat10 &	18.985235 & - \\
+            deathsat10 &	30.215561 & 8.042111  \\
+            golddiffat15 &	20.547368 & - \\
+            xpdiffat15 &	17.244354 & - \\
+            csdiffat15 &	16.369323 & 4.886503  \\
+            killsat15 &	76.322270 & - \\
+            assistsat15 &	27.789294 & - \\
+            deathsat15 &	40.345937 & 9.899573  \\
+            KillParat10 & - & 6.116191 \\
+            KillParat15 & - & 7.917371 \\
         \bottomrule
     \end{tabular}
     \label{tab:VIF}
 \end{table}
+
+
 
 Here a feature is deemed an issue if its VIF value exceeds 10, which many variables do - including those that also have large correlation values.
 Using the knowledge gained from both these tests, it is chosen to transform the kill and assist features, as they both are deemed useful to the model due to their correlation to the target variable.
@@ -151,7 +151,7 @@ These four features will simply be combined to create two new features called `K
 \[ Kill \: Participations = Kills + Assists \]
 
 Checking the correlation of these new features now shows that the relationship between the target remains stable, whilst removing the problematic large correlations between predictor features in the dataset.
-The VIF test is then repeated to ensure that the dataset no longer contains any potential multicollinearity issues, and every feature passes with a sub-10 VIF\@.
+The VIF test is then repeated to ensure that the dataset no longer contains any potential multicollinearity issues, and every feature passes with a sub-10 VIF as seen in Table~\ref{tab:VIF}.
 Another correlation issue is seen between recurrent features at different minute intervals in-game.
 This is fixed by splitting these features into different datasets which in-turn will create separate models based on the statistics from the 10-minute mark, the 15-minute mark and the 20-minute mark.
 A description of the data found across all three data subsets can be seen in Table~\ref{tab:DataDescription}. \\

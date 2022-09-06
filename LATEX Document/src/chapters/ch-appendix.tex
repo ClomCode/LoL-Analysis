@@ -53,6 +53,18 @@ cmap = sns.diverging_palette(10, 250, as_cmap=True)
 sns.heatmap(df.corr(method="kendall"), cmap=cmap, annot=True, fmt='.2f', vmin=-1, vmax=1,
             mask = mask, square=True, linewidths=.8, center = 0)
 
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+X_variables = df[['playoffs', 'patch', 'gamelength', 'firstblood', 'firstdragon',
+       'firstherald', 'firstbaron', 'firsttower', 'firstmidtower',
+       'firsttothreetowers', 'golddiffat10', 'xpdiffat10', 'csdiffat10',
+       'killsat10', 'assistsat10', 'deathsat10', 'golddiffat15', 'xpdiffat15',
+       'csdiffat15', 'killsat15', 'assistsat15', 'deathsat15']]
+
+vif_data = pd.DataFrame()
+vif_data["feature"] = X_variables.columns
+vif_data["VIF"] = [variance_inflation_factor(X_variables.values, i) for i in range(len(X_variables.columns))]
+vif_data
+
 # Reworking and dropping any strongly correlated features
 df["KillParat10"] = df["assistsat10"] + df["killsat10"]
 df["KillParat15"] = df["assistsat15"] + df["killsat15"]
@@ -108,6 +120,17 @@ mask[np.triu_indices_from(mask)] = True
 sns.heatmap(df.drop("result",axis=1).corr(), cmap=cmap, annot=True, fmt='.2f', vmin=-1, vmax=1,
             mask = mask, square=True, linewidths=.8, center = 0)
 plt.title('Correlation Matrix between Features')
+
+X_variables = df[['playoffs', 'patch', 'gamelength', 'firstblood', 'firstdragon',
+       'firstherald', 'firstbaron', 'firsttower', 'firstmidtower',
+       'firsttothreetowers', 'csdiffat10',
+       'KillParat10', 'deathsat10',
+       'csdiffat15', 'KillParat15', 'deathsat15']]
+
+vif_data = pd.DataFrame()
+vif_data["feature"] = X_variables.columns
+vif_data["VIF"] = [variance_inflation_factor(X_variables.values, i) for i in range(len(X_variables.columns))]
+vif_data
 
 df = pd.DataFrame(data=df)
 

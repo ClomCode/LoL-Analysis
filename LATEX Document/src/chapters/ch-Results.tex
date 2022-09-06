@@ -209,8 +209,10 @@ This just reiterates that there is minimal difference in performance between the
 This remains true aside from the Gradient Boosting Classifier, where it is in-fact the best performing model overall.
 It scored an accuracy of 85.85\% and an AUC of 94.33\%.
 It was then closely followed by the two previous algorithms mentioned in both Section~\ref{subsec:10-minute-model} and~\ref{subsec:15-minute-model} - the Logistic Regression and the Linear Discriminant Analysis at identical accuracies of 85.83\%, but with respective AUC values of 92.66\% and 92.57\%.
-This sequential increase of accuracy in the models reinforces Hypothesis 1, suggesting that prediction accuracy would increase in proportion to the gamelength.
-However the machine learning algorithm results seem to reject the claim made in Hypothesis 3, as when compared to other algorithms such as the Linear Discriminant Analysis or Logistic Regression, the decision tree-based algorithms tend to be weaker predictors of match outcomes. \\
+This observed sequential increase of accuracy in the models helps answer research question 1, concluding that prediction accuracy would increase by between 2\% to 9\% every 5 minutes of in-game time with these gains appearing to potentially be exponential.
+The prediction accuracy of the match outcome model does vary based on the machine learning technique used, as asked in research question 3.
+When comparing the linear techniques such as the Linear Discriminant Analysis or Logistic Regression, the decision tree-based algorithms tend to be weaker predictors of match outcomes.
+Therefore it is concluded that the algorithms vary greatly, with a mean increase of 6.93\% between the best performing machine learning algorithm and worst algorithm. \\
 
 \begin{table}[h]
     \centering
@@ -241,7 +243,6 @@ However the machine learning algorithm results seem to reject the claim made in 
 For this model, the Gradient Boosting Classifier is chosen as it scores high on all major performance metrics calculated.
 After the model is tuned, the accuracy increases to 85.99\%, an increase of 0.14\% - see Table~\ref{tab:Kfold20}.
 The change in the accuracy of the model between the 10 to 15 minute models only increases by roughly 2\%.
-From the previous model, the accuracy increases
 This is much lower than expected when compared to previous studies such as~\citet{silva2018continuous, lee2020predicting} achieving increases of ~5-6\% between the same period in game time, albeit whilst achieving accuracy levels on par or greater than its predecessors. \\
 
 \begin{table}[h]
@@ -268,7 +269,7 @@ team-based map objectives being key to achieving victory as the gamelength incre
 The `firstbaron' feature being this impactful makes logical sense when accounting for the context behind the powerful \gls{buff} that this monster grants when slain.
 This \gls{buff} gives players the ability to increase the power of their surrounding \glspl{minion}, and thus a large increase in the capability to destroy enemy \glspl{tower} or \glspl{inhibitor}.
 Subsequently, the team that slays the \gls{baron} is granted a large sum of experience and gold through the monster itself, as well as the towers that could also fall.
-This large spike in income and champion strength likely  helps the team to win future fights and then the match, this snowballing effect was hypothesised in Hypothesis 1 during Chapter~\ref{ch:literaturereview}. \\
+This large spike in income and champion strength likely  helps the team to win future fights and then the match, this snowballing effect helps form a reasoning for research question 1. \\
 
 \begin{figure}[h]
     \centering
@@ -310,11 +311,13 @@ Here it can be seen that the prediction accuracy is much higher than those state
 This means that the models created during this study not only contribute more proof to the growing numbers of literature surrounding predictive modelling in the esports industry, but are also outperforming the most recent literature in the field.
 As seen with all the results collated, the improvements to the prediction accuracy increases as the in-game timer increases.
 All three studies show an accuracy increase of 10\% from the 10 minute mark to the 20 minute mark, regardless of the initial accuracy.
-This reaffirms Hypothesis 1 stated in Section~\ref{sec:Summary}, ultimately verifying the idea that a match of League of Legends has a snowballing nature, thus the outcome becomes more predictable as it progresses.
-Hypothesis 2 can generally be assumed to be true when looking at the correlations between many of the features during the data exploration phase, these correlation values are highlighted in Figure~\ref{ch:Feature Correlations}.
+This reaffirms the aim behind research question 1 stated in Section~\ref{sec:Summary}, ultimately verifying the idea that a match of League of Legends has a snowballing nature, thus the outcome becomes more predictable as it progresses.
+Research question 2 can generally be assumed to be true when looking at the correlations between many of the features during the data exploration phase, these correlation values are highlighted in Figure~\ref{ch:Feature Correlations}.
 Many of these features have a correlation level between 0.4 and 0.8, which suggests a moderate to strong level of correlation and can lead the overall model to suffer from some level of multicollinearity.
+This is also verified when looking at the VIF values recorded in Table~\ref{tab:VIF}, with transformations and removal of many features needed in order to minimise the likelihood of multicollinearity within the model.
 The best performing models in this study were the Logistic Regression and the Gradient Boosting Classifier, with the Logistic Regression being used for two of three models.
-Hypothesis 3 stated that a decision tree algorithm will likely be the optimal algorithm for the prediction model, but this ultimately was proven to be mostly wrong with the exception of the Gradient Boosting Classifier.
+Research question 3 wished to explore the various machine learning algorithms, with many of the previous studies concluding that the Random Forest algorithm is the optimal algorithm for the prediction model,
+This ultimately was proven to be mostly wrong, with conclusive evidence that shows that decision-tree based algorithms perform worse when compared to linear-based algorithms - with the exception of the Gradient Boosting Classifier for the 20 minute model.
 
 \begin{table}[h]
     \centering
